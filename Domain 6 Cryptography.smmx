@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.8.0" device-type="ipad"><mindmap><meta><guid guid="A5825348E426E07B11A47B0D"></guid><title text="Domain 6\NCryptography"></title><page><visual-area x="-381.74" y="-149.07" width="2080.41" height="1223.46"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="116" x="650.26" y="604.93"></scrollstate><selection type="node" id="144"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="500.00" y="500.00" text="Domain 6\NCryptography"></topic><topic id="1" parent="0" x="863.52" y="497.57" text="Definitions and Concepts"></topic><topic id="2" parent="1" x="1042.98" y="422.64" text="Cryptology"><note>Is study of the cryptoanalysis and cryptography</note></topic><topic id="3" parent="2" x="1008.97" y="381.93" text="Cryptography"><note>Science of secret writing that enables an entity to store and transmit data in a form that is available only to intended individuals</note></topic><topic id="4" parent="2" x="1114.71" y="380.69" text="Cryptoanalysis"><note>Is the science of studying and breaking the secrecy of encryption processes</note></topic><topic id="5" parent="1" x="1157.99" y="566.47" text="Encryption"></topic><topic id="6" parent="5" x="1262.09" y="596.14" text="Plaintext"></topic><topic id="7" parent="5" x="1253.47" y="547.80" text="Ciphertext"></topic><topic id="8" parent="5" x="1214.50" y="647.70" text="Keyspace"><note>A range of possible values used to construct keys
+
+2bits = 4 possible keys (2^2)
+512 bits = 2^512 possible combinations</note></topic><topic id="9" parent="8" x="1290.17" y="649.54" text="Key"><note>Sequence of bits that are used as instructions that govern the acts of cryptographic functions within an algorithm</note></topic><topic id="10" parent="8" x="1248.51" y="691.47" text="Key clustering"><note>Key clustering is an instance in which two different keys generate the same ciphertext from the same plaintext.</note></topic><topic id="11" parent="1" x="990.75" y="585.32" text="Cryptosystem"><note>A system or product that provides encryption and decryption</note></topic><topic id="12" parent="11" x="1014.42" y="646.38" text="SW"></topic><topic id="13" parent="11" x="958.08" y="666.29" text="Protocols"></topic><topic id="14" parent="11" x="1079.08" y="641.29" text="Algorithm"></topic><topic id="15" parent="11" x="924.25" y="630.06" text="Keys"></topic><topic id="16" parent="11" x="1079.71" y="604.84" text="Strength"><note>Or work factor is an estimate of the effort and resources it would take an attacker to penetrate a cryptosystem</note></topic><topic id="17" parent="11" x="882.23" y="588.98" text="Synchronous"><note>Uses keystream to encrypt plaintext one bit at a time. 
+The keystream values are in synch with the plaintext values.</note></topic><topic id="18" parent="11" x="857.93" y="550.66" text="Asynchronous"><note>Uses previously generated output to encrypt the current plaintext values.</note></topic><topic id="19" parent="1" x="1116.97" y="460.99" text="Kerckhoffs' \Nprinciple"><note>Concept that an algorithm should be known and only the keys should be kept secret</note></topic><topic id="20" parent="1" x="913.97" y="422.99" text="One-time Pad"><note>Encryption scheme which is considered unbreakable, however it is impractical in most situations.
+
+XOR is used, the pad is the value
+
+Requirements:
+- pad must be made up of truly random values
+- used only once -&gt; at least as long as the msg
+- securely distributed to its destination
+- secured at senders/receiver sites</note></topic><topic id="21" parent="1" x="1141.97" y="510.99" text="Running and \NConcealment ciphers"><note>The running key cipher could use a key that does not require an electronic algorithm and bit alterations, but cleverly uses components in the physical world around you.
+
+ 
+A concealment cipher, also called a null cipher, is a type of steganography method. Steganography is described later in this chapter.
+A concealment cipher is a message hidden within a message.</note></topic><topic id="22" parent="1" x="813.98" y="426.64" text="Steganography"><note>Steganography is a method of hiding data in another media type so the very existence of the data is concealed.</note></topic><topic id="23" parent="0" x="945.52" y="225.57" text="Types of ciphers"></topic><topic id="24" parent="23" x="1072.18" y="184.04" text="Substitution cipher"><note>The substitution cipher replaces bits, characters, or blocks of characters with different bits, characters, or blocks.</note></topic><topic id="25" parent="24" x="1188.04" y="173.91" text="Caesar cipher"><note>The algorithm is the alphabet, and the key is the instruction shift up three</note></topic><topic id="26" parent="23" x="1079.14" y="228.01" text="Transposition cipher"><note>The transposition cipher does not replace the original text with different text, but rather moves the original values around. It rearranges the bits, characters, or blocks of characters to hide the original meaning.</note></topic><topic id="27" parent="23" x="940.94" y="168.11" text="Frequency analysis"><note>Frequency analysis 
+Cryptanalysis process used to identify weaknesses within cryptosystems by locating patterns in resulting ciphertext
+
+Simple substitution and transposition ciphers are vulnerable to attacks that perform frequency analysis. In every language, some words and patterns are used more often than others. For instance, in the English language, the most commonly used letter is E.</note></topic><topic id="28" parent="23" x="925.35" y="273.07" text="KDFs"><note>Key Derivation Functions (KDFs) 
+Generation of secret keys (subkeys) from an initial value (master key)
+
+
+Key Derivation Functions (KDFs) are used to generate keys that are made up of random values. Different values can be used independently or together as random key material. The algorithm is created to use specific hash, password, and/or salt values, which will go through a certain number of rounds of mathematical functions dictated by the algorithm.</note></topic><topic id="29" parent="23" x="1044.18" y="284.58" text="Polyalphabetic"><note>A polyalphabetic cipher uses more than one alphabet to defeat frequency analysis.</note></topic><topic id="30" parent="0" x="715.52" y="108.57" text="Methods of Encryption"></topic><topic id="31" parent="30" x="632.57" y="-15.82" text="Symmetric "></topic><topic id="32" parent="31" x="587.98" y="24.81" text="Strengths "><note>- much faster than asymmetric
+- hard to break if using large key size</note></topic><topic id="33" parent="31" x="702.01" y="21.39" text="Weaknesses"><note>- Requires a secure mechanism to deliver keys properly.
+- Each pair of users needs a unique key, so as the number of individuals increases, so does the number of keys, possibly making key management overwhelming.
+- Provides confidentiality but not authenticity or nonrepudiation.</note></topic><topic id="34" parent="31" x="594.09" y="-73.52" text="Algorithms"></topic><topic id="35" parent="34" x="555.63" y="-131.20" text="DES"></topic><topic id="36" parent="34" x="599.95" y="-129.25" text="3DES"></topic><topic id="37" parent="34" x="657.64" y="-127.33" text="Blowfish"></topic><topic id="38" parent="34" x="677.84" y="-88.87" text="IDEA"></topic><topic id="39" parent="34" x="481.68" y="-108.10" text="RC4, RC5, RC6"></topic><topic id="40" parent="34" x="497.52" y="-64.42" text="AES"></topic><topic id="41" parent="30" x="912.17" y="-17.51" text="Asymmetric"></topic><topic id="42" parent="41" x="834.76" y="12.94" text="Strengths"><note>- Better key distribution than symmetric systems.
+- Better scalability than symmetric systems
+- Can provide authentication and nonrepudiation</note></topic><topic id="43" parent="41" x="955.44" y="22.08" text="Weaknesses"><note>- Works much more slowly than symmetric systems
+- Mathematically intensive tasks</note></topic><topic id="44" parent="41" x="909.42" y="-60.33" text="Algorithms"></topic><topic id="45" parent="44" x="831.52" y="-101.72" text="RSA"></topic><topic id="46" parent="44" x="885.61" y="-103.59" text="ECC"></topic><topic id="47" parent="44" x="954.91" y="-103.66" text="Diffie-Hellman"></topic><topic id="48" parent="44" x="1038.69" y="-102.63" text="El Gamal"></topic><topic id="49" parent="44" x="826.05" y="-60.66" text="DSA"></topic><topic id="50" parent="44" x="1038.69" y="-53.20" text="Merkle-Hellman Knapsack"></topic><topic id="51" parent="30" x="872.68" y="105.62" text="Block Ciphers"><note>Block cipher performs mathematical functions on blocks go bits</note></topic><topic id="52" parent="30" x="558.76" y="106.77" text="Stream Cipher"><note>Stream cipher performs mathematical functions on each bit individually.
+
+The sender and the receiver must have the same key to generate the same keystream.
+
+Plaintext bit will be transformed into a different ciphertext bit each time it is encrypted</note></topic><topic id="53" parent="52" x="459.79" y="105.63" text="Keystream\Ngenerators"></topic><topic id="54" parent="30" x="751.81" y="188.37" text="Attributes"><note>For a cipher to be considered strong, it must contain both of these attributes to ensure that reverse-engineering is basically impossible.</note></topic><topic id="55" parent="54" x="802.00" y="224.70" text="Confusion"><note>Confusion is commonly carried out through substitution</note></topic><topic id="56" parent="54" x="727.96" y="236.29" text="Diffusion"><note>Diffusion is carried out by using transposition.</note></topic><topic id="57" parent="30" x="827.64" y="156.96" text="Avalanche \Neffect"><note>Avalanche effect Algorithm design requirement so that slight changes to the input result in drastic changes to the output.</note></topic><topic id="58" parent="30" x="556.49" y="174.35" text="IV"><note>Initialization vectors (IVs) 
+are random values that are used with algorithms to ensure patterns are not created during the encryption process. They are used with keys and do not need to be encrypted when being sent to the destination. If IVs are not used, then two identical plaintext values that are encrypted with the same key will create the same ciphertext.</note></topic><topic id="59" parent="30" x="636.86" y="191.18" text="Hybrid\Nencryption\Nmethods"></topic><topic id="60" parent="0" x="346.88" y="229.81" text="Types of\NSymmetric\NSystems"></topic><topic id="61" parent="60" x="305.44" y="156.69" text="DES"><note>Data Encryption Standard
+NSA modified IBM's 128-bit algorithm named Lucifer to use key size only 64 bits(effective key length 56 bits + 8 parity bits )
+They named it DEA. So DES is standard and DEA is algorithm. (But DEA is referred as DES)
+
+DES is symmetric block encryption algorithm
+
+- divides a message into 64-bit blocks and employs S-box-type functions on them.
+
+Blocks are put through 16 rounds of transposition and substitution functions.
+The order and type of functions depend on the value of the key.</note></topic><topic id="62" parent="61" x="219.06" y="101.06" text="ECB"><note>Electronic Code Book
+
+The fastest, operations can be run in parallel
+If error occur, only one block is affected
+Only usable for short messages (pin)
+
+A key is basically instructions for the use of a code book that dictates how a block of text will be encrypted.
+
+Each block will be encrypted with the same key.</note></topic><topic id="63" parent="62" x="215.20" y="58.60" text="Pin"></topic><topic id="64" parent="61" x="264.86" y="101.12" text="CBC"><note>Cipher Block Chaining
+ciphertext from previous block is used to XOR plaintext of the next block before it is encrypted.
+
+We use IV to encrypt the first block - first 64 bits of plaintext are XORed with IV.
+
+This chaining creates dependency on all previous blocks not just one.
+
+This can be used for example for email encryption</note></topic><topic id="65" parent="64" x="262.90" y="61.12" text="Doc"></topic><topic id="66" parent="61" x="310.91" y="101.69" text="CFB"><note>Cipher Feedback Mode
+
+Combination of block and stream cipher
+
+Can be used to encrypt any size of block, even blocks of just one bit (usually 8bits)
+
+IV + key = keystream1
+
+Plaintext1 &gt;&gt; keystream1&gt;&gt; ciphertext1
+
+Ciphertext1 + key = keystream2
+
+Plaintext2 &gt;&gt; keystream2 &gt;&gt; ciphertext2
+
+!!! It is important to use a new unique IV value to encrypt each new stream of data</note></topic><topic id="67" parent="66" x="312.75" y="58.55" text="Stream"></topic><topic id="68" parent="61" x="354.12" y="103.85" text="OFB"><note>Output Feedback Mode
+
+Smaller chance to extend error throughout the full encryption process.
+Suitable for video, voice
+
+IV + key = keystream1
+
+Plaintext1 XOR keystream1 =&gt; ciphertext1
+
+Keystream1 + key = keystream2
+
+Plaintext2 XOR keystream2 =&gt; ciphertext2</note></topic><topic id="69" parent="68" x="381.82" y="59.53" text="Voice,video"></topic><topic id="70" parent="61" x="371.87" y="143.10" text="CTR"><note>Counter mode
+
+No chaining = parallel processing = performance
+
+Using counter + key =&gt; keystream
+So each block is XORed with unique keystream
+
+Encryption of
+ATM cells for virtual circuits
+IPSec
+Integrated in 802.11i</note></topic><topic id="71" parent="60" x="241.58" y="190.52" text="3DES"><note>Uses 48 rounds =&gt; more resistance to differential cryptoanalysis, but also heavy performance hit</note></topic><topic id="72" parent="71" x="172.40" y="164.72" text="DES-EEE3"><note>3 different keys for encryption and the data are encrypted,encrypted,encrypted</note></topic><topic id="73" parent="71" x="172.05" y="200.04" text="DES-EDE3"><note>3 different keys for encryption
+Data are encrypted, decrypted, encrypted</note></topic><topic id="74" parent="71" x="208.50" y="234.61" text="DES-EEE2"><note>2 different keys
+1. And 3. encryption with the same key</note></topic><topic id="75" parent="71" x="263.64" y="271.06" text="DES-EDE2"><note>2 keys
+1. and 3. Encryption use the same key</note></topic><topic id="76" parent="60" x="426.07" y="191.72" text="AES"><note>Advanced Encryption Standard
+
+Rijndael algorithm: 
+Supports 128, 192,256 bits block size
+Number of rounds depends on the block size
+128=&gt;10 rounds
+192=&gt;12 rounds
+256=&gt;14 rounds
+
+Low memory requirements
+Defend against timing attacks</note></topic><topic id="77" parent="60" x="458.78" y="255.27" text="Other algorithms"></topic><topic id="78" parent="77" x="544.32" y="259.42" text="Block"></topic><topic id="79" parent="78" x="600.85" y="260.31" text="Blowfish"><note>Block cipher
+
+Block size: 64 bits
+Key size: 32 - 448 bits
+
+Data blocks go through 16 rounds
+
+Bruce Schneier created this as public domain</note></topic><topic id="80" parent="78" x="529.56" y="222.09" text="IDEA"><note>Block cipher
+
+Block size: 64 bits
+Key size: 128 bits
+
+The 64 bit block is divided into 16 smaller blocks and each has 8 rounds of mathematical functions performed on it.
+
+Offers similar modes to DES, but it is considered harder to break (bigger key)
+
+IDEA is used in PGP</note></topic><topic id="81" parent="78" x="519.65" y="300.65" text="RC5"><note>Block size: 32, 64, 128 bits
+Key size: up to 2048 bits
+Number of rounds: up to 255</note></topic><topic id="82" parent="78" x="569.10" y="310.10" text="RC6"><note>Same attributes as RC5, but optimized for speed</note></topic><topic id="83" parent="77" x="458.66" y="299.53" text="Stream"></topic><topic id="84" parent="83" x="434.57" y="337.42" text="RC4"><note>Stream cipher 
+
+Used in SSL protocol
+Key size: variable
+
+Simple fast efficient algorithm, but with low diffusion rate =&gt; modification attack
+
+802.11i therefore moved from RC4 to  AES</note></topic><topic id="85" parent="0" x="-58.40" y="222.05" text="Types of\NAsymmetric\NSystems"></topic><topic id="86" parent="85" x="-34.86" y="148.49" text="Diffie-Hellman"><note>Enables two systems to generate a symmetric key.
+
+Private_1 + Public_2 =&gt;  symmetric key
+Private_2 + Public_1 =&gt; the same symmetric key
+
+Vulnerable to a man-in-the-middle attack, countermeasure is to have authentication take place before accepting the public key</note></topic><topic id="87" parent="85" x="-156.61" y="228.12" text="RSA"><note>Can be used for
+- digital signatures
+- key exchange
+- encryption
+
+Based on the difficulty of factoring large numbers</note></topic><topic id="88" parent="85" x="-178.15" y="162.45" text="El Gamal"><note>Based on calculating discrete logarithms in a finite field. It is actually extension of the Diffie- Hellman algorithm.
+
+It's main drawback is performance</note></topic><topic id="89" parent="85" x="-131.24" y="126.12" text="ECC"><note>Elliptic Curve Cryptosystem
+
+- digital signatures
+- secure key distribution 
+- encryption
+
+It needs less resources than RSA and other algorithms, so it is used in eg cell phones
+It provides the same level of protection with a smaller key</note></topic><topic id="90" parent="85" x="-66.37" y="285.40" text="Knapsack"><note>Based on knapsack problem:
+If you have several different items, each having its own weight, is it possible to add these items to a knapsack so the knapsack has a specific weight?
+
+This algorithm was discovered insecure and is not used in cryptosystems.</note></topic><topic id="91" parent="85" x="48.59" y="291.00" text="Zero Knowledge Proof"><note>One entity can prove something to be true without providing a secret value.
+
+If I encrypt msg with my private key, I provide a proof that I have my  private key.
+
+So only owner of the private key can prove possession of the key.</note></topic><topic id="92" parent="0" x="-129.86" y="407.34" text="Message Integrity"><note>Hashing algorithms provide data integrity only.</note></topic><topic id="93" parent="92" x="-238.58" y="391.35" text="MAC"><note>Message Authentication Code
+- authentication scheme derived by applying a secret key to a message
+
+MAC is sometimes called Message integrity code MIC or Modification detection code MDC</note></topic><topic id="94" parent="93" x="-311.56" y="380.61" text="HMAC"><note>Hash MAC
+- sender concatenates a symmetric key with the message
+- result is put through hashing algorithm
+- MAC is generated and appended to the msg
+- receiver uses his copy of the secret key together with the message to generate MAC
+If both MAC are the same, message was not modified</note></topic><topic id="95" parent="93" x="-302.50" y="341.72" text="CBC-MAC"><note>Message is encrypted with symmetric block cipher in CBC mode, and the output of the final block of ciphertext is used as MAC</note></topic><topic id="96" parent="93" x="-306.01" y="418.54" text="CMAC"><note>Cipher-Based Message Authentication Code
+- provides the same level of data origin authentication as CBC-MAC
+- AES or 3DES
+
+Works the same way as CBC, but is based on more complex logic and mathematical functions.</note></topic><topic id="97" parent="92" x="-179.13" y="351.91" text="MD2"><note>one-way hash function designed by Ron Rivest that creates 128-bit message digest value.
+It is not weaker than other MD, it is just slower</note></topic><topic id="98" parent="92" x="-131.39" y="349.95" text="MD4"><note>One-way hash function designed by Ron Rivest. It also produces 128-bit message digest value</note></topic><topic id="99" parent="92" x="-88.06" y="349.39" text="MD5"><note>Newer version of MD4, produces 128-bit hash, but is more complex = harder to break
+Latest research has shown MD5 to be subject of collision attack, and is therefore no longer suitable for applications like SSL certificates and digital signatures.</note></topic><topic id="100" parent="92" x="-181.39" y="472.73" text="SHA"><note>Was designed to be used with Digital Signature Standard DSS.
+Produces 160-bit hash value.
+
+SHA was improved upon and renamed SHA-1.
+Newer versions of this algorithm have been developed and released: SHA-256,384,512</note></topic><topic id="101" parent="92" x="-125.74" y="468.55" text="HAVAL"><note>Variable-length one-way hash function, it is a modification of MD5.
+
+Block size re twice the size of those in MD5 =&gt; 1024 bits
+
+HAVAL can produce hashes from 128 to 256 bits in length</note></topic><topic id="102" parent="92" x="-74.63" y="451.88" text="Tiger"><note>Ross Anderson and Eli Biham developed this algorithm ( it is not based on MD4)
+It was design to carry out hashing functionalities on 64-bit systems and to be faster as MD5
+
+Resulting hash is 192 bits in size</note></topic><topic id="103" parent="92" x="-25.74" y="385.22" text="RIPEMD"><note>RACE Integrity Primitives Evaluation - RIPE 
+It was developed to replace MD4</note></topic><topic id="104" parent="92" x="-240.18" y="455.77" text="Attacks"><note>If the algorithm does produce the same value for two distinctly different messages, this is called a collision. An attacker can attempt to force a collision, which is referred to as a birthday attack.</note></topic><topic id="105" parent="104" x="-310.70" y="497.64" text="Birthday attack"><note>Brute force
+
+The output of a hashing algorithm is n, and to find a message through a brute force attack that results in a specific hash value would require hashing 2^n random messages. To take this one step further, finding two messages that hash to the same value would require review of only 2^n/2 messages.
+
+This is based on The birthday paradox.
+There is a higher probability of finding two people who share a birthday than of finding another person who shares your birthday.
+
+if a hashing algorithm generates a message digest of 60 bits, there is a high likelihood that an adversary can find a collision using only 2^30 inputs.</note></topic><topic id="106" parent="92" x="16.62" y="445.45" text="Digital Signature"><note>A digital signature is a hash value that has been encrypted with the sender’s private key.
+
+- A message can be encrypted, which provides confidentiality.
+
+- A message can be hashed, which provides integrity.
+
+- A message can be digitally signed, which provides authentication, nonrepudiation, and integrity.
+
+- A message can be encrypted and digitally signed, which provides confidentiality, authentication, nonrepudiation, and integrity.</note></topic><topic id="107" parent="0" x="-5.40" y="552.47" text="Public Key Infrastructure"><note>PKI is an ISO authentication framework that uses public key cryptography and the X.509 standard.
+It is a hybrid system of symmetric and asymmetric key algorithms and methods.
+
+A PKI may be made up of the following entities and functions:
+- Certification authority
+- Registration authority
+- Certificate repository
+- Certificate revocation system
+- Key backup and recovery system
+- Automatic key update
+- Management of key histories
+- Timestamping
+- Client-side software</note></topic><topic id="108" parent="107" x="-189.03" y="562.98" text="Certificate Authority"><note>CA - certificate authority - trusted third party, issuer of digital certificates
+
+The CA is responsible for creating and handing out certificates, maintaining them, and revoking them if necessary.</note></topic><topic id="109" parent="108" x="-323.74" y="567.05" text="Cross certification"><note>is the process undertaken by CAs to establish a trust relationship in which they rely upon each other’s digital certificates and public keys as if they had issued them themselves. When this is set up, a CA for one company can validate digital certificates from the other company and vice versa.</note></topic><topic id="110" parent="108" x="-249.47" y="610.67" text="CRL"><note>certificate revocation list (CRL) is a list of every certificate that has been revoked. This list is maintained and updated periodically. 
+
+A certificate may be revoked because the key holder’s private key was compromised or because the CA discovered the certificate was issued to the wrong person.</note></topic><topic id="111" parent="108" x="-196.05" y="613.29" text="OCSP"><note>Online Certificate Status Protocol (OCSP) 
+
+carries out real-time validation of a certificate and reports back to the user whether the certificate is valid, invalid, or unknown. 
+OCSP checks the CRL that is maintained by the CA. So the CRL is still being used, but now we have a protocol developed specifically to check the CRL during a certificate validation process.</note></topic><topic id="112" parent="107" x="-71.34" y="600.25" text="Registration Authority"><note>RA - registration authority - verifies identity of the requestor and passes the cert request off to CA</note></topic><topic id="113" parent="107" x="39.95" y="598.97" text="Certificate"><note>The standard for how the CA creates the certificate is X.509
+
+A certificate is the mechanism used to associate a public key with a collection of components in a manner that is sufficient to uniquely identify the claimed owner.
+
+- serial number
+- version number
+- identity information
+- algorithm information
+- lifetime dates
+- signature of the issuer</note></topic><topic id="114" parent="0" x="100.73" y="646.81" text="Key Management"><note>Key management is one of the most challenging pieces of cryptography. It pertains to creating, maintaining, distributing, and destroying cryptographic keys.</note></topic><topic id="115" parent="114" x="58.98" y="709.79" text="Kerberos"><note>When using the Kerberos protocol, a Key Distribution Center (KDC) is used to store, distribute, and maintain cryptographic session and secret keys. 
+This method provides an automated method of key distribution. The computer that wants to access a service on another computer requests access via the KDC. The KDC then generates a session key to be used between the requesting computer and the computer providing the requested resource or service. 
+The automation of this process reduces the possible errors that can happen through a manual process, but if the ticket granting service (TGS) portion of the KDC gets compromised in any way, then all the computers and their services are affected and possibly compromised.</note></topic><topic id="116" parent="114" x="-24.89" y="694.10" text="Principles"><note>The key should not be stored in cleartext outside of the cryptographic device.
+
+The key length should be long enough to provide the necessary level of protection.
+
+Keys should be stored and transmitted by secure means.
+
+Keys should be extremely random, and the algorithm should use the full spectrum of the keyspace.
+
+The key’s lifetime should correspond with the sensitivity of the data it is protecting. (Less secure data may allow for a longer key lifetime, whereas more sensitive data might require a shorter key lifetime.)
+
+The more the key is used, the shorter its lifetime should be.
+
+Keys should be backed up or escrowed in case of emergencies.
+
+Keys should be properly destroyed when their lifetime comes to an end.</note></topic><topic id="117" parent="114" x="133.06" y="689.40" text="Recovery"><note>Key escrow 
+is a process or entity that can recover lost or corrupted cryptographic keys; thus, it is a common component of key recovery operations. 
+
+Multiparty key recovery
+key recovery processes where two or more entities are required to reconstruct a key. Multiparty key recovery implements dual control, meaning that two or more people have to be involved with a critical task.</note></topic><topic id="118" parent="0" x="258.59" y="720.11" text="Trusted Platform Module"><note>The Trusted Platform Module (TPM) is a microchip installed on the motherboard of modern computers and is dedicated to carrying out security functions that involve the storage and processing of symmetric and asymmetric keys, hashes, and digital certificates.
+
+It can be used for platform integrity, disk encryption, password protection, and remote attestation.
+
+Usage:
+Binding
+- hdd encryption, key is stored on the chip 
+
+Sealing
+- TPM generates hash values based on the system configuration. A system can be used only when TPM verifies the integrity of the system configuration.
+
+TPM's internal memory is divided into two different segments.</note></topic><topic id="119" parent="118" x="152.83" y="772.25" text="Persistent memory"></topic><topic id="120" parent="119" x="76.47" y="809.89" text="EK"><note>Endorsement key
+
+The EK is a public/private key pair that is installed in the TPM at the time of manufacture and cannot be modified. The private key is always present inside the TPM, while the public key is used to verify the authenticity of the TPM itself. The EK, installed in TPM, is unique to that TPM and its platform.</note></topic><topic id="121" parent="119" x="147.38" y="813.39" text="SRK"><note>Storage Root Key
+
+The SRK is the master wrapping key used to secure the keys stored in the TPM.</note></topic><topic id="122" parent="118" x="270.24" y="773.85" text="Versatile memory"></topic><topic id="123" parent="122" x="223.32" y="817.98" text="AIK"><note>Attestation Identity Key
+
+The AIK is used for the attestation of the TPM chip itself to service providers. The AIK is linked to the TPM’s identity at the time of development, which in turn is linked to the TPM’s Endorsement Key. Therefore, the AIK ensures the integrity of the EK.</note></topic><topic id="124" parent="122" x="270.75" y="819.45" text="PCR"><note>Platform Configuration Register Hashes
+
+The PCR is used to store cryptographic hashes of data used for TPM’s “sealing” functionality.</note></topic><topic id="125" parent="122" x="331.20" y="822.31" text="Storage"><note>The storage keys are used to encrypt the storage media of the computer system.</note></topic><topic id="126" parent="0" x="451.28" y="752.33" text="Link Encryption vs\NEnd-to-End Encryption"></topic><topic id="127" parent="126" x="437.12" y="825.66" text="Link"><note>Link encryption, which is sometimes called online encryption, is usually provided by service providers and is incorporated into network protocols. 
+All of the information is encrypted, and the packets must be decrypted at each hop so the router, or other intermediate device, knows where to send the packet next. 
+The router must decrypt the header portion of the packet, read the routing and address information within the header, and then re-encrypt it and send it on its way.
+
+The only traffic not encrypted in this technology is the data link control messaging information, which includes instructions and parameters that the different link devices use to synchronize communication methods. 
+
+Link encryption provides protection against packet sniffers and eavesdroppers.</note></topic><topic id="128" parent="127" x="355.24" y="885.78" text="Traffic-flow security"><note>Link encryption occurs at the data link and physical layers. 
+Hardware encryption devices interface with the physical layer and encrypt all data that passes through them. Because no part of the data is available to an attacker, the attacker cannot learn basic information about how data flows through the environment. This is referred to as traffic-flow security.</note></topic><topic id="129" parent="127" x="443.94" y="888.19" text="Pros"><note>All data are encrypted, including headers, addresses, and routing information.
+
+Users do not need to do anything to initiate it. It works at a lower layer in the OSI model.</note></topic><topic id="130" parent="127" x="489.78" y="888.59" text="Cons"><note>Key distribution and management are more complex because each hop device must receive a key, and when the keys change, each must be updated.
+
+Packets are decrypted at each hop; thus, more points of vulnerability exist.</note></topic><topic id="131" parent="126" x="502.32" y="825.53" text="End-to-end"><note>In end-to-end encryption, the headers, addresses, routing, and trailer information are not encrypted, enabling attackers to learn more about a captured packet and where it is headed.
+
+With end-to-end encryption, the packets do not need to be decrypted and then encrypted again at each hop because the headers and trailers are not encrypted. 
+
+It is called “end-to-end encryption” because the message stays encrypted from one end of its journey to the other. 
+Link encryption has to decrypt the packets at every device between the two ends.</note></topic><topic id="132" parent="131" x="569.88" y="865.86" text="Pros"><note>It provides more flexibility to the user in choosing what gets encrypted and how.
+
+Higher granularity of functionality is available because each application or user can choose specific configurations.
+
+Each hop device on the network does not need to have a key to decrypt each packet.</note></topic><topic id="133" parent="131" x="573.65" y="828.93" text="Cons"><note>Disadvantages of end-to-end encryption include the following:
+
+Headers, addresses, and routing information are not encrypted, and therefore not protected.</note></topic><topic id="134" parent="0" x="707.87" y="990.23" text="E-mail Standards"></topic><topic id="135" parent="134" x="621.77" y="1046.67" text="MIME"><note>Multipurpose Internet Mail Extension (MIME) is a technical specification indicating how multimedia data and e-mail binary attachments are to be transferred.
+
+MIME is a specification that dictates how certain file types should be transmitted and handled. This specification has several types and subtypes, enables different computers to exchange data in varying formats, and provides a standardized way of presenting the data.</note></topic><topic id="136" parent="134" x="708.46" y="1051.84" text="SMIME"><note>extends the MIME standard by allowing for the encryption of e-mail and attachments. 
+The encryption and hashing algorithms can be specified by the user of the mail package, instead of having it dictated to them. 
+S/MIME follows the Public Key Cryptography Standards (PKCS). 
+S/MIME provides confidentiality through encryption algorithms, integrity through hashing algorithms, authentication through the use of X.509 public key certificates, and nonrepudiation through cryptographically signed message digests.</note></topic><topic id="137" parent="134" x="783.38" y="1031.18" text="PGP"><note>Pretty Good Privacy (PGP) was designed by Phil Zimmerman.
+
+PGP is considered a cryptosystem because it has all the necessary components: symmetric key algorithms, asymmetric key algorithms, message digest algorithms, keys, protocols, and the necessary software components.</note></topic><topic id="138" parent="137" x="843.86" y="1056.52" text="Key ring"><note>key ring is a collection of public keys he has received from other users. 
+
+Each key in that ring has a parameter that indicates the level of trust assigned to that user and the validity of that particular key.</note></topic><topic id="139" parent="137" x="861.88" y="995.35" text="Web of trust"><note>There is no CA
+
+System relies on a “web of trust” in its key management approach. Each user generates and distributes his or her public key, and users sign each other’s public keys, which creates a community of users who trust each other.</note></topic><topic id="140" parent="134" x="837.43" y="934.70" text="Quantum cryptography"><note>Use of quantum mechanical functions to provide strong cryptographic key exchange</note></topic><topic id="141" parent="0" x="1009.65" y="846.77" text="Internet Security"></topic><topic id="142" parent="141" x="1076.79" y="892.45" text="HTTP"><note>HTTP is a stateless protocol, which means the client and web server make and break a connection for each operation.
+
+The web server never “remembers” the users that ask for different web pages, because it would have to commit a lot of resources to the effort.</note></topic><topic id="143" parent="141" x="1017.20" y="895.03" text="HTTPS"><note>HTTP Secure (HTTPS) is HTTP running over SSL.</note></topic><topic id="144" parent="143" x="1027.39" y="960.17" text="SSL"><note>Proprietary protocol developed by Netscape
+
+Secure Sockets Layer (SSL) uses public key encryption and provides data encryption, server authentication, message integrity, and optional client authentication.
+
+The SSL protocol works at the transport layer
+SSL requires a PKI environment</note></topic><topic id="145" parent="143" x="1075.36" y="957.92" text="TLS"><note>open-community and standardized version of SSL is Transport Layer Security (TLS). The differences between SSL 3.0 and TLS are slight, but TLS is more extensible and is backward compatible with SSL.</note></topic><topic id="146" parent="141" x="1114.13" y="851.97" text="S-HTTP"><note>Secured HTTP
+
+S-HTTP is used if an individual message needs to be encrypted, but if all information that passes between two computers must be encrypted, then HTTPS is used instead</note></topic><topic id="147" parent="141" x="1054.63" y="806.14" text="SET"><note>SET is a cryptographic protocol and infrastructure developed to send encrypted credit card numbers over the Internet. 
+
+To use SET, a user must enter credit card number into electronic wallet software. This information is stored on the user’s hard drive or on a smart card. The software then creates a public key and a private key that are used specifically for encrypting financial information before it is sent.
+
+
+The following entities would be involved with a SET transaction:
+- Issuer (cardholder’s bank) The financial institution that provides a credit card to the individual.
+- Cardholder The individual authorized to use a credit card.
+- Merchant The entity providing goods.
+- Acquirer (merchant’s bank) The financial institution that processes payment cards.
+- Payment gateway This processes the merchant payment. It may be an acquirer.</note></topic><topic id="148" parent="141" x="983.89" y="801.83" text="Cookies"><note>Cookies 
+Data files used by web browsers and servers to keep browser state information and browsing preferences. 
+
+Stored on user hdd or in memory</note></topic><topic id="149" parent="141" x="946.55" y="884.36" text="SSH"><note>Secure Shell (SSH) 
+Network protocol that allows for a secure connection to a remote system. Developed to replace Telnet and other insecure remote shell methods.
+
+The two computers go through a handshaking process and exchange (via Diffie-Hellman) a session key that will be used during the session to encrypt and protect the data sent.
+
+SSH should be used instead of Telnet, FTP, rlogin, rexec, or rsh.</note></topic><topic id="150" parent="141" x="882.09" y="854.84" text="IPSec"><note>IPSec Protocol suite used to protect IP traffic through encryption and authentication. De facto standard VPN protocol.</note></topic><topic id="151" parent="150" x="877.99" y="891.57" text="AH"><note>if a company just needs to make sure it knows the source of the sender and must be assured of the integrity of the packets, it would choose to use AH.
+
+The AH protocol calculates ICV over the data payload, transport, and network headers. If the packet then goes through a NAT device, the NAT device changes the IP address of the packet. This means network header that was included to calculate the ICV value has now changed, and the receiver will generate an ICV value that is different from the one sent with the packet, which means the packet will be discarded automatically.</note></topic><topic id="152" parent="150" x="827.76" y="891.54" text="ESP"><note>The ESP protocol can provide authentication, integrity, and confidentiality.
+
+The ESP protocol does not include the network header portion when calculating its ICV value. When the NAT device changes the IP address, it will not affect the receiver’s ICV value because it does not include the network header when calculating the ICV. 
+
+So when we want to go through a NAT, ESP is the right choice</note></topic><topic id="153" parent="150" x="779.77" y="830.74" text="IKE"><note>Because IPSec is a framework, it does not dictate which hashing and encryption algorithms are to be used or how keys are to be exchanged between devices. 
+
+Key management can be handled manually or automated by a key management protocol. 
+
+The de facto standard for IPSec is to use Internet Key Exchange (IKE), which is a combination of the ISAKMP and OAKLEY protocols.</note></topic><topic id="154" parent="153" x="727.27" y="825.78" text="ISAKMP"><note>The Internet Security Association and Key Management Protocol (ISAKMP) is a key exchange architecture that is independent of the type of keying mechanisms used. 
+
+Basically, ISAKMP provides the framework of what can be negotiated to set up an IPSec connection (algorithms, protocols, modes, keys).</note></topic><topic id="155" parent="153" x="725.44" y="786.23" text="OAKLEY"><note>The OAKLEY protocol is the one that carries out the negotiation process.
+
+You can think of ISAKMP as providing the playing field (the infrastructure) and OAKLEY as the guy running up and down the playing field (carrying out the steps of the negotiation).</note></topic><topic id="156" parent="150" x="782.17" y="866.14" text="SKIP"><note>Simple Key Management Protocol for IP (SKIP) is another key exchange protocol that provides basically the same functionality as IKE. It is important to know that all of these protocols work at the network layer.</note></topic><topic id="157" parent="0" x="1232.68" y="774.98" text="Attacks"></topic><topic id="158" parent="157" x="1380.31" y="884.48" text="Active"></topic><topic id="159" parent="158" x="1473.14" y="835.97" text="Known-Plaintext"><note>In known-plaintext attacks, the attacker has the plaintext and corresponding ciphertext of one or more messages. 
+
+The goal is to discover the key used to encrypt the messages so other messages can be deciphered and read.</note></topic><topic id="160" parent="159" x="1634.67" y="834.74" text="Linear Cryptanalysis"><note>Linear cryptanalysis is another type of attack that carries out functions to identify the highest probability of a specific key employed during the encryption process using a block algorithm. 
+
+The attacker carries out a known-plaintext attack on several different messages encrypted with the same key. The more messages the attacker can use and put through this type of attack, the higher the confidence level in the probability of a specific key value.
+
+The attacker evaluates the input and output values for each S-box. He evaluates the probability of input values ending up in a specific combination. 
+Identifying specific output combinations allows him to assign probability values to different keys until one shows a continual pattern of having the highest probability.</note></topic><topic id="161" parent="158" x="1476.15" y="883.80" text="Chosen-Plaintext"><note>In chosen-plaintext attacks, the attacker has the plaintext and ciphertext, but can choose the plaintext that gets encrypted to see the corresponding ciphertext. 
+
+This gives more power and possibly a deeper understanding of the way the encryption process works so the attacker can gather more information about the key being used. 
+
+Once the key is discovered, other messages encrypted with that key can be decrypted.</note></topic><topic id="162" parent="161" x="1618.36" y="877.46" text="Differential Cryptanalysis"><note>The goal is get the key that was used for encryption purposes. 
+This attack looks at ciphertext pairs generated by encryption of plaintext pairs with specific differences and analyzes the effect and result of those differences. 
+One such attack was invented in 1990 as an attack against DES, and it turned out to be an effective and successful attack against DES and other block algorithms.
+The attacker takes two messages of plaintext and follows the changes that take place to the blocks as they go through the different S-boxes. (Each message is being encrypted with the same key.) The differences identified in the resulting ciphertext values are used to map probability values to different possible key values. The attacker continues this process with several more sets of messages and reviews the common key probability values. One key value will continue to show itself as the most probable key used in the encryption processes. 
+
+Since the attacker chooses the different plaintext messages for this attack, it is considered to be a type of chosen-plaintext attack.</note></topic><topic id="163" parent="158" x="1481.89" y="1028.58" text="Chosen-Ciphertext "><note>In chosen-ciphertext attacks, the attacker can choose the ciphertext to be decrypted and has access to the resulting decrypted plaintext. 
+
+Again, the goal is to figure out the key. This is a harder attack to carry out compared to the previously mentioned attacks, and the attacker may need to have control of the system that contains the cryptosystem.</note></topic><topic id="164" parent="158" x="1386.16" y="1031.51" text="Replay"><note>Replay Attacks
+
+An attacker captures some type of data and resubmits it with the hopes of fooling the receiving device into thinking it is legitimate information(authentication information).
+
+Timestamps and sequence numbers are two countermeasures to replay attacks.</note></topic><topic id="165" parent="158" x="1318.41" y="1013.06" text="Algebraic"><note>Algebraic attacks analyze the vulnerabilities in the mathematics used within the algorithm and exploit the intrinsic algebraic structure. 
+
+For instance, attacks on the “textbook” version of the RSA cryptosystem exploit properties of the algorithm, such as the fact that the encryption of a raw “0” message is “0.”</note></topic><topic id="166" parent="158" x="1273.05" y="969.47" text="Analytic"><note>Analytic attacks identify algorithm structural weaknesses or flaws, as opposed to brute force attacks, which simply exhaust all possibilities without respect to the specific properties of the algorithm. 
+
+Examples include the Double DES attack and RSA factoring attack.</note></topic><topic id="167" parent="158" x="1257.50" y="934.47" text="Statistical"><note>Statistical attacks identify statistical weaknesses in algorithm design for exploitation—for example, if statistical patterns are identified, as in the number of zeros compared to the number of ones. 
+For instance, a random number generator (RNG) may be biased. If keys are taken directly from the output of the RNG, then the distribution of keys would also be biased. The statistical knowledge about the bias could be used to reduce the search time for the keys.</note></topic><topic id="168" parent="158" x="1231.40" y="887.11" text="Social Engineering"></topic><topic id="169" parent="158" x="1223.07" y="846.55" text="Meet-in-the-Middle"><note>Meet-in-the-middle attack 
+Cryptanalysis attack that tries to uncover a mathematical problem from two different ends.
+
+The attack works by encrypting from one end and decrypting from the other end, thus meeting in the middle.</note></topic><topic id="170" parent="157" x="1323.12" y="733.90" text="Passive"><note>Passive attacks
+the attacker is not affecting the protocol, algorithm, key, message, or any parts of the encryption system. 
+Passive attacks are hard to detect, so in most cases methods are put in place to try to prevent them rather than to detect and stop them.</note></topic><topic id="171" parent="170" x="1403.17" y="740.91" text="Sniffing"></topic><topic id="172" parent="170" x="1416.90" y="706.36" text="Side-Channel "><note>The idea is that instead of attacking a device head on, just watch how it performs to figure out how it works.
+
+An attacker could measure power consumption, radiation emissions, and the time it takes for certain types of data processing.</note></topic></topics><relations><relation source="6" target="7"></relation></relations></mindmap></simplemind-mindmaps>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.8.0" device-type="ipad"><mindmap><meta><guid guid="627F0BA4941362D2B4D62C64"></guid><title text="Domain 1\NInformation Security\NGovernance and Risk\NManagement"></title><page><visual-area x="-403.84" y="0.00" width="1488.18" height="709.06"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="100" x="-464.84" y="-186.00"></scrollstate><selection type="node" id="28"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="500.00" y="500.00" palette="1" colorinfo="1" text="Domain 1\NInformation Security\NGovernance and Risk\NManagement"></topic><topic id="1" parent="0" x="701.07" y="574.90" palette="2" colorinfo="2" text="Fundamental\NPrinciples of\NSecurity"></topic><topic id="2" parent="1" x="825.52" y="646.88" text=".availability\N.integrity\N.confidentiality"></topic><topic id="3" parent="0" x="679.18" y="475.55" text="Security Definitions"></topic><topic id="4" parent="3" x="864.51" y="538.68" text=".vulnerability\N.threat agent\N.threat\N.risk\N.control\N.exposure"></topic><topic id="5" parent="0" x="660.18" y="402.55" text="Control types"></topic><topic id="6" parent="5" x="989.15" y="461.98" text="Control functionalities\N.deterrent\N.preventive\N.corrective\N.recovery\N.detective\N.compensating"><note>Deterrent - intended to discourage a potential attacker
+
+Preventive - intended to avoid an incident from occurring 
+
+Corrective - fixes components or systems after an incident has occurred
+
+Recovery - intended to bring the environment back to regular operations
+
+Detective - helps identify an incident's activities and potential intruder
+
+Compensating - controls that provide an alternative measure of control. Provides similar protection as the original control.</note></topic><topic id="7" parent="5" x="973.81" y="368.08" text="Control types\N.administrative\N.technical (logical)\N.physical"><note>.Logical or technical
+Firewalls,encryption,sw permissions,authentication devices
+
+.Administrative
+Policies and procedures
+Effective hiring practices
+Data classification and labeling
+Security awareness
+
+.Physical
+Badges, swipe cards
+Guards, dogs
+Fences, locks, mantraps</note></topic><topic id="8" parent="0" x="567.18" y="336.55" text="Security Frameworks"></topic><topic id="9" parent="8" x="676.42" y="245.72" text="Security Program\NDevelopment"></topic><topic id="10" parent="9" x="680.81" y="169.92" text="ISO/EIC 27000 series"><note>International standards on how to develop and maintain an ISMS. 
+
+PDCA cycle is used in this standard.
+
+ISO/IEC 27000 overview and vocabulary
+27001 ISMS requirements
+27002 code of practice for information security management 
+27003 Guideline for ISMS implementation
+27004 guideline for information security  management measurement and metrics framework
+27005 guideline for information security risk management
+27006 guidelines for bodies providing audit and certification of information security management system
+27011 information security management guidelines for telecommunications orbs
+27031 guideline for information and communications technology readiness for business continuity
+27033-1 guideline for network security
+27799 guideline for information security management in health organizations</note></topic><topic id="11" parent="8" x="782.85" y="255.41" text="Enterprise\NArchitecture\NDevelopment"></topic><topic id="12" parent="11" x="830.75" y="177.97" text=".Zachman framework\N.TOGAF\N.DoDAF\N.MODAF"><note>All these were developed to provide holistic view of the organization, so the business people and technical people can communicate effectively.
+
+Zachman Architecture Framework:
+created by John Zachman.
+Two-dimensional model that uses 6 basic communication interrogatives (what,how,where,who,when,why) interacting with different viewpoints ( planner,owner,designer,builder,implementer,worker). The goal of this model is to be able to look at the same organization from different views.
+
+The Open Group Architecture Framework:
+It has it's origin in the U.S. Dep. of Defense
+It can be used to develop these arch types:
+- Business Architecture
+- Data Architecture
+- Applications Architecture
+- Technology Architecture 
+Through its Architecture Development Model ADM -&gt; iterative and cyclic process. 
+These different architecture allow to understand  the enterprise from 4 different views.
+
+Military-Oriented Architecture Frameworks
+- Department of Defense Arch Framework (DoDAF)
+- British Ministry of Defence Arch Framework
+(MODAF) 
+The crux of the frameworks is to get the right to the right people.
+Both were developed to support military missions, they have been expanded for use in business enterprise environments</note></topic><topic id="13" parent="11" x="912.28" y="276.80" text="Enterprise Security \NArchitecture"><note>Is a subset of an enterprise architecture. Defines the information security strategy. It is a method for describing the structure of ISMS ( information security management system)
+
+ISMS vs Security Enterprise Architecture
+- ISMS outlines the controls that need to put into place and provides direction on how these should be managed
+- SEA illustrates how these components are to be integrated into the different layers
+
+Example: ISMS dictates that  risk management needs to be put in place, and the enterprise architecture will chop up the risk management components  and illustrates how risk management needs to take place at strategic, tactical, operational level.</note></topic><topic id="14" parent="13" x="1036.34" y="278.29" text=".SABSA model"><note>Sherwood Applied Business Security Architecture
+
+Risk-driven architecture that maps to business initiatives ,similar to Zachman framework
+Since it is a methodology also, it provides the process to follow to build and maintain.</note></topic><topic id="15" parent="8" x="558.55" y="242.50" text="Security Controls\NDevelopment"><note>ISO/EIC 27000 series outlines the necessary components of an org security program,
+Enterprise security architecture  helps us integrated the requirements outlined in the security program,
+Security controls help to accomplish the goals outlined in the both above.</note></topic><topic id="16" parent="15" x="551.99" y="170.96" text=".CobiT\N.SP 800-53"><note>CobiT - Control Objectives for Information and related Technology, developed by the Information Systems Audit and Control Association (ISACA) and the IT Governance Institute (ITGI).
+Is a framework and set of control objectives.
+4 main domains :
+- plan and organize 
+- acquire and implement
+- deliver and support
+- monitor and evaluate
+CobiT lays out executive summaries, management guidelines, frameworks, control objectives, an implementation toolset, performance indicators, success factors, maturity models, and audit guidelines. It lays out complete roadmap that can be followed to accomplish each of the 34 control objectives this model deals with.
+
+
+NIST 800-53</note></topic><topic id="17" parent="8" x="427.88" y="241.68" text="Corporate Governance"></topic><topic id="18" parent="17" x="404.91" y="189.75" text=".COSO"><note>Governance model used to help prevent fraud within a corporate environment</note></topic><topic id="19" parent="8" x="274.88" y="239.68" text="Process Management"></topic><topic id="20" parent="19" x="188.55" y="184.74" text=".ITIL\N.Six Sigma\N.Capability Maturity Model Integration CMMI"><note>ITIL - is a set of best practices for IT service management 
+
+Six Sigma is used to identify defects in processes so that the process can be improved upon
+
+CMMI is a maturity model that allows for processes to improve in an incremented and standard approach</note></topic><topic id="21" parent="0" x="264.18" y="505.55" text="Security Management"></topic><topic id="22" parent="21" x="-70.15" y="225.79" text="Risk Management"><note>Information Risk Management (IRM)
+is the process of identifying and assessing risk, reducing it to an acceptable level, and implementing the right mechanism to maintain that level
+
+Risk management team should include individuals from different departments within the org, not just technical personnel</note></topic><topic id="23" parent="21" x="-66.15" y="278.79" text="Information Risk\NManagement Policy"><note>The IRM policy provides the foundation and direction for the organization's security risk management process and procedures</note></topic><topic id="24" parent="21" x="-73.35" y="333.80" text="Risk Assessment\Nand Analysis"><note>Risk assessment is a method of identifying vulnerabilities and threats and assessing the possible impacts to determine where to implement security controls
+
+Risk Analysis works with results of risk assessment. It helps to prioritize the risks and shows the amount of resources needed.
+
+Risk analysis provides cost/benefit comparison that helps to choose the right safeguard</note></topic><topic id="25" parent="24" x="-214.94" y="341.30" text="Methodologies for\NRisk Assessment"></topic><topic id="26" parent="25" x="-352.84" y="348.60" text=".NIST SP 800-30\N.FRAP\N.OCTAVE\N.FMEA\N.CRAMM"><note>NIST 800-30 Risk Management Guide for Information Technology Systems
+- a U.S. federal standard that is focused on IT risks
+
+Facilitated Risk Analysis Process (FRAP)
+- focus only on the systems that really need assessing (qualitative approach)
+
+Operationally Critical Threat, Asset, and Vulnerability Evaluation (OCTAVE)
+- team oriented approach that assesses organizational and IT risks through facilitated workshops
+
+Failure Modes and Effect Analysis (FMEA)
+- approach that dissects a component into its basic functions to identify flaws and those flaws' effects
+-&gt; fault three analysis: used to detect failures within complex environments
+
+CRAMM 
+- created by UK and it's automated tools are sold by Siemens</note></topic><topic id="27" parent="25" x="-266.93" y="245.44" text=".Quantitative risk analysis\N.Qualitative risk analysis"><note>Quantitative risk analysis
+- assigning monetary and numerical values to all the data elements of a risk assessment.
+A purely quantitative risk analysis is not possible because qualitative items cannot be quantified with precision. (tangible vs intangible assets)
+
+-&gt; single loss expectancy SLE
+( asset value x exposure factor)
+
+-&gt; annualized loss expectancy ALE
+(SLE x ARO = ALE)
+
+Qualitative risk analysis
+- opinion based method of analyzing risk with the use of scenarios and ratings
+
+
+Total risk - amount of risk before a control is put in place
+Residual risk - after implementing a control
+Handling risk - accept, transfer, mitigate, avoid</note></topic><topic id="28" parent="27" x="-289.84" y="172.23" text="Delphi technique "><note>Group decision method where each group member can communicate anonymously</note></topic><topic id="29" parent="21" x="-67.84" y="392.94" text="Policies, Standards,\NBaselines, Guidelines"><note>.Policies
+- a statement by management dictating the role security plays in the organization
+
+.Procedures 
+- detailed step-by-step actions that should be followed to achieve a certain task
+
+.Standards 
+- documents that outlines rules that are compulsory in nature and support the organization's security policies
+
+.Baselines
+- minimum level of security
+
+.Guidelines
+- recommendations and general approaches that provide advice and flexibility</note></topic><topic id="30" parent="21" x="-57.78" y="444.45" text="Information Classification"><note>Data owners specify the classification of data, and the data custodians implement and maintain controls to enforce the set classification levels</note></topic><topic id="31" parent="0" x="255.18" y="570.55" text="Layers of Responsibility"></topic><topic id="32" parent="0" x="367.18" y="633.55" text="Security Steering\NCommittee"></topic><topic id="33" parent="0" x="571.18" y="629.55" text="Security Governance"><note>Security governance is a framework that provides oversight, accountability, and compliance</note></topic><topic id="34" parent="33" x="605.05" y="691.19" text="Metrics"><note>NIST 800-55
+- a standard for performance measurement for information security
+
+ISO/IEC 27004:2009
+- an international standard for information security measurement management</note></topic></topics><relations></relations></mindmap></simplemind-mindmaps>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.8.0" device-type="ipad"><mindmap><meta><guid guid="E9C35F94D2F693C7137121F8"></guid><title text="Domain 7\NBusiness Continuity and Disaster Recovery Planning"></title><page><visual-area x="-209.17" y="-191.95" width="1839.27" height="1057.68"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="180" x="1360.83" y="477.05"></scrollstate><selection type="node" id="5"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="500.00" y="500.00" text="Domain 7\NBusiness Continuity and Disaster Recovery Planning"></topic><topic id="1" parent="0" x="825.06" y="498.23" text="Business Continuity and\NDisaster Recovery"><note>The goal of disaster recovery is to minimize the effects of a disaster or disruption.
+=&gt; resume operation in a timely manner after a disaster hit the business 
+
+Continuity planning provides methods and procedures for dealing with longer-term outages and disasters.</note></topic><topic id="2" parent="1" x="966.34" y="467.72" text="BCM"><note>Business continuity management (BCM) is the holistic management process.
+
+The main objective of BCM is to allow the organization to continue to perform business operations under various conditions.</note></topic><topic id="3" parent="2" x="1040.75" y="460.28" text="BCP"><note>A business continuity plan (BCP) takes a broader approach to the problem. It is a plan how to get business back to its tracks.
+
+A BCP provides procedures for emergency responses, extended backup operations, and post-disaster recovery.</note></topic><topic id="4" parent="3" x="1113.29" y="453.03" text="PR"><note>The BCP team should identify the individuals who will interact with external players, such as the reporters, shareholders, customers, and civic officials. Response to the disaster should be done quickly and honestly, and should be consistent with any other organizational response.</note></topic><topic id="5" parent="2" x="1036.39" y="414.98" text="DRP"><note>Disaster recovery plan (DRP) is carried out when everything is still in emergency mode.
+It is a plan what to do immediately in case of emergency.
+
+It should contain information about how to deal with:
+- people
+- sw &amp; hw
+- emergency procedures
+- recovery procedures
+- facility issues
+- supplies</note></topic><topic id="6" parent="1" x="1055.43" y="625.59" text="Best practices"></topic><topic id="7" parent="6" x="1330.88" y="604.77" text="NIST 800-34"><note>Continuity Planning Guide for Information Technology Systems:
+
+1. Develop the continuity planning policy statement. Write a policy that provides the guidance necessary to develop a BCP, and that assigns authority to the necessary roles to carry out these tasks.
+
+2. Conduct the business impact analysis (BIA). Identify critical functions and systems and allow the organization to prioritize them based on necessity. Identify vulnerabilities and threats, and calculate risks.
+
+3. Identify preventive controls. Once threats are recognized, identify and implement controls and countermeasures to reduce the organization’s risk level in an economical manner.
+
+4. Develop recovery strategies. Formulate methods to ensure systems and critical functions can be brought online quickly.
+
+5. Develop the contingency plan. Write procedures and guidelines for how the organization can still stay functional in a crippled state.
+
+6. Test the plan and conduct training and exercises. Test the plan to identify deficiencies in the BCP, and conduct training to properly prepare individuals on their expected tasks.
+
+7. Maintain the plan. Put in place steps to ensure the BCP is a living document that is updated regularly.</note></topic><topic id="8" parent="7" x="1251.67" y="694.46" text="Continuity\NPolicy"><note>- integrate law and regulation requirements
+- define the scope, goals, roles
+- management approves policy</note></topic><topic id="9" parent="7" x="1339.66" y="771.55" text="BIA"></topic><topic id="10" parent="7" x="1455.83" y="835.36" text="Identify\Npreventive\Ncontrols"><note>- implement controls 
+- mitigate risk</note></topic><topic id="11" parent="7" x="1594.60" y="818.11" text="Develop\Nrecovery\Nstrategies"></topic><topic id="12" parent="7" x="1554.82" y="714.75" text="Develop BCP"></topic><topic id="13" parent="7" x="1522.40" y="622.27" text="Exercise, test,drill"></topic><topic id="14" parent="7" x="1461.11" y="557.16" text="Maintain BCP"></topic><topic id="15" parent="6" x="966.00" y="680.73" text="ISO/IEC 27031:2011"><note>ISO/IEC 27031:2011 Guidelines for information and communications technology readiness for business continuity. 
+
+This ISO/IEC standard that is a component of the overall ISO/IEC 27000 series</note></topic><topic id="16" parent="6" x="1028.64" y="560.00" text="BS 25999"><note>The British Standards Institute’s (BSI) standard for business continuity management (BCM). This BS standard has two parts:
+
+BS 25999-1:2006 Business Continuity Management Code of Practice General guidance that provides principles, processes, and terminology for BCM.
+
+BS 25999-2:2007 Specification for Business Continuity Management Specifies objective, auditable requirements for executing, operating, and enhancing a BCM system.</note></topic><topic id="17" parent="6" x="1069.34" y="680.90" text="ISO 22301"><note>ISO 22301 Pending International Standard for business continuity management systems. 
+
+The specification document against which organizations will seek certification.
+
+This standard will replace BS 25999-2.
+The earliest it will be published is mid-2012.</note></topic><topic id="18" parent="6" x="1146.83" y="677.49" text="GPG"><note>Business Continuity Institute’s Good Practice Guidelines (GPG) 
+
+BCM best practices, which are broken down into the following management and technical practices:
+
+Management Practices:
+-- Policy and Program Management
+-- Embedding BCM in the Organization’s Culture
+
+Technical Practices:
+-- Understanding the Organization
+-- Determining BCM Strategy
+-- Developing and Implementing a BCM Response
+-- Exercising, Maintaining, and Reviewing</note></topic><topic id="19" parent="6" x="1102.77" y="563.56" text="DRI"><note>DRI International Institute’s Professional Practices for Business Continuity Planners 
+
+Best practices and framework to allow for BCM processes, which are broken down into the following sections:
+
+- Program Initiation and Management
+- Risk Evaluation and Control
+- Business Impact Analysis
+- Business Continuity Strategies
+- Emergency Response and Operations
+- Business Continuity Plans
+- Awareness and Training Programs
+- Business Continuity Plan Exercise, Audit, and Maintenance
+- Crisis Communications
+- Coordination with External Agencies</note></topic><topic id="20" parent="0" x="589.06" y="358.23" text="BCP Project Components"></topic><topic id="21" parent="20" x="626.97" y="297.88" text="Coordinator"><note>Leader of the BCP team and will oversee the development, implementation, and testing of the continuity and disaster recovery plans.</note></topic><topic id="22" parent="20" x="719.63" y="328.42" text="Committee"><note>Should be made up of representatives from all department</note></topic><topic id="23" parent="20" x="421.91" y="193.87" text="BCP"></topic><topic id="24" parent="23" x="274.72" y="115.10" text="Scope"><note>BCP could be enterprise-wide or it can cover only portions of the organization.
+
+Another question is if the BCP supposed cover just large potential threats (huricanes, floods,..) or deal with smaller issues as well (connection failure, power loss)</note></topic><topic id="25" parent="23" x="340.54" y="113.37" text="Policy"><note>Supplies the framework, describes purpose of BCP.
+Content of the policy include scope, mission statement, principles, guidelines, standards.
+
+The BCP team produces and revise the policy, although top-tier management is responsible for it.</note></topic><topic id="26" parent="23" x="419.79" y="115.23" text="Project\Nmanagement"><note>A SWOT analysis can be carried out to ensure that the defined objectives within the scope can be accomplished.</note></topic><topic id="27" parent="26" x="383.90" y="58.41" text="SWOT"><note>Strengths Characteristics of the project team that give it an advantage over others
+
+Weaknesses Characteristics that place the team at a disadvantage relative to others
+
+Opportunities Elements that could contribute to the project’s success
+
+Threats Elements that could contribute to the project’s failure</note></topic><topic id="28" parent="26" x="455.36" y="55.76" text="Project plan"><note>A project plan should be developed that has the following components:
+
+- Objective-to-task mapping
+- Resource-to-task mapping
+- Workflows
+- Milestones
+- Deliverables
+- Budget estimates
+- Success factors
+- Deadlines
+
+Once the project plan is completed, it should be presented to management for written approval before any further steps are taken.</note></topic><topic id="29" parent="23" x="524.40" y="108.15" text="BIA"><note>A BIA (business impact analysis) is considered a functional analysis, in which a team collects data through interviews and documentary sources; documents business functions, activities, and transactions; develops a hierarchy of business functions; and finally applies a classification scheme to indicate each individual function’s criticality level.</note></topic><topic id="30" parent="29" x="605.02" y="-26.83" text=".data gathering\N.critical business functions identification\N.identify resources these functions depend upon\N.calculate how long these functions can survive without resources\N.identify vulnerabilities and threats\N.calculate the risk\N.document findings and report them to management"></topic><topic id="31" parent="30" x="821.71" y="-114.59" text="MTD"><note>Maximum tolerable downtime
+
+After this time period company may not be able to recover - deadline</note></topic><topic id="32" parent="31" x="822.18" y="-174.08" text="RTO"><note>Recovery Time Objective (RTO) is the earliest time period and a service level within which a business process must be restored after a disaster to avoid unacceptable consequences associated with a break in business continuity. The RTO value is smaller than the MTD value, because the MTD value represents the time after which an inability to recover significant operations will mean severe and perhaps irreparable damage to the organization’s reputation or bottom line. 
+
+The RTO assumes that there is a period of acceptable downtime.
+
+
+An RTO is the amount of time it takes to recover from a disaster</note></topic><topic id="33" parent="31" x="871.28" y="-173.65" text="WRT"><note>The Work Recovery Time (WRT) is the remainder of the overall MTD value. 
+
+RTO usually deals with getting the infrastructure and systems back up and running, and WRT deals with restoring data, testing processes, and then making everything “live” for production purposes.</note></topic><topic id="34" parent="30" x="768.63" y="-113.90" text="RPO"><note>The Recovery Point Objective (RPO) is the acceptable amount of data loss measured in time. 
+This value represents the earliest point in time at which data must be recovered. 
+The higher the value of data, the more funds or other resources that can be put into place to ensure a smaller amount of data is lost in the event of a disaster.
+
+An RPO is the amount of acceptable data, measured in time, that can be lost from the same event.</note></topic><topic id="35" parent="23" x="929.24" y="226.90" text="Recovery"><note>Recovery procedures</note></topic><topic id="36" parent="35" x="774.61" y="150.02" text="Disruption"></topic><topic id="37" parent="36" x="712.29" y="61.24" text="Nondisaster"><note>Disruption of a service due to a device malfunction or failure</note></topic><topic id="38" parent="36" x="790.48" y="65.03" text="Disaster"><note>A disaster is an event that causes the entire facility to be unusable for a day or longer</note></topic><topic id="39" parent="36" x="836.56" y="107.74" text="Catastrophe"><note>Major disruption that destroys the facilities all together</note></topic><topic id="40" parent="35" x="593.42" y="125.48" text="MTBF"><note>Mean time between failures
+- estimated lifetime of a piece of equipment, calculated by the vendor</note></topic><topic id="41" parent="35" x="646.65" y="128.62" text="MTTR"><note>Mean time to repair
+- an estimate of how long it will take to fix a piece of equipment</note></topic><topic id="42" parent="35" x="786.19" y="256.59" text="Hot site"><note>- fully configured and ready to operate within few hours
+
+Most expensive of the three types of offsite facilities.
+
+This is a subscription service (not owned and maintained by the company)</note></topic><topic id="43" parent="42" x="798.59" y="299.50" text="Rolling"><note>Mobile version</note></topic><topic id="44" parent="35" x="864.81" y="275.49" text="Warm site"><note>- partially configured with some equipment, such as HVAC,and foundational infrastructure components, but not the actual computers.
+
+Most of the companies use warm site, which have some devices such as disk drives, tape drives, and controllers, but very little else.
+
+So the same as hot site - computers</note></topic><topic id="45" parent="35" x="715.37" y="241.04" text="Cold site"><note>Eg empty data center</note></topic><topic id="46" parent="35" x="971.48" y="270.49" text="Tertiary site"><note>Secondary backup site - backup to backup or plan B</note></topic><topic id="47" parent="46" x="1053.34" y="311.64" text="Reciprocal agreement"><note>Company A agrees to allow company B to use its facilities if company B is hit by a disaster,and vice versa.
+
+Cheaper then offsite
+
+A reciprocal agreement is not enforceable !!!</note></topic><topic id="48" parent="46" x="915.19" y="315.70" text="Mutual aid agreement"><note>More than two organizations agree to help one other in case of an emergency.</note></topic><topic id="49" parent="35" x="1069.21" y="272.57" text="Redundant site"><note>Or mirrored site, configured exactly as the primary site.
+The business-processing capabilities between the two sites can be completely synchronized.
+
+This is property of the company, not a subscription service</note></topic><topic id="50" parent="35" x="1171.99" y="258.68" text="Multiple\Nprocessing\Ncenters"><note>Organization may have more interconnected facilities and switch between them in order if seconds</note></topic><topic id="51" parent="35" x="1050.71" y="90.50" text="Backups"></topic><topic id="52" parent="51" x="1121.64" y="43.24" text="HW"></topic><topic id="53" parent="52" x="1130.58" y="1.05" text="Disk shadowing"><note>Two or more hdd are used to hold the exact same data.</note></topic><topic id="54" parent="51" x="1125.51" y="88.38" text="SW"></topic><topic id="55" parent="54" x="1238.95" y="139.41" text="Remote journaling"><note>Usually includes moving only the journal or transaction logs to the offsite facility.
+These logs contains deltas - this can be used to rebuild the record</note></topic><topic id="56" parent="54" x="1116.60" y="139.40" text="Electronic vaulting "><note>Makes copies of files as they are modified  and periodically transmit them to an offsite backup site.
+
+This type of backup takes place in many financial institutions (change to the customer account is made locally and to a remote DB)</note></topic><topic id="57" parent="54" x="1288.61" y="100.49" text="Tape vaulting"><note>Tape vaulting
+- automatic (electronic)
+- manual
+
+Electronic transmits data over a network to the offsite's facility tape device</note></topic><topic id="58" parent="54" x="1229.18" y="50.05" text="Replication"></topic><topic id="59" parent="58" x="1245.23" y="-15.60" text="Asynchronous "><note>Primary and secondary data volumes are out of sync (seconds, hours, dates)</note></topic><topic id="60" parent="58" x="1346.28" y="-14.79" text="Synchronous "><note>Primary and secondary repositories are always in sync</note></topic><topic id="61" parent="51" x="973.26" y="42.57" text="Personnel"><note>Executive succession plan
+
+If someone in a senior executive retires, leaves, dies, the organization has predetermined steps to carry out to protect the company.</note></topic><topic id="62" parent="51" x="973.17" y="93.49" text="Offsite"></topic><topic id="63" parent="51" x="1054.41" y="-35.19" text="Types"></topic><topic id="64" parent="63" x="1051.90" y="-76.47" text="Incremental"><note>Backs up all files that have been changed since the last full backup or incremental backup</note></topic><topic id="65" parent="63" x="962.15" y="-75.76" text="Differential"><note>Saves files that have been modified since last full backup</note></topic><topic id="66" parent="63" x="1132.03" y="-74.77" text="Full backup "></topic><topic id="67" parent="0" x="223.06" y="370.23" text="Preventive Measures"><note>Fortification of the facility in its construction materials
+
+Redundant servers and communications links
+
+Redundant power lines coming in through 
+different transformers
+
+Redundant vendor support
+
+Purchasing of insurance
+
+Purchasing of uninterruptible power supplies 
+(UPSs) and generators
+
+Data backup technologies
+
+Media protection safeguards
+
+Increased inventory of critical equipment
+
+Fire detection and suppression systems</note></topic><topic id="68" parent="0" x="144.06" y="506.23" text="Recovery Strategies"></topic><topic id="69" parent="68" x="20.23" y="508.40" text="HA"><note>High availability
+Is a combination of technologies and processes that work together to ensure that something is always up and running</note></topic><topic id="70" parent="69" x="-74.23" y="510.05" text="Redundancy"><note>Redundancy is commonly built into the network at a routing protocol level. The routing protocols are configured so if one link goes down or gets congested, then traffic is routed over a different network link. Redundant hardware can also be available so if a primary device goes down, the backup component can be swapped out and activated.</note></topic><topic id="71" parent="70" x="-178.17" y="511.87" text="Failover"><note>If a technology has a failover capability, this means that if there is a failure that cannot be handled through normal means, then processing is “switched over” to a working system.</note></topic><topic id="72" parent="69" x="-47.08" y="443.41" text="Fault tolerance"><note>Fault tolerance is the capability of a technology to continue to operate as expected even if something unexpected takes place (a fault).</note></topic><topic id="73" parent="0" x="197.06" y="635.23" text="Insurance"><note>During the BIA, the team most likely uncovered several threats that the organization could not prevent. Taking on the full risk of these threats often is dangerous, which is why insurance exists.
+
+The company’s insurance should be reviewed annually, because threat levels may change and the company may expand into new ventures that need to be properly covered.</note></topic><topic id="74" parent="73" x="89.51" y="657.99" text="business\Ninterruption\Ninsurance"><note>A company could choose to purchase a business interruption insurance policy. With this type of policy, if the company is out of business for a certain length of time, the insurance company will pay for specified expenses and lost earnings.</note></topic><topic id="75" parent="73" x="167.00" y="709.24" text="Accounts receivable"><note>Another policy that can be bought insures accounts receivable. If a company cannot collect on its accounts receivable for one reason or another, this type of coverage covers part or all of the losses and costs.</note></topic><topic id="76" parent="0" x="440.06" y="653.23" text="Recovery and\NRestoration"><note>The BCP must outline the specific teams, their responsibilities, and notification procedures</note></topic><topic id="77" parent="76" x="296.28" y="687.84" text="Restoration team"><note>The restoration team should be responsible for getting the alternate site into a working and functioning environment</note></topic><topic id="78" parent="76" x="326.79" y="737.07" text="Salvage team"><note>The salvage team should be responsible for starting the recovery of the original site.</note></topic><topic id="79" parent="76" x="366.97" y="798.51" text="Damage assessment"><note>- Determine the cause of the disaster.
+- Determine the potential for further damage.
+- Identify the affected business functions and areas.
+- Identify the level of functionality for the critical resources.
+- Identify the resources that must be replaced immediately.
+- Estimate how long it will take to bring critical functions back online.
+- If it will take longer than the previously estimated MTD values to restore operations, then a disaster should be declared and the BCP should be put into action.</note></topic><topic id="80" parent="76" x="630.18" y="791.50" text="Reconstitution phase"><note>When it is time for the company to move back into its original site or a new site, the company enters the reconstitution phase.</note></topic><topic id="81" parent="76" x="497.70" y="800.68" text="Recovery phase"><note>Once the damage assessment is completed and the plan is activated, various teams must be deployed, which signals the company’s entry into the recovery phase.</note></topic><topic id="82" parent="0" x="786.84" y="728.23" text="Testing and\NRevising the Plan"></topic><topic id="83" parent="82" x="673.98" y="727.66" text="COOP"><note>Continuity of operations is U.S. Government initiative. BCP and COOP have the same basic goals, but BCP is commonly private-sector oriented and COOP is commonly public-sector oriented.</note></topic><topic id="84" parent="82" x="683.74" y="615.48" text="Checklist"><note>Aka desk check test, in this type if test copies of The BCP are distributed to the different departments for review.
+
+The goal is to check if some things have not been omitted</note></topic><topic id="85" parent="82" x="733.42" y="573.78" text="Structured\Nwalk-through"><note>Representatives from each department or functional area come together and go over the plan to ensure its accuracy.
+
+The group walks through different scenarios of the plan from beginning to end to make sure nothing was left out. This also raises the awareness of team members about the recovery procedures.</note></topic><topic id="86" parent="82" x="812.89" y="554.79" text="Simulation"><note>All employees who participate in operational and support functions, or their representatives, come together to practice executing the disaster recovery plan based on a specific scenario.</note></topic><topic id="87" parent="82" x="852.84" y="594.00" text="Parallel test"><note>A parallel test is done to ensure that the specific systems can actually perform adequately at the alternate offsite facility. 
+
+Some systems are moved to the alternate site and processing takes place. The results are compared with the regular processing that is done at the original site. This points out any necessary tweaking or reconfiguring.</note></topic><topic id="88" parent="82" x="888.35" y="632.10" text="Full interruption"><note>This type of test is the most intrusive to regular operations and business productivity. The original site is actually shut down, and processing takes place at the alternate site.</note></topic><topic id="89" parent="82" x="855.19" y="782.62" text="Maintaining"><note>- integrate into change control process
+- assign responsibilities
+- update plan
+- distribute after update</note></topic></topics><relations><relation source="8" target="9"></relation><relation source="9" target="10"></relation><relation source="10" target="11"></relation><relation source="11" target="12"></relation><relation source="12" target="13"></relation><relation source="13" target="14"></relation><relation source="24" target="25"></relation><relation source="79" target="81"></relation><relation source="81" target="80"></relation></relations></mindmap></simplemind-mindmaps>

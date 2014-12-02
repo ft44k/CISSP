@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.8.0" device-type="ipad"><mindmap><meta><guid guid="FF07781FF7F200EC8765FD92"></guid><title text="Domain 3\NSecurity Architecture and Design"></title><page><visual-area x="-184.72" y="0.00" width="1590.78" height="847.56"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="94" x="195.28" y="-75.00"></scrollstate><selection type="node" id="30"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="495.94" y="439.95" text="Domain 3\NSecurity Architecture and Design"></topic><topic id="1" parent="0" x="734.92" y="502.00" text="Computer Architecture"></topic><topic id="2" parent="1" x="865.65" y="507.49" text="CPU"></topic><topic id="3" parent="2" x="952.57" y="506.56" text="Multiprocessing\N.symmetric mode\N.asymmetric mode"></topic><topic id="4" parent="1" x="892.70" y="447.54" text="ISO/EIC 42010:2007"><note>International standard that provides guidelines on how to create and maintain system architectures
+
+International standard on system architecture to allow for better quality, interoperability, extensibility,portability and security....</note></topic><topic id="5" parent="1" x="897.41" y="570.12" text="Operating system\Ncomponents"></topic><topic id="6" parent="5" x="1032.20" y="573.50" text="Process management"></topic><topic id="7" parent="6" x="1184.89" y="577.46" text="Cooperative multitasking\NPreemptive multitasking"></topic><topic id="8" parent="5" x="1018.33" y="616.81" text="Process isolation"></topic><topic id="9" parent="8" x="1205.36" y="646.87" text=".encapsulation of objects\N.time multiplexing of shared resources\N.naming distinctions\N.virtual memory mapping"></topic><topic id="10" parent="5" x="1015.78" y="667.31" text="Memory management"></topic><topic id="11" parent="10" x="1148.95" y="715.89" text="Memory types"></topic><topic id="12" parent="11" x="1254.75" y="719.56" text="RAM"></topic><topic id="13" parent="12" x="1359.56" y="729.53" text=".SRAM\N.DRAM\N.SDRAM\N.EDO RAM\N.BEDO RAM\N.DDR SDRAM "><note>SRAM or static RAM don't need continuous refreshing as DRAM, but it needs more transistors = bigger,more expensive, but faster
+Usually has been used in cache
+
+SDRAM, synchronized with the CPU so the speed is increased
+
+EDO RAM, faster than DRAM, because it can capture the next block of data while the first block is being sent to the CPU 
+
+BEDO RAM, builds upon EDO, B stands for burst, which means it can send more data at once
+
+DDR SDRAM, carries out operations on the rising and falling cycles of a clock pulse. So instead 1 operation per pulse it makes 2</note></topic><topic id="14" parent="11" x="1241.75" y="789.56" text="ROM"><note>Nonvolatile memory type</note></topic><topic id="15" parent="14" x="1347.71" y="817.19" text=".PROM\N.EPROM\N.EEPROM"><note>PROM
+Can be programmed only once, the voltage used during this process burns out the fuses that connect the memory cells
+
+EPROM
+E means erasable by UV light
+
+EEPROM
+Electrically erasable, one byte at time
+
+Flash memory
+Erasing function takes place in blocks</note></topic><topic id="16" parent="5" x="1068.96" y="529.24" text="Interrupts"></topic><topic id="17" parent="16" x="1171.89" y="508.72" text=".programmed I/O\N.interrupt-driven I/O\N.I/O using DMA\N.premapped I/O\N.fully mapped. I/O"><note>Programmable I/O
+CPU sends data to I/O and polls the device to see if it is ready....waste of time
+
+Interrupt-driven I/O
+When the device is done with its job, it send an interrupt to the CPU
+
+I/O using DMA (direct memory access)
+Way of transferring data between a device and the system memory without using CPU
+
+Premapped I/O
+Device is trusted and can access the memory directly
+
+Fully mapped I/O
+Device is not trusted , physical address is not given to the device, instead the device is working with logical addresses</note></topic><topic id="18" parent="0" x="836.92" y="382.00" text="Operating System\NArchitectures"></topic><topic id="19" parent="18" x="972.87" y="378.97" text="Monolithic "><note>All OS processes run in the kernel mode
+
+MS-DOS, Windows 3.x</note></topic><topic id="20" parent="18" x="962.47" y="339.38" text="Layered "><note>Separates OS functionalities into hierarchical layers.
+In this approach the system operates in kernel mode ring 0.
+Layers allowed data hiding.
+
+THE, VAX/VMS, Multics, Unix
+
+Downfalls are performance, complexity, security.</note></topic><topic id="21" parent="18" x="965.75" y="302.24" text="Microkernel"><note>Smaller subset of critical kernel processes focused mainly on memory management and interprocess communication. Other components work from the user space..but this turned out to cause a lot of performance issues, because processing requires so many mode transitions.</note></topic><topic id="22" parent="18" x="972.30" y="262.05" text="Hybrid microkernel"><note>Microkernel still exists and carries out mainly interprocess communication and memory management responsibilities. 
+All of the other OS services work in client/server model. (Executive services)
+
+So all OS processes run in kernel mode. Core processes run within a microkernel and others run in a client/ server model.</note></topic><topic id="23" parent="0" x="678.92" y="357.00" text="System Security\NAchitecture"><note>In 1972 US government released a report that outlined basic and foundational security requirements of counter systems that it would deem acceptable for purchase and deployment.
+
+As time went by this resulted in Trusted Computer System Evaluation Criteria</note></topic><topic id="24" parent="23" x="789.61" y="270.54" text="Trusted Computing Base"><note>Collection of all the HW, SW, and firmware components within a system that provide security and enforce the system's security policy
+
+Trusted path
+Trustworthy software channel that is used for communication between two processes that cannot be circumvented.</note></topic><topic id="25" parent="23" x="797.49" y="316.73" text="Security perimeter"><note>Mechanism used to delineate between the components within and outside of the trusted computing base</note></topic><topic id="26" parent="23" x="630.87" y="297.34" text="Reference monitor"><note>Or an abstract machine, it is an access control concept that defines a set of design requirements of a reference validation mechanism (security kernel), which enforces an access control policy over subjects' ability to perform operations on objects on a system</note></topic><topic id="27" parent="23" x="701.87" y="233.34" text="Security kernel"><note>Implements the concept of the reference monitor
+
+The security kernel must isolate processes carrying out the reference monitor concept, must be tamperproof, must be invoked for each access attempt</note></topic><topic id="28" parent="0" x="498.06" y="293.34" text="Security Models"><note>Model is symbolic representation of a policy.
+Policy provides the abstract goals, model tells us the do's and don'ts necessary to fulfill these goals.</note></topic><topic id="29" parent="28" x="498.84" y="239.97" text="State Machine Models"><note>A state of a system is a snapshot of a system at one moment of time.
+Developers must identify all initial states and outline how these can be changed (accepted inputs),so the various number of final states still ensure that the system is safe.</note></topic><topic id="30" parent="29" x="561.93" y="193.88" text="Information flow models"><note>Simple -&gt; reading
+* -&gt; writing
+
+Covert channels
+is a way for an entity to receive information in an unauthorized manner. It is an information flow that is not controlled by a security mechanism.
+
+2 types of covert channels
+a) covert storage channel
+b) covert timing channel 
+
+a) presence of a lock on a file could be interpreted as 1
+b) eg using CPU time, using 1, rejecting 0</note></topic><topic id="31" parent="30" x="633.66" y="147.36" text="Integrity Models"><note>Goals of integrity models
+1. Prevent unauthorized users from making modifications
+2. Prevent authorized users from making improper modifications (separation of duties)
+3. Maintain internal and external consistency (well-formed transaction)</note></topic><topic id="32" parent="31" x="796.85" y="101.76" text="Clark-Wilson Model"><note>Uses following elements:
+
+Users - active agents
+Transformation procedures TPs - programmed abstract operation like read,write,..
+Constrained data items CDIs - can be manipulated only by TPs
+Unconstrained data items UDIs - can be manipulated by users via primitive read,write operations
+Integrity verification procedures IVPs - check the consistency of CDIs with external reality
+
+Well formed transaction 
+is a series of transactions that are carried out to transfer the data from one consistent state to the other.
+
+Clark-Wilson addresses each of 3 integrity goals.</note></topic><topic id="33" parent="31" x="696.75" y="102.25" text="Biba model"><note>Biba addresses the integrity of data within applications. So the Biba model uses a lattice of integrity levels instead of security levels.
+
+3 main rules:
+1. Simple integrity axiom ( no read down)
+2. *-integrity axiom  (no write up)
+3. Invocation property - subject cannot request service of higher integrity
+
+Biba model addresses only the first goal of integrity models!</note></topic><topic id="34" parent="30" x="511.08" y="136.50" text="Confidentiality models"></topic><topic id="35" parent="34" x="509.91" y="95.80" text="Bell-LaPadula"><note>Was developed to make sure secrets stay secrets, so it address confidentiality only(don't care about integrity)
+
+All MAC systems are based on Bell-LaPadula model.
+
+Multilevel security system - users with different clearances use the system, and the system process data at different classification levels.
+
+3 main rules:
+1. simple security rule ( no read up)
+2. *-property rule (no write down)
+3. strong star property rule
+
+1. Subject at given at a given security level cannot read data that reside t a higher security level. 
+
+2.subject in a given security level cannot write information to a lower security level
+
+3.subject can read and write only objects at the same level only
+
+Tranquility principle - subjects' and objects' security levels cannot change in a manner that violates the security principle</note></topic><topic id="36" parent="30" x="781.05" y="153.21" text="Brewer and Nash Model"><note>Also known as Chinese Wall model
+This model allows for dynamically changing access controls  that protect against conflicts of interest.</note></topic><topic id="37" parent="29" x="343.30" y="191.71" text="Noninference Model"><note>Intent of this model is to address covert channels  and inference attacks.</note></topic><topic id="38" parent="29" x="339.79" y="241.31" text="Lattice model"><note>A lattice model provides an upper bound and a lower bound of authorized access for subjects</note></topic><topic id="39" parent="29" x="331.38" y="288.97" text="Graham-Denning model"><note>This model shows how subjects and objects should be created and deleted. It also addresses how to assign specific access rights.</note></topic><topic id="40" parent="29" x="362.20" y="102.12" text="Harrison-Ruzzo-Ullman"><note>Deals with access rights of subjects and the integrity of those rights.
+This model shows how a finite set of procedures can be available to edit the access rights of a subject.</note></topic><topic id="41" parent="0" x="180.82" y="304.26" text="Security Modes\Nof Operation"></topic><topic id="42" parent="41" x="163.83" y="245.18" text="Dedicated Security Mode"><note>"Our system holds secret data and we can all access it"
+
+All users must have
+1. Proper clearance for all information on the system
+2. Formal access approval for all information on the system
+3. A signed NDA for all information on the system
+4. A valid need-to-know for all information
+5. All users can access all data</note></topic><topic id="43" parent="41" x="39.26" y="255.69" text="System\NHigh-Security\NMode"><note>"Our system holds only secret data, but only some of us can access all of it"
+
+All users must have
+1. Proper clearance for all information on the system
+2. Formal access approval for all information on the system
+3. A signed NDA for all information on the system
+4. A valid need-to-know for some information on the system
+5. All users can access some data, based on their need-to-know</note></topic><topic id="44" parent="41" x="40.54" y="362.76" text="Multilevel Security Mode"><note>"Our system has various classifications of data, and each individual has the clearance and need-to-know to access only individual pieces of data."
+
+Bell-LaPadula is an example of this model
+
+All users must have
+1. Proper clearance for some of the information on the system
+2. Formal access approval for some of the information on the system
+3. A signed NDA for all information on the system
+4. A valid need-to-know for some of the information on the system
+5. All users can access some data, based on their need-to-know, clearance, and formal access approval</note></topic><topic id="45" parent="41" x="36.76" y="314.21" text="Compartment\NSecurity Mode"><note>"Our system has various classifications of data, and each individual has the clearance to access all of the data, but not necessarily the need-to-know."
+
+All users must have
+1. Proper clearance for the highest level of data classification on the system
+2. Formal access approval for some information on the system
+3. A signed NDA for all information they will access
+4. A valid need-to-know for some of the information on the system
+5. All users can access some data, based on their need-to-know and formal access approval</note></topic><topic id="46" parent="41" x="196.43" y="361.79" text="Trust and assurance"><note>Trust means that a system uses all of its protection mechanism properly
+
+Assurance is the level of confidence you have in this trust and that the protection mechanism behave properly.</note></topic><topic id="47" parent="0" x="299.96" y="541.68" text="Systems\NEvaluation\NMethods"></topic><topic id="48" parent="47" x="95.84" y="497.77" text="The Orange Book and\Nthe Rainbow Series"></topic><topic id="49" parent="48" x="-48.53" y="503.88" text="The Rainbow series"><note>These books provides detailed information and interpretations of certain orange book requirements and describe the evaluation  processes.</note></topic><topic id="50" parent="49" x="-149.72" y="505.00" text="Red book"><note>Trusted network interpretation TNI
+addresses security evaluation topics for networks and network components.</note></topic><topic id="51" parent="48" x="26.49" y="435.02" text="Orange book\NTCSEC"><note>Trusted Computer System Evaluation Criteria
+Addresses single-system security
+TCSEC addresses confidentiality, but not integrity. Functionality of sec mechanism and the assurance of those mechanism are not evaluated separately, but rather are combined and rated as whole.
+
+The orange book mainly addresses government and military requirements.
+
+Ratings
+D - minimal protection
+C - discretionary protection
+C1 - discretionary security protection
+C2 - controlled access protection
+B - mandatory protection
+B1 - labeled security
+B2 - structured protection
+B3 - security domains
+A - verified protection
+A1 - verified design</note></topic><topic id="52" parent="47" x="112.93" y="579.55" text="Information\NTechnology\NSecurity Evalution Criteria"><note>ITSEC separates the functionality and assurance  ratings.
+
+F1-10 rate the functionality
+E0-6 rate the assurance
+Higher is better
+
+E0 = D
+F1 + E1 = C1
+F2 + E2 = C2
+... B1,2,3
+...A1</note></topic><topic id="53" parent="47" x="183.76" y="651.84" text="Common Criteria"><note>Provides more flexibility by evaluating a product against a protection profile, which is structured to address a real-world security needs.
+
+After the evaluation the product is assigned an Evaluation Assurance Level EAL</note></topic><topic id="54" parent="53" x="321.96" y="665.30" text="ISO/EIC 15408"><note>The international standard used as the basis for the evaluation of security properties of products under the CC framework
+
+15408-1 introduction and general evaluation model
+15408-2 security functional components
+15408-3 security assurance components</note></topic><topic id="55" parent="53" x="260.35" y="712.63" text="Evaluation\NAssurance Level"><note>EAL1 - functionally tested
+EAL2 - structurally tested
+EAL3 - methodically tested and checked
+EAL4 - methodically designed,tested,reviewed
+EAL5 - semiformally designed and tested
+EAL6 - semiformally verified design and tested
+EAL7 - formally verified design and tested
+
+Where formally verified means it is based on a model that can be mathematically proven.</note></topic><topic id="56" parent="53" x="141.89" y="700.27" text="Protection profiles"><note>This is the mechanism used to describe a real-world need for a product. It describe the environmental assumptions, the objectives, and the functional and assurance level expectation.
+
+Contains the following sections:
+
+1. Descriptive elements - name of the profile and description of the security problem to be solved
+
+2. Rationale - justifies the profile and gives more detailed description of the problem
+
+3. Functional requirements - establish a protection boundary
+
+4. Development assurance requirements - identifies the requirements on the product during the development phases from design to implementation
+
+5. Evaluation assurance requirements - establish the type and intensity of the evaluation</note></topic><topic id="57" parent="0" x="447.92" y="609.00" text="Certification vs\NAccreditation"><note>Certification is a technical review that assesses the security mechanisms and evaluates their effectiveness.
+
+Accreditation is management's official acceptance of the information in the certification process findings</note></topic><topic id="58" parent="0" x="601.92" y="616.00" text="Open vs Closed Systems"><note>Open system is built upon open standards, protocols, and interfaces. This type of architecture provides interoperability between products.
+
+Closed system are  proprietary.</note></topic><topic id="59" parent="0" x="748.92" y="571.00" text="Threats Review"></topic><topic id="60" parent="59" x="766.57" y="666.91" text=".maintanance hooks\N.time-of-Check/Time-of-use attacks"><note>Maintenance hooks are type of back doors, they are used during he development stage by programmers, they should be removed before the product release
+
+TOC/TOU attacks when attacker jumps in between two tasks and modifies something to control the result
+
+Race condition attack is when attacker makes processes execute out of sequence to control the result.</note></topic></topics><relations></relations></mindmap></simplemind-mindmaps>

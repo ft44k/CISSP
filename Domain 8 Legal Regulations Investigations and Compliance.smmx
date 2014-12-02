@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.8.0" device-type="ipad"><mindmap><meta><guid guid="ED185095C8AB4A0489136916"></guid><title text="Domain 8\NLegal, Regulations, Investigations, and Compliance"></title><page><visual-area x="-383.29" y="0.00" width="1517.77" height="948.05"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="180" x="283.71" y="821.00"></scrollstate><selection type="node" id="76"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="500.00" y="500.00" text="Domain 8\NLegal, Regulations, Investigations, and Compliance"></topic><topic id="1" parent="0" x="797.97" y="430.18" text="Complexities in\NCybercrime"></topic><topic id="2" parent="1" x="958.84" y="421.97" text="Council of Europe\NConvention on Cybercrime"><note>Attempt to create international response to cybercrime</note></topic><topic id="3" parent="1" x="917.09" y="370.93" text="OECD"><note>Organization for Economic Co-Operation and Development 
+
+Guidelines on the protection of privacy and Transborder Flows of Personal Data rules.</note></topic><topic id="4" parent="1" x="944.61" y="479.23" text="European Union\NPrinciples on Privacy"><note>This is set of principles addresses using and transmitting information considered private in nature.</note></topic><topic id="5" parent="4" x="1093.48" y="489.89" text="Safe Harbor"><note>Helps US companies comply with EU privacy principles.
+
+Rules:
+
+1. Notice
+Individuals must be informed that their data is being collected and how it will be used
+
+2. Choice
+Individuals must have choice to opt out of the collection
+
+3. Onward transfer
+Transfer of data to third parties may only occur to other organizations that follow adequate data protection principles
+
+4. Security
+Reasonable efforts must be made to prevent loss of collected data
+
+5. Data integrity
+Data must be relevant and reliable for the purpose it was collected for
+
+6. Access
+Individuals must be able to access information held about them, and correct or delete it if it is inaccurate
+
+7. Enforcement 
+There must be effective means of enforcing these rules</note></topic><topic id="6" parent="4" x="1057.33" y="538.81" text="Data Protection Directive"><note>The principles and how they are to be followed</note></topic><topic id="7" parent="1" x="917.64" y="317.85" text="Import/Export\Nrequirements"></topic><topic id="8" parent="7" x="976.02" y="263.05" text="Wassenaar Arrangement"><note>The Wassenaar Arrangement (full name: The Wassenaar Arrangement on Export Controls for Conventional Arms and Dual-Use Goods and Technologies) is a multilateral export control regime (MECR) with 41 participating states including many former COMECON (Warsaw Pact) countries.
+
+It is the successor to the Cold War-era Coordinating Committee for Multilateral Export Controls (COCOM), and was established on 12 July 1996, in Wassenaar, the Netherlands, which is near The Hague. The Wassenaar Arrangement is considerably less strict than COCOM, focusing primarily on the transparency of national export control regimes and not granting veto power to individual members over organizational decisions. A Secretariat for administering the agreement is located in Vienna, Austria. Like COCOM, however, it is not a treaty, and therefore is not legally binding.</note></topic><topic id="9" parent="7" x="1007.24" y="318.23" text="Import"><note>Some countries like China, Russia, Iran, Iraq have cryptographic import restrictions...</note></topic><topic id="10" parent="1" x="786.55" y="239.06" text="Legal systems"></topic><topic id="11" parent="10" x="782.63" y="173.40" text="Civil Code Law"><note>Rule based not precedence based.
+
+Lower courts are not compelled to follow the decisions made by higher courts</note></topic><topic id="12" parent="10" x="878.31" y="175.62" text="Common Law "><note>Developed in England
+Based on previous interpretation of laws
+Today, common law uses judges and juries of peers.
+If the jury trial is waived, the judge decides the facts.
+
+Criminal =&gt; jail
+
+Civil/tort =&gt; financial restitution, community service
+
+Administrative =&gt; deals with regulatory standards</note></topic><topic id="13" parent="10" x="679.09" y="175.93" text="Religious law"><note>Based on religious beliefs of the region
+
+Cover all aspects of human life
+
+Law, in the religious sense, also include codes of ethics and morality, which are upheld  and required by God.
+
+Hindu law
+Sharia law - Islamic
+Halakha - jewish</note></topic><topic id="14" parent="10" x="680.08" y="219.65" text="Mixed law"><note>Two or more law systems are used together and apply cumulatively or interactively
+
+Most often consist of civil and common law
+
+Holland , Canada, South Africa</note></topic><topic id="15" parent="10" x="681.19" y="261.32" text="Customary"><note>Deals mainly with personal conduct and patterns of behavior
+
+Based on traditions and customs of the region</note></topic><topic id="16" parent="0" x="598.63" y="387.40" text="Intellectual Property Laws"></topic><topic id="17" parent="16" x="449.14" y="313.58" text="Trade Secret"><note>Protects certain type of information or resource from unauthorized use or disclosure. 
+
+Companies use NDA where employees confirm that they understand its content and promise not to share the company's trade secrets</note></topic><topic id="18" parent="16" x="584.14" y="314.69" text="Copyright"><note>Protects the right of an author to control the public distribution, reproduction,display, and adaptation of the original work</note></topic><topic id="19" parent="18" x="574.62" y="236.81" text="Digital Millennium\NCopyright Act"><note>US law that criminalizes the production and dissemination of technologies, devices, or services that circumvent access control measures that are put into place to protect copyright material.</note></topic><topic id="20" parent="18" x="453.85" y="234.91" text="Copyright directive"><note>European version of DMCA</note></topic><topic id="21" parent="16" x="668.98" y="315.44" text="Trademark"><note>Protects a word, symbol, sound, shape, color, or combination of these
+
+
+WIPO - World Intellectual Property Organization is the agency of the UN, oversees registration</note></topic><topic id="22" parent="16" x="523.59" y="313.05" text="Patent"><note>Patents are given to individuals or companies to grant them legal ownership of, and enable them to exclude others from using or copying, he invention covered by the patent.
+
+Patent is up usually 20 years
+
+It is the strongest form of intellectual property protection.</note></topic><topic id="23" parent="0" x="210.41" y="216.40" text="Privacy"></topic><topic id="24" parent="23" x="299.37" y="193.87" text="PII"><note>Personally Identifiable Information
+is data that can be used to uniquely identify, contact, or locate a single person or can be used with other sources to uniquely identify a single individual.
+
+- full name
+- national ID
+- IP address
+- vehicle reg number
+- drivers license
+- face, fingerprint or handwriting
+- credit card numbers
+- digital identity
+- birthday
+- birthplace
+- genetic information</note></topic><topic id="25" parent="23" x="297.27" y="143.13" text="REP"><note>Reasonable expectation of privacy
+
+If it is not specifically explained to an employee that monitoring is possible and or probable, when the monitoring takes place he could claim that his privacy rights have been violated</note></topic><topic id="26" parent="23" x="100.60" y="170.91" text="Government regulations"></topic><topic id="27" parent="26" x="-42.10" y="157.28" text="SOX"><note>Sarbanes-Oxley act
+
+Horizontal regulation
+
+Was created in the wake of corporate scandals and fraud.
+
+Requirements how companies must track , manage, and report on financial information.
+
+Processes and controls must be in place to protect the data stored on computers.
+
+Failure to comply can lead to financial penalties and jail for executives.</note></topic><topic id="28" parent="26" x="32.89" y="118.66" text="HIPAA"><note>Healy insurance Portability and Accountability Act
+
+Vertical regulation
+
+Procedures for storage, use, and transmission of personal medical information</note></topic><topic id="29" parent="26" x="52.07" y="246.20" text="GLBA"><note>Gramm-Leach-Bliley Act
+
+Vertical regulation
+
+Requires financial institutions to develop privacy notices and give their customers the option to prohibit financial institutions from sharing their information with nonaffiliated 3th parties.</note></topic><topic id="30" parent="26" x="87.28" y="87.91" text="Basel II"><note>System for establishing the minimum amount of capital that financial institution are required to keep on hand.</note></topic><topic id="31" parent="26" x="-65.58" y="201.22" text="Federal Privacy Act"><note>Applies to records and documents developed by specific branches of the federal government.
+
+It says that agency cannot disclose information without written permission from the individual.
+
+So agencies can gather only relevant informations about individuals and share this information only with approval.</note></topic><topic id="32" parent="26" x="107.71" y="217.84" text="FISMA"><note>Federal Information Security Management Act
+
+Law that requires every federal agency to create, document, and implement an agency-wide security program to provide protection for the information 
+
+It requires to conduct annual reviews of the security program and report the result to  Office of Management and Budget OMB</note></topic><topic id="33" parent="26" x="-105.21" y="112.09" icon="computer" text="Computer fraud and abuse act"><note>Amended by USA Patriot act and by Identity Theft Enforcement and Restitution Act
+
+It is the primary US antihacking statute.</note></topic><topic id="34" parent="26" x="-5.50" y="32.62" text="Economic Espionage act"><note>Provides structure for dealing with these types of cases and further defines trade secret to be technical, business, engineering, scientific, financial.
+
+This act enables FBI to investigate industrial and corporate espionage cases.</note></topic><topic id="35" parent="26" x="-38.65" y="244.20" text="Patriot Act"><note>Reduced restriction on law enforcement agencies
+
+Expanded the definition of terrorism to include domestic terrorism
+
+Expanded possibility to regulate financial transactions</note></topic><topic id="36" parent="26" x="142.97" y="122.58" text="PIPEDA"><note>Personal Information Protection and Electronic Document Act
+
+Canadian law that deals with protection of personal information</note></topic><topic id="37" parent="23" x="228.50" y="114.02" text="Self-regulation"></topic><topic id="38" parent="37" x="224.65" y="57.26" text="PCI DSS"><note>Credit card companies joined forces and devised the Payment Card Industry Data Security Standard
+
+Minnesota mandate PCI DSS as a law =&gt; jail
+In other areas it may lead to financial penalties only
+
+This applies to any entity that process, transmits, stores, or accepts credit card data.
+
+12 main requirement in 6 major categories
+
+- Build and maintain a Secure Network
+- Protect Card holder data
+- Maintain a Vulnerability Management Program
+- Implement Strong Access Control Measures
+- Test and monitor networks
+- Maintain an Information Security Policy</note></topic><topic id="39" parent="0" x="106.41" y="378.62" text="Liability and its\NRamnifications"></topic><topic id="40" parent="39" x="71.55" y="299.36" text="Due diligence"><note>Means that the company properly investigated all of its possible weaknesses and vulnerabilities
+
+So it is the act of gathering information</note></topic><topic id="41" parent="39" x="153.18" y="297.50" text="Due care"><note>Means that a company did all it could have reasonably done, under the circumstances, to prevent security breaches, and also took reasonable steps to ensure that if a security breach did take place, proper controls or countermeasures were in place to mitigate the damages.</note></topic><topic id="42" parent="39" x="-14.98" y="318.60" text="SAS 70"><note>a Statement on auditing standards no.70 service organizations
+
+Is an audit that is carried out by a third party to assess the internal controls of a service organization</note></topic><topic id="43" parent="39" x="-31.01" y="369.27" text="Downstream liability"><note>Company B can sue company A for being negligent ( virus from A to B)</note></topic><topic id="44" parent="39" x="-39.98" y="422.03" text="Legally\Nrecognized\Nobligation"><note>Duty to protect an asset</note></topic><topic id="45" parent="39" x="-42.24" y="474.15" text="Proximate causation"><note>The result of the negligence..</note></topic><topic id="46" parent="0" x="-1.14" y="551.51" text="Compliance"></topic><topic id="47" parent="46" x="-225.79" y="555.30" text=".what laws and regulations we need to be compliant with\N.security framework\N.risk methodology\N.control objectives standard "></topic><topic id="48" parent="46" x="-128.38" y="643.39" text="GRC"><note>Governance risk and compliance 
+- allow for integration and alignment of the activities that take place  in each of these silos of a security program</note></topic><topic id="49" parent="46" x="-48.07" y="652.96" text="KPI"><note>Key performance indicators
+If the same KPI are used in governance, risk and compliance auditing activities, then the resulting report can effectively illustrate the overlap and integration of these different concepts.</note></topic><topic id="50" parent="0" x="263.86" y="642.40" text="Investigations"></topic><topic id="51" parent="50" x="144.93" y="779.36" text="Evidence"><note>Relevant - it must have a reasonable and sensible relationship to the findings
+
+ Complete - it must present the whole truth of an issue
+
+Sufficient - it must be persuasive enough to convince a reasonable person of the validity of the evidence
+
+Reliable - it must be consistent with facts. It is factual and not circumstantial
+
+International Organization on Computer Evidence IOCE 
+Developed international principles how digital evidence is to be collected and handled</note></topic><topic id="52" parent="51" x="63.20" y="714.12" text="Best"><note>Is the primary evidence, provides most reliability
+e.g. Originally signed contract</note></topic><topic id="53" parent="51" x="66.31" y="751.78" text="Secondary"><note>Secondary evidence is not viewed as reliable and strong in proving innocence or guilt (or liability in civil cases) when compared to best evidence. 
+Oral evidence, such as a witness’s testimony, and copies of original documents are placed in the secondary evidence category.</note></topic><topic id="54" parent="51" x="62.42" y="792.89" text="Direct"><note>Direct evidence can prove a fact all by itself and does not need backup information to refer to. When direct evidence is used, presumptions are not required. One example of direct evidence is the testimony of a witness who saw a crime take place. 
+
+Although this oral evidence would be secondary in nature, meaning a case could not rest on just it alone, it is also direct evidence, meaning the lawyer does not necessarily need to provide other evidence to back it up. 
+
+Direct evidence often is based on information gathered from a witness’s five senses.</note></topic><topic id="55" parent="51" x="74.09" y="840.11" text="Conclusive"><note>Conclusive evidence is irrefutable and cannot be contradicted. Conclusive evidence is very strong all by itself and does not require corroboration.</note></topic><topic id="56" parent="51" x="124.09" y="886.22" text="Circumstantial "><note>Circumstantial evidence can prove an intermediate fact that can then be used to deduce or assume the existence of another fact. 
+
+This type of fact is used so the judge or jury will logically assume the existence of a primary fact. For example, if a suspect told a friend he was going to bring down eBay’s web site, a case could not rest on that piece of evidence alone because it is circumstantial. However, this evidence can cause the jury to assume that because the suspect said he was going to do it, and hours later it happened, maybe he was the one who did the crime.</note></topic><topic id="57" parent="51" x="198.18" y="847.37" text="Corroborative"><note>Corroborative evidence is supporting evidence used to help prove an idea or point. It cannot stand on its own but is used as a supplementary tool to help prove a primary piece of evidence.</note></topic><topic id="58" parent="51" x="212.07" y="808.48" text="Opinion"><note>Opinion Evidence
+When a witness testifies, the opinion rule dictates that she must testify to only the facts of the issue and not her opinion of the facts. 
+This is slightly different from when an expert witness is used, because an expert is used primarily for his educated opinion. 
+Most lawyers call in expert witnesses to testify and help the defending or prosecuting sides better understand the subject matter so they can help the judge and jury better understand the matters of the case.</note></topic><topic id="59" parent="51" x="225.96" y="770.70" text="Hearsay"><note>Hearsay evidence pertains to oral or written evidence presented in court that is secondhand and has no firsthand proof of accuracy or reliability. If a witness testifies about something he heard someone else say, it is too far removed from fact and has too many variables that can cloud the truth. 
+If business documents were made during regular business routines, they may be admissible. However, if these records were made just to be presented in court, they could be categorized as hearsay evidence.</note></topic><topic id="60" parent="50" x="382.71" y="653.25" text="Chain of custody\Nof evidence "><note>The primary reason for the chain of custody of evidence is to ensure that it will be admissible in court by showing it was properly controlled and handled  before being presented in court
+
+Evidence must be obtained legally and the chain of custody was not broken</note></topic><topic id="61" parent="60" x="353.72" y="701.20" text="Lifecycle"><note>Identification
+Collection
+Storage
+Preservation
+Transportation
+Presentation
+Return to owner</note></topic><topic id="62" parent="50" x="164.25" y="650.55" text="MOM"><note>Motive
+Opportunity
+Means
+
+This is important when looking for suspect</note></topic><topic id="63" parent="50" x="111.74" y="615.92" text="Enticement"><note>Is act of luring an intruder and is legal</note></topic><topic id="64" parent="50" x="186.90" y="584.06" text="Entrapment"><note>Induces a crime, tricks a person, and is illegal</note></topic><topic id="65" parent="50" x="316.38" y="879.09" text="Incident response"></topic><topic id="66" parent="65" x="273.86" y="930.18" text="Triage"></topic><topic id="67" parent="65" x="345.79" y="926.66" text="Investigation"></topic><topic id="68" parent="65" x="438.45" y="921.93" text="Containment"></topic><topic id="69" parent="65" x="458.66" y="884.82" text="Analysis"></topic><topic id="70" parent="65" x="390.96" y="812.30" text="Tracking"></topic><topic id="71" parent="65" x="449.22" y="844.51" text="Recovery"></topic><topic id="72" parent="0" x="482.97" y="631.96" text="Ethics"></topic><topic id="73" parent="72" x="474.36" y="698.69" text="Computer Ethics Institute"></topic><topic id="74" parent="73" x="465.92" y="764.08" text="10 commandments"></topic><topic id="75" parent="72" x="617.27" y="704.93" text="The Internet\NArchitecture Board"><note>is the coordinating committee for Internet design, engineering, and management. It is responsible for the architectural oversight of the Internet Engineering Task Force (IETF) activities, Internet Standards Process oversight and appeal, and editor of Request for Comments (RFCs).</note></topic><topic id="76" parent="75" x="614.19" y="765.45" text="Unethical acts"><note>Purposely seeking to gain unauthorized access to Internet resources
+
+Disrupting the intended use of the Internet
+
+Wasting resources (people, capacity, and computers) through purposeful actions
+
+Destroying the integrity of computer-based information
+
+Compromising the privacy of others
+
+Conducting Internet-wide experiments in a negligent manner</note></topic><topic id="77" parent="0" x="714.97" y="590.18" text="The crux of\Ncomputer crime\Nlaw"><note>The main issues addressed in computer crime law are:
+- unauthorized modification, disclosure, destruction, or access and inserting malicious code</note></topic><topic id="78" parent="77" x="860.15" y="573.69" text="Computer-assisted crime"><note>Computer was used as a tool to help carry out a crime.</note></topic><topic id="79" parent="77" x="859.15" y="615.69" text="Computer-targeted crime"><note>Computer was the victim of an attack crafted to harm it (and it's owners)</note></topic><topic id="80" parent="77" x="817.12" y="663.10" text="Computer is incidental"><note>Eg was used to store some stolen data...</note></topic></topics><relations><relation source="47" target="48"></relation><relation source="48" target="49"></relation></relations></mindmap></simplemind-mindmaps>

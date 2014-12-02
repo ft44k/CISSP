@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.8.0" device-type="ipad"><mindmap><meta><guid guid="EDE0E58A359CFB3534434AA0"></guid><title text="Domain 5\NTelecommunications and Network Security"></title><page><visual-area x="-798.06" y="0.00" width="2065.11" height="1330.91"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="129" x="-46.06" y="1170.00"></scrollstate><selection type="node" id="140"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="500.00" y="500.00" text="Domain 5\NTelecommunications and Network Security"></topic><topic id="1" parent="0" x="784.29" y="500.79" text="Open Systems\NInterconnection Reference\NModel"></topic><topic id="2" parent="0" x="872.01" y="338.72" text="TCP/IP Model"></topic><topic id="3" parent="2" x="930.11" y="387.52" text="OSI model"><note>ISO 7498
+Systems based on this model are called open systems
+
+APSTNDP—To remember all the layers within the OSI model in the correct order, memorize “All People Seem To Need Data Processing.” Remember that you are starting at layer 7, the application layer, at the top.</note></topic><topic id="4" parent="3" x="1038.10" y="297.85" text="Application"><note>Provide file transmission, message exchange, terminal session,...
+Examples: HTTP, SMTP, FTP, Telnet, LPD</note></topic><topic id="5" parent="3" x="1056.48" y="525.90" text="Physical"><note>converts bits into voltage for transmission.
+
+This layer controls synchronization, data rates, line noise, and transmission techniques. Specifications for the physical layer include the timing of voltage changes, voltage levels, and the physical connectors for electrical, optical, and mechanical transmission.
+
+Network interface cards and drivers convert bits into electrical signals and control the physical aspects of data transmission, including optical, electrical, and mechanical requirements. The following are some of the standard interfaces at this layer:
+EIA-422, EIA-423, RS-449, RS-485
+10BASE-T, 10BASE2, 10BASE5, 100BASE-TX, 100BASE-FX, 100BASE-T, 1000BASE-T, 1000BASE-SX
+Integrated Services Digital Network (ISDN)
+Digital subscriber line (DSL)
+Synchronous Optical Networking (SONET)</note></topic><topic id="6" parent="3" x="1054.41" y="491.54" text="Data link"><note>The data link layer is where the network stack knows what format the data frame must be in to transmit properly over Token Ring, Ethernet, ATM, or Fiber Distributed Data Interface (FDDI) networks.
+
+The data link layer is responsible for proper communication within the network components and for changing the data into the necessary format (electrical voltage) for the physical layer. It will also manage to reorder frames that are received out of sequence, and notify upper-layer protocols when there are transmission error conditions.
+
+Some protocols that work at this layer include the following:
+Address Resolution Protocol (ARP)
+Reverse Address Resolution Protocol (RARP)
+Point-to-Point Protocol (PPP)
+Serial Line Internet Protocol (SLIP)
+Ethernet
+Token Ring
+FDDI
+ATM
+
+When the data link layer applies the last header and trailer to the data message, this is referred to as framing. The unit of data is now called a frame.</note></topic><topic id="7" parent="6" x="1173.57" y="477.79" text="Logical link control LLC"><note>The LLC, defined in the IEEE 802.2 specification, communicates with the protocol immediately above it, the network layer.
+
+The LLC layer takes care of flow control and error checking.</note></topic><topic id="8" parent="6" x="1186.05" y="511.66" text="Media Access Control MAC"><note>The technology at the MAC sublayer knows if the network is Ethernet, Token Ring, or ATM, so it knows how to put the last header and trailer on the packet before it “hits the wire” for transmission.
+
+The IEEE MAC specification for Ethernet is 802.3, Token Ring is 802.5, wireless LAN is 802.11, and so on. So when you see a reference to an IEEE standard, such as 802.11, 802.16, or 802.3, it refers to the protocol working at the MAC sublayer of the data link layer of a protocol stack.</note></topic><topic id="9" parent="3" x="1036.53" y="374.12" text="Session"><note>The session layer protocols set up connections between applications; maintain dialog control; and negotiate, establish, maintain, and tear down the communication channel. 
+
+Some of the protocols that work at this layer include
+Network File System (NFS)
+NetBIOS
+Structured Query Language (SQL)
+Remote procedure call (RPC)
+
+
+
+3 modes of operation:
+Simplex: communication takes place one direction
+Half-duplex: communication goes both directions, but only one application can send data at a time
+Full-duplex: both directions, data can be send at the same time from both sides
+
+
+Session layer protocols are the least used; thus many of them should be disabled on systems to decrease the chance of them getting exploited.</note></topic><topic id="10" parent="3" x="1042.80" y="334.26" text="Presentation"><note>Works as a translator. It adds information  about the file type to tell the destination computer how to process and present it.
+
+This layer also handles data compression and encryption ( tells how it was compresses and encrypted)</note></topic><topic id="11" parent="3" x="1044.29" y="410.21" text="Transport"><note>The protocols at the transport layer handle end-to-end transmission (connections between computer systems) and segmentation of a data stream. The following protocols work at this layer:
+
+Transmission Control Protocol (TCP)
+User Datagram Protocol (UDP)
+Secure Sockets Layer (SSL)/Transport Layer Security (TLS)
+Sequenced Packet Exchange (SPX)</note></topic><topic id="12" parent="3" x="1044.64" y="452.14" text="Network"><note>The main responsibilities of the network layer, layer 3, are to insert information into the packet’s header so it can be properly addressed and routed, and then to actually route the packets to their proper destination.
+
+The protocols that work at this layer do not ensure the delivery of the packets.
+
+The responsibilities of the network layer protocols include internetworking service, addressing, and routing. The following lists some of the protocols that work at this layer:
+Internet Protocol (IP)
+Internet Control Message Protocol (ICMP)
+Internet Group Management Protocol (IGMP)
+Routing Information Protocol (RIP)
+Open Shortest Path First (OSPF)
+Internetwork Packet Exchange (IPX)
+
+We are talking about packets/datagrams at this layer</note></topic><topic id="13" parent="2" x="837.45" y="284.52" text="TCP/IP"></topic><topic id="14" parent="13" x="879.81" y="249.47" text="IP "><note>IP is a connectionless network layer protocol and provides datagram routing services. IP’s main task is to support internetwork addressing and packet routing.</note></topic><topic id="15" parent="13" x="804.25" y="198.56" text="TCP\NUDP"><note>transport layer protocols
+They both use ports to communicate with upper OSI layers and to keep track of various conversations that take place simultaneously.
+
+TCP is a reliable and connection-oriented protocol.
+It also supports packet sequencing (to ensure each and every packet was received), flow and congestion control, and error detection and correction.
+
+
+UDP, on the other hand, is a best-effort and connectionless protocol. It has neither packet sequencing nor flow and congestion control, and the destination does not acknowledge every packet it receives.</note></topic><topic id="16" parent="15" x="731.67" y="129.05" text="Socket"><note>When a TCP or UDP message is formed, source and destination ports are contained within the header information along with the source and destination IP addresses. This makes up a socket, and is how packets know where to go (by the address) and how to communicate with the right service or protocol on the other computer (by the port number).</note></topic><topic id="17" parent="15" x="784.51" y="126.39" text="Ports"><note>1.well-known ports : 0-1023
+2.Registered ports : 1024 - 49151
+3.Dynamic ports : 49152 - 65535 
+
+
+
+1. almost every computer in the world has the exact same protocol mapped to the exact same port number.
+
+2.can be registered with the Internet Corporation for Assigned Names and Numbers (ICANN) for a particular use. Vendors register specific ports to map to their proprietary software
+
+3. These are available to be used by any application</note></topic><topic id="18" parent="15" x="703.04" y="169.91" text="TCP handshake"><note>TCP must set up a virtual connection between two hosts before any data are sent. This means the two hosts must agree on certain parameters, data flow, windowing, error detection, and options.
+
+The TCP three-way handshake:
+1. SYN
+2. SYN/ACK
+3. ACK
+The connection that has been set up at this point is considered full duplex
+
+Attacks:
+SYN flood - attacker sends SYN packets with a spoofed address, then the victim system replies to the spoofed address with SYN/ACK packets. Each time the victim system receives one of these SYN packets it sets aside resources to manage the new connection. If the attacker floods the victim system with SYN packets, eventually the victim system allocates all of its available TCP connection resources and can no longer process new requests. This is a type of DoS.
+
+To thwart this type of attack you can use SYN proxies, which limit the number of open and abandoned network connections.
+
+TCP session hijacking
+the attacker has to spoof the sender’s address and use the correct sequence number values. If an attacker can correctly predict the TCP sequence numbers that two systems will use, then he can create packets containing those numbers and fool the receiving system into thinking that the packets are coming from the authorized sending system.</note></topic><topic id="19" parent="13" x="735.43" y="231.02" text="IP Addressing"><note>Class A - 0.0.0.0 -&gt; 127.255.255.255
+Class B - 128.0.0.0 -&gt; 191.255.255.255
+Class C - 192.0.0.0 -&gt; 223.255.255.255
+Class D - 224.0.0.0 -&gt; 239.255.255.255
+Class E - 240.0.0.0 -&gt; 255.255.255.255
+
+A - first byte is the network address
+B - first two bytes are the network address,rest two are the host portion
+C - the first 3 bytes are the network portion, and the remaining one byte is the host portion
+D - used for multicast addresses
+E - reserved for research
+
+classful or classical IP addresses - traditional subnet masks are used
+
+classless IP addresses - subnets that do not follow these traditional sizes
+classless interdomain routing (CIDR) 
+
+
+Note  
+IP provides addressing, packet fragmentation, and packet timeouts. To ensure that packets do not continually traverse a network forever, IP provides a Time to Live (TTL) value that is decremented every time the packet passes through a router. IP can also provide a Type of Service (ToS) capability, which means it can prioritize different packets for time-sensitive functions.</note></topic><topic id="20" parent="13" x="857.54" y="210.24" text="IPv6"><note>The IPv6 specification is outlined in RFC 2460
+
+IPv6 address size is 128 bits
+
+The scalability of multicast routing is improved by adding a “scope” field to multicast addresses. Also, a new type of address called an anycast address is defined, which is used to send a packet to any one of a group of nodes.</note></topic><topic id="21" parent="20" x="866.46" y="167.39" text="Tunneling"><note>Automatic tunneling is a technique where the routing infrastructure automatically determines the tunnel endpoints so that protocol tunneling can take place without preconfiguration. 
+
+The 6to4 and Teredo are intersite tunneling mechanisms, and ISATAP is an intrasite mechanism.
+
+6to4
+In the 6to4 tunneling method the tunnel endpoints are determined by using a well-known IPv4 anycast address on the remote side and embeds IPv4 address data within IPv6 addresses on the local side. 
+
+
+Teredo 
+is another automatic tunneling technique that uses UDP encapsulation so that NAT address translations are not affected. 
+
+
+Intra-Site Automatic Tunnel Addressing Protocol (ISA-TAP) 
+treats the IPv4 network as a virtual IPv6 local link, with mappings from each IPv4 address to a link-local IPv6 address.</note></topic><topic id="22" parent="2" x="964.32" y="245.28" text="Layer 2 Security\NStandards"></topic><topic id="23" parent="22" x="992.17" y="190.89" text="802.1X EAP-TLS\Nframework"><note>When a new device is installed on the network, it cannot just start communicating with other devices, receive an IP address from a Dynamic Host Configuration Protocol (DHCP) server, resolve names with the Domain Name Service (DNS) server, etc. The device cannot carry out any network activity until it is authorized to do so. So 802.1X port authentication kicks in, which means that only authentication data are allowed to travel from the new device to the authenticating server. The authentication data is the digital certificate and hardware identity associated with that device (802.1AR), which is processed by EAP-TLS. Once the device is authenticated, usually by a Remote Authentication Dial-In User Server (RADIUS) server, encryption keying material is negotiated and agreed upon between surrounding network devices. Once the keying material is installed, then data encryption and frame integrity checking can take place (802.1AE) as traffic goes from one network device to the next.</note></topic><topic id="24" parent="23" x="1017.89" y="122.58" text="802.1AR\NDevID"><note>The IEEE 802.1AR standard specifies unique per-device identifiers (DevID) and the management and cryptographic binding of a device (router, switch, access point) to its identifiers.</note></topic><topic id="25" parent="23" x="1080.94" y="149.39" text="802.1AE\NMACSec"><note>802.1AE is the IEEE MAC Security standard (MACSec)
+Provides hop-to-hop protection, only authenticated and trusted devices on the network can communicate to each other.
+
+When a frame arrives at a device that is configured with MACSec, the MACSec Security Entity (SecY) decrypts the frame if necessary and computes an integrity check value (ICV) on the frame and compares it with the ICV that was sent with the frame. If the ICVs match, the device processes the frame. If they do not match, the device handles the frame according to a preconfigured policy, such as discarding it.</note></topic><topic id="26" parent="23" x="952.98" y="114.20" text="802.1AF"><note>802.1AF carries out key agreement functions for the session keys used for data encryption.</note></topic><topic id="27" parent="0" x="562.92" y="172.95" text="Types of Transmission"></topic><topic id="28" parent="27" x="365.19" y="84.39" text="Signals"><note>Digital signals :
+Binary digits are represented and transmitted as discrete electrical pulses. Signaling allows for higher data transfer rates and high data integrity compared to analog signaling.
+
+Analog signals :
+Continuously varying electromagnetic wave that represents and transmits data. Carrier signals vary by amplification and frequency.</note></topic><topic id="29" parent="27" x="459.18" y="84.59" text="Asynchronous and\NSynchronous"><note>Synchronous:
+- Robust error checking, commonly through cyclic redundancy checking (CRC)
+- Timing component for data transmission synchronization
+- Used for high-speed, high-volume transmissions
+- Minimal overhead compared to asynchronous communication
+
+Asynchronous:
+- No timing component
+- Surrounds each byte with processing bits
+- Parity bit used for error control
+- Each byte requires three bits of instruction (start, stop, parity)</note></topic><topic id="30" parent="27" x="675.65" y="80.61" text="Broadband and Baseband"><note>Baseband transmission :
+Uses the full bandwidth for only one communication channel and has a low data transfer rate compared to broadband.
+
+Broadband transmission :
+Divides the bandwidth of a communication channel into many channels, enabling different types of data to be transmitted at one time.</note></topic><topic id="31" parent="27" x="561.65" y="37.01" text="Bandwidth and\Nthroughput"><note>Bandwidth refers to the number of electrical pulses that can be transmitted over a link within a second, and these electrical pulses carry individual bits of information. Bandwidth is the data transfer capability of a connection and is commonly associated with the amount of available frequencies and speed of a link. 
+
+Data throughput is the actual amount of data that can be carried over this connection. Data throughput values can be higher than bandwidth values if compression mechanisms are implemented.</note></topic><topic id="32" parent="0" x="236.71" y="177.55" text="Cabling"></topic><topic id="33" parent="32" x="191.41" y="122.08" text="Coaxial"><note>Coaxial cable has a copper core that is surrounded by a shielding layer and grounding wire. This is all encased within a protective outer jacket. 
+
+Compared to twisted-pair cable, coaxial cable is more resistant to electromagnetic interference (EMI), provides a higher bandwidth, and supports the use of longer cable lengths, but Twisted-pair cable is cheaper and easier to work with.
+ 
+Coaxial cabling is used as a transmission line for radio frequency signals. If you have cable TV, you have coaxial cabling entering your house and the back of your TV. The various TV channels are carried over different radio frequencies. This technology allows to use some of the “empty” TV frequencies for Internet connectivity.</note></topic><topic id="34" parent="32" x="132.62" y="167.04" text="Twisted pair"><note>Twisted-pair cabling has insulated copper wires surrounded by an outer protective jacket.
+
+
+Shielded twisted pair (STP):
+the cable has an outer foil shielding. This adds protection from radio frequency interference and electromagnetic interference.
+
+Unshielded twisted pair (UTP):
+Twisted-pair cabling, which does not have this extra outer shielding
+
+Twisting of the wires protects the integrity and strength of the signals they carry. Each wire forms a balanced circuit, because the voltage in each pair uses the same amplitude, just with opposite phases. The tighter the twisting of the wires, the more resistant the cable is to interference and attenuation.</note></topic><topic id="35" parent="34" x="73.25" y="121.68" text="Cable ratings"><note>Category 1:
+- Voice-grade telephone cable for up to 1 Mbps transmission rate
+- Not recommended for network use, but modems can communicate over it.
+
+Category 2:
+- Data transmission up to 4 Mbps
+- Used in mainframe and minicomputer terminal connections, but not recommended for high-speed networking.
+
+Category 3:
+- 10 Mbps for Ethernet and 4 Mbps for Token Ring
+- Used in 10Base-T network installations.
+
+Category 4:
+- 16 Mbps
+- Usually used in Token Ring networks.
+
+Category 5:
+- 100 Mbps; has high twisting and thus low crosstalk
+- Used in 100Base-TX, CDDI, Ethernet, and ATM installations; most widely used in network installations.
+
+Category 6:
+- 10 Gbps
+- Used in new network installations requiring high-speed transmission. Standard for Gigabit Ethernet.
+
+Category 7:
+- 10 Gbps
+- Used in new network installations requiring higher-speed transmission.</note></topic><topic id="36" parent="32" x="247.49" y="70.85" text="Fiber optic"><note>Fiber-optic cabling has higher transmission speeds that allow signals to travel over longer distances. Fiber cabling is not as affected by attenuation and EMI when compared to cabling that uses copper. It does not radiate signals, as does UTP cabling, and is difficult to eavesdrop on; therefore, fiber-optic cabling is much more secure than UTP, STP, or coaxial.
+
+Fiber-optic cable is expensive and difficult to work with. It is usually used in backbone networks and environments that require high data transfer rates.</note></topic><topic id="37" parent="36" x="265.21" y="23.68" text="Modes"><note>Single mode 
+Small glass core, and are used for high-speed data transmission over long distances. They are less susceptible to attenuation than multimode fibers.
+
+Multimode 
+Large glass cores, and are able to carry more data than single-core fibers, though they are best for shorter distances because of their higher attenuation levels.</note></topic><topic id="38" parent="32" x="319.71" y="180.11" text="Problems"></topic><topic id="39" parent="38" x="406.11" y="182.78" text="Noise"><note>Noise can be caused by motors, computers, copy machines, fluorescent lighting, and microwave ovens, to name a few. This background noise can combine with the data being transmitted over the cable and distort the signal. The more noise there is interacting with the cable, the more likely the receiving end will not receive the data in the form originally transmitted.</note></topic><topic id="40" parent="38" x="404.56" y="223.95" text="Attenuation"><note>Attenuation is the loss of signal strength as it travels. 
+The longer a cable, the more attenuation occurs, which causes the signal carrying the data to deteriorate. This is why standards include suggested cable-run lengths.
+
+The effects of attenuation increase with higher frequencies; thus, 100Base-TX at 80MHz has a higher attenuation rate than 10Base-T at 10MHz. 
+
+If a network administrator needs to run a cable longer than its recommended segment length, he needs to insert a repeater or some type of device that will amplify the signal and ensure it gets to its destination in the right encoding format.
+Attenuation can also be caused by cable breaks and malfunctions. This is why cables should be tested. If a cable is suspected of attenuation problems, cable testers can inject signals into the cable and read the results at the end of the cable.</note></topic><topic id="41" parent="38" x="356.71" y="272.89" text="Crosstalk"><note>Crosstalk is a phenomenon that occurs when electrical signals of one wire spill over to the signals of another wire. When the different electrical signals mix, their integrity degrades and data corruption can occur. UTP is much more vulnerable to crosstalk than STP or coaxial because it does not have extra layers of shielding to help protect against it.
+
+The two-wire pairs within twisted-pair cables form a balanced circuit because they both have the same amplitude, just with different phases. Crosstalk and background noise can throw off this balance, and the wire can actually start to act like an antenna, which means it will be more susceptible to picking up other noises in the environment.</note></topic><topic id="42" parent="32" x="196.93" y="239.00" text="Fire rating"><note>Some cables produce hazardous gases when on fire that would spread throughout the building quickly. Network cabling that is placed in these types of areas, called plenum space, must meet a specific fire rating to ensure it will not produce and release harmful chemicals in case of a fire. A ventilation system’s components are usually located in this plenum space, so if toxic chemicals were to get into that area, they could easily spread throughout the building in minutes.
+
+Nonplenum cables usually have a polyvinyl chloride (PVC) jacket covering, whereas plenum-rated cables have jacket covers made of fluoropolymers. 
+
+Cables should be installed in unexposed areas so they are not easily tripped over, damaged, or eavesdropped upon. The cables should be strung behind walls and in the protected spaces as in dropped ceilings. In environments that require extensive security, wires are encapsulated within pressurized conduits so if someone attempts to access a wire, the pressure of the conduit will change, causing an alarm to sound and a message to be sent to the security staff.</note></topic><topic id="43" parent="32" x="297.32" y="133.11" text="Standards"><note>The standards are developed and maintained by the Telecommunications Industry Association (TIA) and the Electronic Industries Association (EIA). 
+
+The TIA/EIA-568-B standard enables the design and implementation of structured cabling systems for commercial buildings. 
+
+The majority of the standards define cabling types, distances, connectors, cable system architectures, cable termination standards and performance characteristics, cable installation requirements, and methods of testing installed cable. 
+
+The following are commonly used physical interface connection standards:
+
+RJ-11 is often used for terminating telephone wires.
+
+RJ-45 is often used to terminate twisted-pair cables in Ethernet environments.
+
+BNC (British Naval Connector) is often used for terminating coaxial cables. It is used to connect various types of radio, television, and other radio-frequency electronic equipment. (Also referred to as Bayonet Neill–Concelman connector.)</note></topic><topic id="44" parent="0" x="-58.93" y="286.45" text="Network Foundations"></topic><topic id="45" parent="44" x="44.45" y="182.23" text="Topology"><note>Ring topology:
+devices connected by unidirectional transmission links
+
+Bus topology:
+In a simple bus topology, a single cable runs the entire length of the network. Nodes are attached to the network through drop points on this cable.
+2 types:
+linear bus topology 
+  has a single cable with nodes attached. 
+tree topology 
+  has branches from the single cable, and each branch can contain many nodes.
+
+Star topology:
+all nodes connect to a central device such as a switch. It enables the network to be more resilient and not as affected if an individual node experiences a problem.
+
+Mesh topology:
+- full mesh topology
+every node is directly connected to every other node, which provides a great degree of redundancy. 
+- partial mesh topology
+every node is not directly connected. The Internet is an example of a partial mesh topology.</note></topic><topic id="46" parent="44" x="-42.42" y="173.12" text="Media Access\Ntechnology"><note>Media access technologies work at the data link layer of the OSI model. 
+The data link layer is actually made up of a MAC sublayer and an LLC sublayer. These media access technologies live at the MAC layer and have to interface with the LLC layer. These media access technologies carry out the framing functionality of a network stack, which prepares each packet for network transmission. These technologies differ in network capabilities, transmission speed, and the physical medium they interact with.</note></topic><topic id="47" parent="46" x="-145.68" y="128.78" text="LAN"><note>When two distinct LANs are connected by a router, the result is an internetwork, not a larger LAN. Each distinct LAN has its own addressing scheme, broadcast domain, and communication mechanisms. If two LANs are connected by a different data link layer technology, such as frame relay or ATM, they are considered a WAN.</note></topic><topic id="48" parent="47" x="-230.43" y="100.74" text="Ethernet\NIEEE 802.3"><note>Ethernet is a resource-sharing technology that enables several devices to communicate on the same network. Ethernet usually uses a bus or star topology.
+- Defined by standard IEEE 802.3
+- Uses the carrier sense multiple access with collision detection (CSMA/CD) access method
+- Uses broadcast and collision domains
+- Supports full duplex communication
+- Can use coaxial, twisted-pair, or fiber-optic cabling types
+
+10Base2, ThinNet, Coaxial,10 Mbps
+10Base5, ThickNet,Coaxial,10 Mbps
+10Base-T,UTP,10 Mbps
+100Base-TX, Fast Ethernet,UTP,100 Mbps
+1000Base-T, Gigabit Ethernet,UTP,1,000 Mbps
+1000Base-X,Fiber, 1,000 Mbps</note></topic><topic id="49" parent="47" x="-227.14" y="153.24" text="Token Ring\NIEEE 802.5"><note>Originally developed by IBM and then defined by the IEEE 802.5 standard.
+It uses a token-passing technology with a star-configured topology.
+
+Signals travel in a logical ring. Each computer is connected to a central hub, called a Multistation Access Unit (MAU). 
+Physically, the topology can be a star, but the signals and transmissions are passed in a logical ring.</note></topic><topic id="50" parent="47" x="-142.06" y="72.49" text="FDDI\NIEEE 802.4"><note>Fiber Distributed Data Interface (FDDI) technology, developed by the American National Standards Institute (ANSI), is a high-speed, token-passing, media access technology. 
+FDDI can be employed for distances up to 100 kilometers.
+It enables several tokens to be present on the ring at the same time, causing more communication to take place simultaneously.
+
+Ring topologies are considered deterministic, meaning that the rate of the traffic flow can be predicted. This can be beneficial for time-sensitive applications.
+
+
+FDDI has a data transmission speed of up to 100 Mbps and is usually used as a backbone network using fiber-optic cabling. FDDI also provides fault tolerance by offering a second counter-rotating fiber ring. The primary ring has data traveling clockwise and is used for regular data transmission. The second ring transmits data in a counterclockwise fashion and is invoked only if the primary ring goes down. Sensors watch the primary ring and, if it goes down, invoke a ring wrap so the data will be diverted to the second ring. 
+Each node on the FDDI network has relays that are connected to both rings, so if a break in the ring occurs, the two rings can be joined.</note></topic><topic id="51" parent="50" x="-50.38" y="41.31" text="Devices"><note>Single-attachment station (SAS) 
+Attaches to only one ring (the primary) through a concentrator
+
+Dual-attachment station (DAS) 
+Has two ports and each port provides a connection for both the primary and the secondary rings
+
+Single-attached concentrator (SAC) Concentrator that connects an SAS device to the primary ring
+
+Dual-attached concentrator (DAC) Concentrator that connects DAS, SAS, and SAC devices to both rings</note></topic><topic id="52" parent="50" x="-55.89" y="84.18" text="CDDI"><note>Copper Distributed Data Interface (CDDI), can work over UTP cabling. (FDDI over copper)</note></topic><topic id="53" parent="46" x="-308.17" y="229.43" text="Media Sharing"><note>When there is just one transmission medium (i.e., UTP cable) that has to be shared by all nodes and devices in a network, this is referred to as a contention-based environment. Each system has to “compete” to use the transmission line, which can cause contention.</note></topic><topic id="54" parent="53" x="-404.06" y="263.47" text="Token Passing"><note>A token is a 24-bit control frame used to control which computers communicate at what intervals. The token is passed from computer to computer, and only the computer that has the token can actually put frames onto the wire. 
+
+The token contains the data to be transmitted and source and destination address information. 
+
+Each computer checks this message to determine whether it is addressed to it, which continues until the destination computer receives the message. The destination computer makes a copy of the message and flips a bit to tell the source computer it did indeed get its message. Once this gets back to the source computer, it removes the frames from the network. The destination computer makes a copy of the message, but only the originator of the message can remove the message from the token and the network.
+If a computer that receives the token does not have a message to transmit, it sends the token to the next computer on the network. An empty token has a header, data field, and trailer, but a token that has an actual message has a new header, destination address, source address, and a new trailer.</note></topic><topic id="55" parent="53" x="-359.44" y="189.36" text="CSMA"><note>A transmission is called a carrier, so if a computer is transmitting frames, it is performing a carrier activity. When computers use the carrier sense multiple access with collision detection (CSMA/CD) protocol, they monitor the transmission activity, or carrier activity, on the wire so they can determine when would be the best time to transmit data.</note></topic><topic id="56" parent="55" x="-389.74" y="148.54" text="CD"><note>Ethernet uses CSMA\CD
+
+When using the CSMA/CD access method, computers listen for the absence of a carrier tone on the cable, which indicates that no other system is transmitting data.
+
+A collision happens when two or more frames collide, which most likely corrupts both frames. If a computer puts frames on the wire and its frames collide with another computer’s frames, it will abort its transmission and alert all other stations that a collision just took place. All stations will execute a random collision timer to force a delay before they attempt to transmit data. This random collision timer is called the back-off algorithm.
+
+Collisions are usually reduced by dividing a network with routers or switches.</note></topic><topic id="57" parent="55" x="-417.83" y="209.76" text="CA"><note>Wi-Fi uses CSMA\CA
+
+Carrier sense multiple access with collision avoidance (CSMA/CA)
+
+each computer signals its intent to transmit data before it actually does so. This tells all other computers on the network not to transmit data right now because doing so could cause a collision. 
+Each system will wait a period of time before attempting to transmit data to ensure collisions do not take place. The wireless LAN technology 802.11 uses CSMA/CA for its media access functionality.</note></topic><topic id="58" parent="53" x="-259.03" y="274.30" text="Collision Domains"><note>A collision domain is a group of computers that are contending, or competing, for the same shared communication medium.
+
+If the same subnet is divided by bridges, the bridges can enable the broadcast traffic to pass between the different parts of a subnet, but not the collisions. This is how collision domains are formed. Isolating collision domains reduces the amount of collisions that take place on a network and increases its overall performance.
+
+Another benefit of restricting and controlling broadcast and collision domains is that it makes sniffing the network and obtaining useful information more difficult for an intruder as he traverses the network.</note></topic><topic id="59" parent="53" x="-235.64" y="200.90" text="Polling"><note>mainframe media access technology uses polling
+
+Polling is media-sharing method where some systems are configured as primary stations and others are configured as secondary stations. At predefined intervals, the primary station asks the secondary station if it has anything to transmit. This is the only time a secondary station can communicate.</note></topic><topic id="60" parent="44" x="-314.18" y="319.81" text="Transmission Methods"></topic><topic id="61" parent="60" x="-425.97" y="323.42" text="Unicast\NBroadcast\NMulticast"><note>Unicast - from the source computer to one particular system
+
+Multicast - the sending system uses this method, when needs to send to a specific group of systems.
+IPv4 multicast protocols use a Class D address
+
+Broadcast - If a system wants all computers on its subnet to receive a message, it will use this method.
+
+How does a server multicast to one particular computer on a specific network and no other networks in between?
+
+The user who elects to receive a multicast actually has to tell his local router he wants to get frames with this particular multicast address passed his way. The local router must tell the router upstream, and this process continues so each router between the source and destination knows where to pass this multicast data.</note></topic><topic id="62" parent="61" x="-498.94" y="307.79" text="IGMP"><note>Internet Group Management Protocol (IGMP) 
+is used to report multicast group memberships to routers. 
+
+Version 1: 
+multicast agents periodically send queries to systems on the network they are responsible for and update their databases, indicating which system belongs to which group membership. 
+
+Version 2 :
+provides more granular query types and allows a system to signal to the agent when it wants to leave a group. 
+
+Version 3 :
+allows the systems to specify the specific sources it wants to receive multicast traffic from.
+
+The previous statements are true pertaining to IPv4. IPv6 handles multicasting differently compared to IPv4.</note></topic><topic id="63" parent="44" x="-538.28" y="416.66" text="Network Protocols\Nand Services"></topic><topic id="64" parent="63" x="-625.26" y="414.69" text="ARP"><note>MAC and IP addresses must be properly mapped so they can be correctly resolved. This happens through the Address Resolution Protocol (ARP). When the data link layer receives a frame, the network layer has already attached the destination IP address to it, but the data link layer cannot understand the IP address and thus invokes ARP for help. ARP broadcasts a frame requesting the MAC address that corresponds with the destination IP address. Each computer on the subnet receives this broadcast frame, and all but the computer that has the requested IP address ignore it. The computer that has the destination IP address responds with its MAC address. Now ARP knows what hardware address corresponds with that specific IP address. The data link layer takes the frame, adds the hardware address to it, and passes it on to the physical layer, which enables the frame to hit the wire and go to the destination computer. ARP maps the hardware address and associated IP address and stores this mapping in its table for a predefined amount of time. This caching is done so that when another frame destined for the same IP address needs to hit the wire, ARP does not need to broadcast its request again. It just looks in its table for this information.</note></topic><topic id="65" parent="64" x="-702.72" y="414.75" text="ARP table\Ncache\Npoisoning"><note>If the attacker modifies the MAC tables in Bob’s and Alice’s systems and maps his MAC address to their IP addresses, all traffic can be sent to his system without Bob and Alice being aware of it.
+
+So ARP is critical for a system to communicate, but it can be manipulated to allow trafffic to be sent to unintended systems. ARP is a rudimentary protocol and does not have any security measures built in to protect itself from these types of attacks. Networks should have IDS sensors monitoring for this type of activity so that administrators can be alerted if this type of malicious activity is underway.</note></topic><topic id="66" parent="63" x="-705.20" y="485.10" text="DHCP"><note>Dynamic Host Configuration Protocol
+
+UDP-based protocol that allows servers to assign IP addresses to network clients.
+
+1. the client computer broadcasts a DHCPDISCOVER message on the network in search of the DHCP server. 
+
+2.Once the respective DHCP server receives the DHCPDISCOVER request, the server responds with a DHCPOFFER packet, offering the client an IP address. 
+
+3. Once the client receives the settings sent by the server through the DHCPOFFER, it responds to the server with a DHCPREQUEST packet confirming its acceptance of the allotted settings. 
+
+4.The server now acknowledges with a DHCPACK packet, which includes the validity period (lease) for the allocated parameters.</note></topic><topic id="67" parent="66" x="-746.06" y="532.30" text="DHCP Snooping"><note>DHCP snooping (on network switches) ensures that DHCP servers can assign IP addresses to only selected systems, identified by their MAC addresses. Also, advance network switches now have capability to direct clients toward legitimate DHCP servers to get IP addresses and restrict rogue systems from becoming DHCP servers on the network.</note></topic><topic id="68" parent="63" x="-564.26" y="527.52" text="RARP"><note>Reverse Address Resolution Protocol (RARP) frames go to all systems on the subnet, but only the RARP server responds. Once the RARP server receives this request, it looks in its table to see which IP address matches the broadcast hardware address. The server then sends a message that contains its IP address back to the requesting computer. The system now has an IP address and can function on the network.
+
+Diskless workstations do not have a full operating system but have just enough code to know how to boot up and broadcast for an IP address, and they may have a pointer to the server that holds the operating system. The diskless workstation knows its hardware address, so it broadcasts this information so that a listening server can assign it the correct IP address.</note></topic><topic id="69" parent="63" x="-634.23" y="507.33" text="BOOTP"><note>The Bootstrap Protocol (BOOTP) was created after RARP to enhance the functionality that RARP provides for diskless workstations. The diskless workstation can receive its IP address, the name server address for future name resolutions, and the default gateway address from the BOOTP server. BOOTP usually provides more functionality to diskless workstations than does RARP.
+The evolution of this protocol has unfolded as follows: RARP evolved into BOOTP, which evolved into DHCP.</note></topic><topic id="70" parent="63" x="-507.92" y="525.57" text="ICMP"><note>The Internet Control Message Protocol (ICMP) delivers status messages, reports errors, replies to certain requests, reports routing information, and is used to test connectivity and troubleshoot problems on IP networks.
+The most commonly understood use of ICMP is through the use of the ping utility. When a person wants to test connectivity to another system, he may ping it, which sends out ICMP ECHO REQUEST frames. The replies on his screen that are returned to the ping utility are called ICMP ECHO REPLY frames and are responding to the ECHO REQUEST frames. If a reply is not returned within a predefined time period, the ping utility sends more ECHO REQUEST frames. If there is still no reply, ping indicates the host is unreachable.
+ICMP also indicates when problems occur with a specific route on the network and tells surrounding routers about better routes to take based on the health and congestion of the various pathways. Routers use ICMP to send messages in response to packets that could not be delivered. The router selects the proper ICMP response and sends it back to the requesting host, indicating that problems were encountered with the transmission request.
+ICMP is used by other connectionless protocols, not just IP, because connectionless protocols do not have any way of detecting and reacting to transmission errors, as do connection-oriented protocols. In these instances, the connectionless protocol may use ICMP to send error messages back to the sending system to indicate networking problems.</note></topic><topic id="71" parent="70" x="-386.66" y="558.61" text="Ping of Death"><note>The Ping of Death attack is based upon the use of oversized ICMP packets. If a system does not know how to handle ICMP packets over the common size of 65,536 bytes, then it can become unstable and freeze or crash.</note></topic><topic id="72" parent="70" x="-470.58" y="576.22" text="Smurf attack"><note>the attacker sends an ICMP ECHO REQUEST packet with a spoofed source address to a victim’s network broadcast address. This means that each system on the victim’s subnet receives an ICMP ECHO REQUEST packet. Each system then replies to that request with an ICMP ECHO REPLY packet to the spoof address provided in the packets—which is the victim’s address.</note></topic><topic id="73" parent="70" x="-558.11" y="575.43" text="Fraggle attack"><note>Fraggle uses the UDP protocol and Smurf uses the ICMP protocol.
+They are both DDoS attacks that use spoofed source addresses and use unknowing systems to attack a victim computer.
+
+The countermeasures to these types of attacks are to use firewall rules that only allow the necessary ICMP packets into the network and the use of IDS or IPS to watch for suspicious activities.</note></topic><topic id="74" parent="63" x="-442.35" y="508.80" text="SNMP"><note>Simple Network Management Protocol
+- managing network IP devices
+
+2 parts:
+- Manager 
+is the server portion, which polls different devices to check status information. The server component also receives trap messages from agents and provides a centralized place to hold all network-wide information.
+
+- Agent
+is a piece of software that runs on a network device, which is commonly integrated into the operating system. The agent has a list of objects that it is to keep track of, which is held in a database-like structure called 
+the Management Information Base (MIB). An MIB is a logical grouping of managed objects that contain data used for specific management tasks and status checks.</note></topic><topic id="75" parent="74" x="-366.67" y="478.69" text="Trap"><note>The trap operation allows the agent to inform the manager of an event, instead of having to wait to be polled. For example, if an interface on a router goes down, an agent can send a trap message to the manager. This is the only way an agent can communicate with the manager without first being polled.</note></topic><topic id="76" parent="74" x="-356.48" y="511.87" text="Security issues"><note>SNMP is for good purposes (network management) and for bad purposes (target mapping, device reconfiguration)
+
+
+community string is basically a password a manager uses to request data from the agent, and there are two main community strings with different levels of access: read-only and read-write.
+
+the community strings are sent in cleartext in SNMP v1 and v2
+
+The SNMP ports (161 and 162) should not be open to untrusted networks
+
+version 3 has cryptographic functionality, which provides encryption, message integrity, and authentication security. So, SNMP v3 should be implemented</note></topic><topic id="77" parent="63" x="-415.72" y="444.08" text="DNS"><note>Domain Name System (DNS) A hierarchical distributed naming system for computers, services, or any resource connected to an IP-based network. It associates various pieces of information with domain names assigned to each of the participating entities.</note></topic><topic id="78" parent="77" x="-314.09" y="409.07" text="Zone transfer"><note>DNS zone transfer The process of replicating the databases containing the DNS data across a set of DNS servers.</note></topic><topic id="79" parent="77" x="-319.69" y="446.16" text="DNSSEC"><note>DNSSEC A set of extensions to DNS that provide to DNS clients (resolvers) origin authentication of DNS data to reduce the threat of DNS poisoning, spoofing, and similar attack types.</note></topic><topic id="80" parent="44" x="-432.27" y="633.70" text="E-mail services"></topic><topic id="81" parent="80" x="-526.35" y="641.95" text="SMTP"><note>Simple Mail Transfer Protocol (SMTP)
+- message transfer agent, moves the message from the user’s computer to the mail server when the user clicks the Send button. 
+- Function also as a message transfer protocol between e-mail servers. 
+- SMTP is a message-exchange addressing standard, and most people are used to seeing its familiar addressing scheme: something@somewhere.com.
+- works on top of the TCP</note></topic><topic id="82" parent="80" x="-510.69" y="681.55" text="POP"><note>Post Office Protocol
+is an Internet mail server protocol that supports incoming and outgoing messages.
+If a user is using POP, when he accesses his mail server to see if he has received any new messages, all messages are automatically downloaded to his computer.</note></topic><topic id="83" parent="80" x="-466.71" y="706.48" text="IMAP"><note>Internet Message Access Protocol
+enables users to access mail on a mail server. IMAP provides all the functionalities of POP, but has more capabilities.
+
+IMAP is a store-and-forward mail server protocol that is considered POP’s successor.</note></topic><topic id="84" parent="80" x="-416.84" y="705.25" text="SASL"><note>Simple Authentication and Security Layer
+is a protocol-independent framework for performing authentication. 
+The use of SASL is not unique just to POP; other protocols, such as IMAP, Internet Relay Chat (IRC), Lightweight Directory Access Protocol (LDAP), and SMTP, can also use SASL and its functionality.</note></topic><topic id="85" parent="80" x="-364.14" y="679.15" text="Relaying"><note>Mail servers use a relay agent to send a message from one mail server to another.
+
+Spammers will find mail servers on the Internet, or within company DMZs, that have loosely configured relaying mechanisms and use these servers to send their spam.</note></topic><topic id="86" parent="80" x="-316.45" y="632.92" text="Threats"></topic><topic id="87" parent="86" x="-225.81" y="601.82" text="E-mail spoofing"><note>is a technique used by malicious users to forge an e-mail to make it appear to be from a legitimate source.
+
+E-mail spoofing is done by modifying the fields of e-mail headers, such as the From, Return-Path, and Reply-To fields, so the e-mail appears to be from a trusted source.
+
+E-mail spoofing is caused by the lack of security features in SMTP.
+
+E-mail spoofing can be mitigated in several ways. 
+- The SMTP server can be configured to prevent unauthenticated users from sending e-mails.
+SMTP authentication (SMTP-AUTH) was developed to provide an access control mechanism.
+
+- Sender Policy Framework (SPF), which is an e-mail validation system designed to prevent e-mail spam by detecting e-mail spoofing by verifying the sender’s IP address. SPF allows administrators to specify which hosts are allowed to send e-mail from a given domain by creating a specific SPF record in DNS. Mail exchanges use the DNS to check that mail from a given domain is being sent by a host sanctioned by that domain’s administrators.</note></topic><topic id="88" parent="86" x="-224.87" y="649.86" text="Spear phishing\NWhaling attack"><note>A spear phishing attack zeros in on specific people. So if an attacker wants your specific information because she wants to break into your bank account, she could gather information about you via Facebook, LinkedIn, or through other resources and create an e-mail from someone she thinks you will trust. A similar attack is called whaling. In a whaling attack an attacker usually identifies some “big fish” in an organization (CEO, CFO, COO, CSO) and targets them because they have access to some of the most sensitive data in the organization. The attack is finely tuned to achieve the highest likelihood of success.</note></topic><topic id="89" parent="44" x="-187.33" y="708.85" text="NAT"><note>Network address translation (NAT) The process of modifying IP address information in packet headers while in transit across a traffic routing device, with the goal of reducing the demand for public IP addresses.
+
+The following lists current private IP address ranges:
+10.0.0.0–10.255.255.255 Class A network
+172.16.0.0–172.31.255.255 Class B networks
+192.168.0.0–192.168.255.255 Class C networks</note></topic><topic id="90" parent="89" x="-263.41" y="710.12" text="Static mapping"><note>The NAT software has a pool of public IP addresses configured. Each private address is statically mapped to a specific public address. So computer A always receives the public address x, computer B always receives the public address y, and so on. This is generally used for servers that need to keep the same public address at all times.</note></topic><topic id="91" parent="89" x="-263.27" y="747.10" text="Dynamic mapping"><note>The NAT software has a pool of IP addresses, but instead of statically mapping a public address to a specific private address, it works on a first-come, first-served basis.
+The balancing act is to estimate how many computers will most likely need to communicate outside the internal network at one time. This estimate is the number of public addresses the company purchases, instead of purchasing one public address for each computer.</note></topic><topic id="92" parent="89" x="-218.07" y="793.00" text="Port address\Ntranslation (PAT)"><note>The company owns and uses only one public IP address for all systems that need to communicate outside the internal network.
+The NAT device has an IP address of 127.50.41.3. When computer A needs to communicate with a system on the Internet, the NAT device documents this computer’s private address and source port number (10.10.44.3; port 43,887). The NAT device changes the IP address in the computer’s packet header to 127.50.41.3, with the source port 40,000. When computer B also needs to communicate with a system on the Internet, the NAT device documents the private address and source port number (10.10.44.15; port 23,398) and changes the header information to 127.50.41.3 with source port 40,001. So when a system responds to computer A, the packet first goes to the NAT device, which looks up the port number 40,000 and sees that it maps to computer A’s real information. So the NAT device changes the header information to address 10.10.44.3 and port 43,887 and sends it to computer A for processing. A company can save a lot more money by using PAT, because the company needs to buy only a few public IP addresses, which are used by all systems in the network.</note></topic><topic id="93" parent="44" x="-83.05" y="778.06" text="Routing Protocols"></topic><topic id="94" parent="93" x="32.86" y="857.05" text="AS"><note>Individual networks on the Internet are referred to as autonomous systems (ASs). These ASs are independently controlled by different service providers and organizations. An AS is made up of routers, which are administered by a single entity and use a common Interior Gateway Protocol (IGP) within the boundaries of the AS. The boundaries of these ASs are delineated by border routers. These routers connect to the border routers of other ASs and run interior and exterior routing protocols. Internal routers connect to other routers within the same AS and run interior routing protocols. So, in reality, the Internet is just a network made up of ASs and routing protocols.</note></topic><topic id="95" parent="93" x="37.61" y="820.66" text="Dynamic"><note>dynamic routing protocol can discover routes and build a routing table. Routers use these tables to make decisions on the best route for the packets they receive. A dynamic routing protocol can change the entries in the routing table based on changes that take place to the different routes. When a router that is using a dynamic routing protocol finds out that a route has gone down or is congested, it sends an update message to the other routers around it. The other routers use this information to update their routing table, with the goal of providing efficient routing functionality.</note></topic><topic id="96" parent="93" x="26.67" y="785.80" text="Static"><note>A static routing protocol requires the administrator to manually configure the router’s routing table. If a link goes down or there is network congestion, the routers cannot tune themselves to use better routes.</note></topic><topic id="97" parent="93" x="33.92" y="748.91" text="Flapping"><note>Route flapping refers to the constant changes in the availability of routes.</note></topic><topic id="98" parent="93" x="39.72" y="710.91" text="Black hole"><note>If a router does not receive an update that a link has gone down, the router will continue to forward packets to that route, which is referred to as a black hole.</note></topic><topic id="99" parent="93" x="-162.16" y="862.13" text="Distance-vector"><note>Distance-vector routing protocols make their routing decisions based on the distance (or number of hops) and a vector (a direction). The protocol takes these variables and uses them with an algorithm to determine the best route for a packet.</note></topic><topic id="100" parent="99" x="-263.80" y="887.05" text="RIP"><note>Routing Information Protocol RIP is a standard that outlines how routers exchange routing table data and is considered a distance-vector protocol, which means it calculates the shortest distance between the source and destination. 
+It is considered a legacy protocol because of its slow performance and lack of functionality. It should only be used in small networks. 
+RIP version 1 has no authentication, and RIP version 2 sends passwords in cleartext or hashed with MD5.</note></topic><topic id="101" parent="99" x="-242.60" y="923.25" text="IGRP"><note>Interior Gateway Routing Protocol IGRP is a distance-vector routing protocol that was developed by, and is proprietary to, Cisco Systems. Whereas RIP uses one criterion to find the best path between the source and destination, IGRP uses five criteria to make a “best route” decision. A network administrator can set weights on these different metrics so that the protocol works best in that specific environment.</note></topic><topic id="102" parent="99" x="-190.05" y="938.27" text="EIGRP"><note>Enhanced Interior Gateway Routing Protocol EIGRP is a Cisco proprietary and advanced distance-vector routing protocol. It allows for faster router table updates than its predecessor IGRP and minimizes routing instability, which can occur after topology changes. Routers exchange messages that contain information about bandwidth, delay, load, reliability, and maximum transmission unit (MTU) of the path to each destination as known by the advertising router.</note></topic><topic id="103" parent="93" x="-69.49" y="860.34" text="Link-state"><note>Link-state routing protocols build a more accurate routing table because they build a topology database of the network. These protocols look at more variables than just the number of hops between two destinations. They use packet size, link speed, delay, network load, and reliability as the variables in their algorithms to determine the best routes for packets to take.</note></topic><topic id="104" parent="103" x="-92.18" y="916.54" text="OSPF"><note>Open Shortest Path First OSPF 
+uses link-state algorithms to send out routing table information. The use of these algorithms allows for smaller, more frequent routing table updates to take place. This provides a more stable network than RIP, but requires more memory and CPU resources to support this extra processing. 
+OSPF allows for a hierarchical routing network that has a backbone link connecting all subnets together. OSPF has replaced RIP in many networks today. Authentication can take place with cleartext passwords or hashed passwords, or you can choose to configure no authentication on the routers using this protocol.</note></topic><topic id="105" parent="103" x="-35.55" y="919.51" text="IS-IS"><note>Intermediate System to Intermediate System (IS-IS) Link-state protocol that allows each router to independently build a database of a network’s topology. Similar to the OSPF protocol, it computes the best path for traffic to travel. It is a classless and hierarchical routing protocol that is vendor neutral.</note></topic><topic id="106" parent="93" x="36.64" y="892.06" text="VRRP"><note>Virtual Router Redundancy Protocol VRRP is used in networks that require high availability where routers as points of failure cannot be tolerated. It is designed to increase the availability of the default gateway by advertising a “virtual router” as a default gateway. Two physical routers (primary and secondary) are mapped to one virtual router. If one of the physical routers fails, the other router takes over the workload.</note></topic><topic id="107" parent="93" x="-29.98" y="697.11" text="EGB"><note>The exterior routing protocols used by routers connecting different ASs are generically referred to as exterior gateway protocols</note></topic><topic id="108" parent="93" x="-40.39" y="658.04" text="BGP"><note>The Border Gateway Protocol (BGP) enables routers on different ASs to share routing information to ensure effective and efficient routing between the different AS networks. BGP is commonly used by Internet service providers to route data from one location to the next on the Internet.
+
+BGP uses a combination of link-state and distance-vector routing algorithms. It creates a network topology by using its link-state functionality and transmits updates on a periodic basis instead of continuously, which is how distance-vector protocols work. Network administrators can apply weights to the different variables used by link-state routing protocols when determining the best routes. These configurations are collectively called the routing policy.</note></topic><topic id="109" parent="0" x="137.64" y="990.60" text="Network Devices"></topic><topic id="110" parent="109" x="-44.19" y="993.68" text="Repeater"><note>Repeaters work at the physical layer and are add-on devices for extending a network connection over a greater distance. The device amplifies signals because signals attenuate the farther they have to travel.
+Repeaters can also work as line conditioners by actually cleaning up the signals. This works much better when amplifying digital signals than when amplifying analog signals, because digital signals are discrete units, which makes extraction of background noise from them much easier for the amplifier. If the device is amplifying analog signals, any accompanying noise often is amplified as well, which may further distort the signal.
+
+A repeater does not work with addresses; it just forwards all signals it receives.</note></topic><topic id="111" parent="110" x="-116.71" y="1006.48" text="Hub"><note>A hub is a multiport repeater. A hub is often referred to as a concentrator because it is the physical communication device that allows several computers and devices to communicate with each other. A hub does not understand or work with IP or MAC addresses. When one system sends a signal to go to another system connected to it, the signal is broadcast to all the ports, and thus to all the systems connected to the concentrator.</note></topic><topic id="112" parent="109" x="-192.09" y="1093.48" text="Bridge"><note>It works at the data link layer and therefore works with MAC addresses. When a frame arrives at a bridge, the bridge determines whether or not the MAC address is on the local network segment. If the MAC address is not on the local network segment, the bridge forwards the frame to the necessary network segment.
+A bridge is used to divide overburdened networks into smaller segments to ensure better use of bandwidth and traffic control. A bridge amplifies the electrical signal, as does a repeater, but it has more intelligence than a repeater and is used to extend a LAN and enable the administrator to filter frames so he can control which frames go where.
+
+- Reads header information, but does not alter it
+- Builds forwarding tables based on MAC addresses
+- Uses the same network address for all ports
+- Filters traffic based on MAC addresses
+- Forwards broadcast packets
+- Forwards traffic if a destination address is unknown to the bridge</note></topic><topic id="113" parent="112" x="-304.24" y="1069.24" text="Broadcast storm"><note>Because bridges can forward all traffic, they forward all broadcast packets as well. This can overwhelm the network and result in a broadcast storm, which degrades the network bandwidth and performance.</note></topic><topic id="114" parent="112" x="-310.17" y="1112.94" text="Local"><note>A local bridge connects two or more LAN segments within a local area, which is usually a building.</note></topic><topic id="115" parent="112" x="-292.82" y="1148.39" text="Remote"><note>A remote bridge can connect two or more LAN segments over a MAN by using telecommunications links. A remote bridge is equipped with telecommunications ports, which enable it to connect two or more LANs separated by a long distance and can be brought together via telephone or other types of transmission lines.</note></topic><topic id="116" parent="112" x="-222.48" y="1163.36" text="Translation"><note>A translation bridge is needed if the two LANs being connected are different types and use different standards and protocols. For example, consider a connection between a Token Ring network and an Ethernet network.</note></topic><topic id="117" parent="112" x="-131.00" y="1150.60" text="Forwarding\Ntable"></topic><topic id="118" parent="117" x="-70.95" y="1206.99" text="transparent\Nbridging"><note>If transparent bridging is used, a bridge starts to learn about the network’s environment as soon as it is powered on and as the network changes. It does this by examining frames and making entries in its forwarding table.
+
+If the bridge receives a request to send a frame to a destination that is not in its forwarding table, it sends out a query frame on each network segment except for the source segment. The destination host is the only one that replies to this query. The bridge updates its table with this computer address and the port to which it is connected, and forwards the frame.</note></topic><topic id="119" parent="117" x="-152.31" y="1203.53" text="static paths"></topic><topic id="120" parent="117" x="-45.80" y="1161.37" text="STA"><note>Spanning Tree Algorithm (STA)
+adds more intelligence to the bridges.  
+- ensures that frames do not circle networks forever, 
+- provides redundant paths in case a bridge goes down, 
+- assigns unique identifiers to each bridge, 
+- assigns priority values to these bridges, and 
+- calculates path costs
+- enables an administrator to indicate whether he wants traffic to travel certain paths instead of others.</note></topic><topic id="121" parent="112" x="-85.44" y="1098.88" text="source routing"><note>The packets hold the forwarding information so they can find their way to their destination without needing bridges and routers to dictate their paths. If the computer wants to dictate its forwarding information, it sends out explorer packets that arrive at the destination computer. These packets contain the route information the packets had to take to get to the destination, including what bridges and/or routers they had to pass through. 
+The destination computer then sends these packets back to the source computer, and the source computer strips out the routing information, inserts it into the packets, and sends them on to the destination.</note></topic><topic id="122" parent="121" x="1.88" y="1117.80" text="Caution"><note>External devices and border routers should not accept packets with source routing information within their headers, because that information will override what is laid out in the forwarding and routing tables configured on the intermediate devices. You want to control how traffic traverses your network; you don’t want packets to have this type of control and be able to go wherever they want. Source routing can be used by attackers to get around certain bridge and router filtering rules.</note></topic><topic id="123" parent="109" x="145.55" y="1122.32" text="Switch"><note>Switches combine the functionality of a repeater and the functionality of a bridge. A switch amplifies the electrical signal, like a repeater, and has the built-in circuitry and intelligence of a bridge.
+
+When a frame comes to a hub, the hub sends the frame out through all of its ports. When a frame comes to a bridge, the bridge sends the frame to the port to which the destination network segment is connected. When a frame comes to a switch, the switch sends the frame directly to the destination computer or network, which results in a reduction of traffic.
+
+When switches are used, contention and collisions are not issues, which results in more efficient use of the network’s bandwidth and decreased latency.</note></topic><topic id="124" parent="123" x="133.20" y="1169.99" text="L2"><note>Basic switches work at the data link layer and forward traffic based on MAC addresses</note></topic><topic id="125" parent="123" x="185.12" y="1171.65" text="L3&amp;L4"><note>These switches are referred to as multilayered switches because they combine data link layer, network layer, and other layer functionalities.
+
+A layer 3 switch is basically a router on steroids because it moves the route lookup functionality to the more efficient switching hardware level.(ASIC)</note></topic><topic id="126" parent="125" x="228.43" y="1225.64" text="Tags"><note>Layer 3 and 4 switches can use tags, which are assigned to each destination network or subnet. When a packet reaches the switch, the switch compares the destination address with its tag information base, which is a list of all the subnets and their corresponding tag numbers. The switch appends the tag to the packet and sends it to the next switch. All the switches in between this first switch and the destination host just review this tag information to determine which route it needs to take, instead of analyzing the full header. Once the packet reaches the last switch, this tag is removed and the packet is sent to the destination. This process increases the speed of routing of packets from one location to another.
+
+Multiprotocol Label Switching (MPLS)</note></topic><topic id="127" parent="125" x="179.46" y="1226.81" text="VLAN"><note>enable administrators to separate and group computers logically</note></topic><topic id="128" parent="127" x="172.73" y="1292.28" text="Hopping attack"><note>VLAN hopping attacks allow attackers to gain access to traffic in various VLAN segments. An attacker can have a system act as though it is a switch. 
+The system understands the tagging values being used in the network and the trunking protocols and can insert itself between other VLAN devices and gain access to the traffic going back and forth.
+Attackers can also insert tagging values to manipulate the control of traffic at the data link layer.</note></topic><topic id="129" parent="109" x="77.08" y="1123.25" text="Router"><note>Routers are layer 3, or network layer, devices that are used to connect similar or different networks.
+
+A router splits up a network into collision domains and broadcast domains. A router gives more of a clear-cut division between network segments than repeaters or bridges. A router should be used if an administrator wants to have more defined control of where the traffic goes, because more sophisticated filtering is available with routers, and when a router is used to segment a network, the result is more controllable sections.
+
+- Creates a new header for each packet
+- Builds routing tables based on IP addresses
+- Assigns a different network address per port
+- Filters traffic based on IP addresses
+- Does not forward broadcast packets
+- Forwards traffic if a destination address is unknown to the bridge
+
+A router discovers information about routes and changes that take place in a network through its routing protocols (RIP, BGP, OSPF, and others). These protocols tell routers if a link has gone down, if a route is congested, and if another route is more economical. They also update routing tables and indicate if a router is having problems or has gone down.</note></topic><topic id="130" parent="109" x="238.61" y="1126.25" text="Gateway"><note>Gateway is a general term for software running on a device that connects two different environments</note></topic><topic id="131" parent="109" x="323.73" y="1104.98" text="PBX"><note>A Private Branch Exchange (PBX) is a private telephone switch that is located on a company’s property. This switch performs some of the same switching tasks that take place at the telephone company’s central office. The PBX has a dedicated connection to its local telephone company’s central office, where more intelligent switching takes place.
+
+Private Branch Exchange (PBX) A telephone exchange that serves a particular business, makes connections among the internal telephones, and connects them to the public-switched telephone network (PSTN) via trunk lines.</note></topic><topic id="132" parent="109" x="445.35" y="1086.16" text="Firewall"></topic><topic id="133" parent="132" x="526.65" y="1131.19" text="Types"></topic><topic id="134" parent="133" x="364.61" y="1264.82" text="Packet filtering"><note>The first generation of firewalls,
+also known as stateless inspection because the device does not understand the context that the packets are working within. 
+
+Packet filtering is a firewall technology that makes access decisions based upon network-level protocol header values. The device that is carrying out packet filtering processes is configured with ACLs, which dictate the type of traffic that is allowed into and out of specific networks.
+
+The filters only have the capability of reviewing protocol header information at the network and transport levels.
+
+This means the filters can make access decisions based upon the following basic criteria:
+- Source and destination IP addresses
+- Source and destination port numbers
+- Protocol types
+- Inbound and outbound traffic direction
+
+Packet filtering is commonly carried out at the edge of a network to strip out all of the obvious “junk” traffic.</note></topic><topic id="135" parent="134" x="306.38" y="1312.84" text="Cons"><note>- They cannot prevent attacks that employ application-specific vulnerabilities or functions.
+
+- The logging functionality present in packet filtering firewalls is limited.
+
+- Most packet filtering firewalls do not support advanced user authentication schemes.
+
+- Many packet filtering firewalls cannot detect spoofed addresses.
+
+- They may not be able to detect packet fragmentation attacks.</note></topic><topic id="136" parent="134" x="357.49" y="1313.04" text="Pros"><note>packet filtering firewalls are scalable, 
+they are not application dependent, and they have high performance because they do not carry out extensive processing on the packets. 
+
+They are commonly used as the first line of defense to strip out all the network traffic that is obviously malicious or unintended for a specific network.</note></topic><topic id="137" parent="133" x="682.67" y="1276.62" text="Dynamic packet filtering"></topic><topic id="138" parent="133" x="464.53" y="1264.40" text="Stateful"><note>- Maintains a state table that tracks each and every communication session
+
+- Provides a high degree of security and does not introduce the performance hit that application proxy firewalls introduce
+
+- Is scalable and transparent to users
+
+- Provides data for tracking connectionless 
+protocols such as UDP and ICMP
+
+- Stores and updates the state and context of the data within the packets</note></topic><topic id="139" parent="133" x="736.23" y="1202.28" text="Kernel proxy"></topic><topic id="140" parent="133" x="575.83" y="1277.31" text="Proxy"></topic><topic id="141" parent="132" x="538.54" y="1060.42" text="Architecture"></topic><topic id="142" parent="141" x="665.04" y="1075.67" text="Screened host"></topic><topic id="143" parent="141" x="656.65" y="1130.58" text="Multihome"></topic><topic id="144" parent="141" x="660.32" y="1016.27" text="Screened subnet"></topic><topic id="145" parent="109" x="344.21" y="1003.09" text="Proxy"></topic><topic id="146" parent="109" x="310.72" y="963.31" text="Honeypot"></topic><topic id="147" parent="0" x="442.45" y="889.24" text="Intranets and Extranets"></topic><topic id="148" parent="0" x="841.55" y="842.42" text="Metropolitan\NArea Networks"></topic><topic id="149" parent="0" x="648.20" y="875.66" text="Wide Area Networks"></topic><topic id="150" parent="0" x="948.86" y="711.88" text="Remote Connectivity"></topic><topic id="151" parent="0" x="786.38" y="596.99" text="Wireless Technologies"></topic></topics><relations><relation source="68" target="69"></relation><relation source="69" target="66"></relation></relations></mindmap></simplemind-mindmaps>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.8.0" device-type="ipad"><mindmap><meta><guid guid="853A67745D4F862E580D0E51"></guid><title text="Domain 4\NPhysical and Environmental Security"></title><page><visual-area x="-648.66" y="0.00" width="1717.84" height="1033.32"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="85" x="420.34" y="-103.00"></scrollstate><selection type="node" id="5"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="500.00" y="500.00" text="Domain 4\NPhysical and Environmental Security"></topic><topic id="1" parent="0" x="749.56" y="501.37" text="The Planning Process"></topic><topic id="2" parent="1" x="886.54" y="487.08" text="CPTED"><note>Crime prevention through environmental design
+Combines the physical environment and sociology issues that surround it to reduce crime rates and the fear of crime
+
+3 strategies
+
+1. Natural access control
+2. Natural surveillance 
+3. Natural territorial reinforcement</note></topic><topic id="3" parent="1" x="917.39" y="533.54" text="Designing a Physical\Nsecurity Program"><note>Team needs to investigate
+
+.construction materials of walls and ceilings
+.power distribution systems
+.communication paths and types
+.surrounding hazardous materials
+.exterior components</note></topic><topic id="4" parent="3" x="1025.42" y="554.24" text="Doors"><note>Vault 
+Personnel
+Industrial
+Vehicle access doors
+Bullet-resistant doors</note></topic><topic id="5" parent="3" x="1035.18" y="514.03" text="Windows"><note>Standard
+Tempered
+Acrylic
+Wired
+Laminated
+Solar window film 
+Security film</note></topic><topic id="6" parent="3" x="1028.20" y="596.19" text="Lightning"><note>Continuous - Parkin lot
+Controlled - erect in a way that does not blind neighbors
+Standby - programmed to turn on
+Responsive - ids detection</note></topic><topic id="7" parent="0" x="611.56" y="381.37" text="Protecting Assets"></topic><topic id="8" parent="7" x="662.82" y="326.87" text="Safes"><note>Wall safe
+Floor safe
+Chest - standalone
+Depositories - safe with slots
+Vaults - walk-in access</note></topic><topic id="9" parent="0" x="384.56" y="383.37" text="Internal Support Systems"><note>Electric Power</note></topic><topic id="10" parent="9" x="229.14" y="306.40" text="Electric Power"></topic><topic id="11" parent="10" x="215.53" y="189.07" text="Online UPS\NStandby UPS"><note>Online UPS have the normal primary power passing through them day in and day out. They are much faster than standby.
+
+Standby UPS stay inactive until power line fails.</note></topic><topic id="12" parent="10" x="333.30" y="183.40" text="Backup power supply"></topic><topic id="13" parent="10" x="100.30" y="191.40" text="Electric power issues"><note>EMI electromagnetic interference ( motors)
+
+RFI radio frequency interference (fluorescent light)
+
+May cause disturbance to the flow of electric power ( power noise)</note></topic><topic id="14" parent="13" x="-10.23" y="137.35" text="Power fluctuations"><note>1. Power excess
+- spike : momentary high voltage
+- surge : prolonged high voltage
+
+2. Power loss
+- fault : momentary power outage
+- blackout : prolonged, complete loss of electric power
+
+3. Power degradation
+- sag/dip - momentary low-voltage condition
+- brownout - prolonged power supply that is below normal voltage
+- in-rush current : initial surge of current required to start a load</note></topic><topic id="15" parent="9" x="367.31" y="317.64" text="Environmental Issues"></topic><topic id="16" parent="15" x="373.43" y="266.34" text="Static electricity"><note>Anti static flooring
+Proper humidity
+Proper grounding
+Wear Anti static bands when working inside computer systems</note></topic><topic id="17" parent="9" x="154.59" y="350.65" text="Ventilation"></topic><topic id="18" parent="17" x="67.76" y="338.30" text="HVAC"><note>System should maintain the appropriate temperature and humidity levels and provide  closed-loop recirculating air-conditioning  and positive pressurization and ventilation
+
+HVAC system should be off before activating of a fire suppressant</note></topic><topic id="19" parent="9" x="486.00" y="323.27" text="Fire prevention\NDetection\NSuppression"><note>Training employees how to react 
+Supplying the right equipment
+Storing combustible elements in a proper manner</note></topic><topic id="20" parent="19" x="501.93" y="249.51" text="Detection"><note>1. Smoke activated
+2. Heat activated</note></topic><topic id="21" parent="19" x="585.84" y="251.42" text="Suppression"></topic><topic id="22" parent="21" x="662.94" y="189.73" text="Types of fire"><note>A - common combustibles - water,foam
+B - Liquid - Gas, CO2, foam, dry powders
+C - electrical - Gas, CO2, dry powders
+D - combustible metals - dry powder
+
+Halon is banned since 1987 by Montreal protocol. The most effective replacement is 
+FM-200 which does not damage ozone</note></topic><topic id="23" parent="21" x="702.49" y="236.40" text="Water sprinklers"><note>1. Wet pipe
+Always contain water in the pipes
+2. Dry pipe
+Water is not held in the pipes, but it is stored in a tank. Pipes are under pressure not allowing the water valve to open
+3. Preaction 
+Similar to dry pipe + thermal-fusible on the sprinkler head has to melt before the water is released
+4. Deluge
+Wide open sprinkler heads allow a large volume of water to be released, these are not used in data processing environments</note></topic><topic id="24" parent="21" x="575.77" y="151.21" text="Portable fire extinguisher"><note>Should be located within 50 feet of electrical equipment and should be inspected quarterly</note></topic><topic id="25" parent="0" x="197.56" y="499.37" text="Perimeter Security"></topic><topic id="26" parent="25" x="9.06" y="434.12" text="Facility access control"></topic><topic id="27" parent="26" x="-138.36" y="425.17" text="Locks"><note>Considered as delaying devices
+
+Mechanical locks
+1. Warder lock - basic padlock
+2. Tumbler lock  (pin,wafer,lever)
+3. Combination lock
+4. Cipher lock
+
+Lock strengths
+
+Grade 1 - commercial and industrial use
+Grade 2 - heavy-duty residential/light-duty commercial
+Grade 3 - residential/consumer
+
+The cylinders within the locks fall into 3 main categories:
+Low security - no pick or drill resistance
+Medium security - a degree of pick resistance protection, any of three grades
+High security - degree of pick protection, grade 1 and 2 locks</note></topic><topic id="28" parent="25" x="14.87" y="472.07" text="Personal access control"></topic><topic id="29" parent="28" x="-147.42" y="469.44" text="user- activated readers\Ntransponders "></topic><topic id="30" parent="25" x="-225.14" y="545.72" text="External Boundary\NProtection Mechanism"></topic><topic id="31" parent="30" x="-379.34" y="546.00" text="Access control\Nmechanisms"><note>Locks and keys, an electronic card access system, personnel awareness</note></topic><topic id="32" parent="30" x="-385.85" y="594.85" text="Physical barriers"><note>Fences, gates, walls, doors, windows, protected vents, vehicular barriers</note></topic><topic id="33" parent="32" x="-511.08" y="577.09" text="Fences"><note>3-5 feet only deter casual trespassers
+6-7 feet considered too high to climb easily
+8 feet often deter more determined intruder
+
+Gauges and mesh size
+Gauge is the thickness of the wires
+ 
+
+PIDAS Fencing - perimeter intrusion and assessment system is a type of fencing that has sensors located on the wire mesh and at the base of the fence. Detects cut, climb attempt
+It has a passive cable vibration sensor.
+Very sensitive, may cause many FPs</note></topic><topic id="34" parent="32" x="-510.85" y="617.19" text="Gates"><note>Class I - residential usage
+Class II - commercial use, where general public access is accepted
+Class  III - industrial usage, where limited access is expected
+Class IV - restricted access, prison entrance ...
+
+These classifications are developed and maintained by underwriters laboratory UL</note></topic><topic id="35" parent="30" x="-394.53" y="642.70" text="Intrusion detection"><note>Perimeter sensors, interior sensors, annunciation mechanism
+
+IDSs can be used to detect changes in the following :
+
+1. Beams of light
+2. Sounds and vibrations
+3. Motion
+4. Different types of fields (microwave, ultrasonic, electrostatic)
+5. Electric circuit
+
+Characteristics:
+- expensive and require human intervention
+- a redundant power supply necessary
+- should detect and be resistant to tampering
+- fail-safe defaults to activated</note></topic><topic id="36" parent="35" x="-566.21" y="679.47" text="Electromechanical"><note>Break in a circuit</note></topic><topic id="37" parent="35" x="-570.66" y="718.94" text="Photoelectric/photometric"><note>Changes in light beam, can be used in a windowless rooms only</note></topic><topic id="38" parent="35" x="-539.62" y="757.12" text="Passive infrared PIR"><note>Changes of heat waves in the area</note></topic><topic id="39" parent="35" x="-510.20" y="803.74" text="Acoustical"><note>Microphones on floors, walls, ceiling detecting sounds made during a force entry</note></topic><topic id="40" parent="35" x="-504.20" y="849.74" text="Vibrations"></topic><topic id="41" parent="35" x="-482.20" y="895.74" text="Wave pattern\Nmotion detectors"><note>Generates a wave pattern and check the reflected wave for disturbance (microwave, ultrasonic, low frequency)</note></topic><topic id="42" parent="35" x="-440.20" y="941.74" text="Proximity/capacity\Ndetector"><note>Emits measurable magnetic field, alarm sounds if the field is disrupted. Usually used to protect particular objects ( art)</note></topic><topic id="43" parent="30" x="-267.47" y="940.70" text="Assessment"><note>Guards, CCTV cameras</note></topic><topic id="44" parent="43" x="-280.53" y="1015.45" text="CCTV"><note>Most of today's CCTV(close circuit TV) employ light-sensitive chips called charged-coupled devices CCDs.
+
+CCD is an electrical circuit that receives input light from lens and converts it into an electronic signal.
+
+2 main types of lenses:
+- fixed focal length
+- zoom (varifocal)
+
+Focal length defines it's effectiveness in viewing objects from horizontal and vertical view.
+Short focal length lenses provide wider-angel views, long focal provide narrower view.
+
+For a warehouse 2.8 and 4.3 mm
+
+For a entrance monitoring around 8 mm
+
+Depth of field
+Refers to the portion of the environment that is in focus when showing on monitor
+
+CCTV lenses have irises, which control the amount of light that enters the lens.
+
+Manual iris lense have a ring that can be manually turned and controlled.
+Auto iris lens should be used in environments  where the light changes, as in outdoor setting
+
+Announciator system can alert if detects something suspicious on CCTV (movement)</note></topic><topic id="45" parent="30" x="-210.06" y="782.99" text="Response"><note>Guards, local law enforcement agencies</note></topic><topic id="46" parent="30" x="-124.29" y="812.41" text="Deterrents"><note>Signs, lightning, environmental design</note></topic><topic id="47" parent="25" x="-16.14" y="571.72" text="Intrusion\NDetection\NSystem"></topic><topic id="48" parent="25" x="10.86" y="619.72" text="Patrol Force Guards"></topic><topic id="49" parent="25" x="18.86" y="661.72" text="Dogs"></topic><topic id="50" parent="25" x="13.86" y="706.72" text="Auditing Physical Access"></topic></topics><relations></relations></mindmap></simplemind-mindmaps>

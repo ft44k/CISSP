@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.7.5" device-type="ipad"><mindmap><meta><guid guid="449CFA1D1BC1842E1B161998"></guid><title text="Domain 9\NSW Development Security"></title><page><visual-area x="-429.61" y="-234.73" width="1845.48" height="1581.43"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="96" x="106.11" y="83.96"></scrollstate><selection type="node" id="0"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="510.53" y="495.79" palette="1" colorinfo="1" text="Domain 9\NSW Development Security"></topic><topic id="1" parent="0" x="801.81" y="960.17" palette="2" colorinfo="2" text="System Development life cycle\N(SDLC)"><note>Key terms:
+SDLC - a methodical approach to standardize requirements discovery, design, development, testing, and implementation in every phase of a system.
+
+Certification - the technical testing of a system
+
+Accreditation - the formal authorization given by management to allow a system to operate in a specific environment</note></topic><topic id="2" parent="1" x="594.40" y="950.15" text="Initiation "></topic><topic id="3" parent="1" x="615.26" y="996.51" text="Acquisition/Development "></topic><topic id="4" parent="1" x="714.61" y="1030.85" text="Implementation"></topic><topic id="5" parent="1" x="851.23" y="1044.25" text="Operations/Maintenance"></topic><topic id="6" parent="1" x="965.51" y="1058.60" text="Disposal"></topic><topic id="7" parent="0" x="789.50" y="687.59" palette="3" colorinfo="3" text="Software development life\Ncycle (SDLC)"></topic><topic id="8" parent="7" x="975.26" y="736.65" text="Requirements gathering"></topic><topic id="9" parent="8" x="1163.66" y="768.38" text=".security requirements\N.security risk assessment \N.privacy risk assessment \N.risk-level acceptance"></topic><topic id="10" parent="7" x="970.18" y="701.99" text="Design"><note>The decisions made during the design phase are pivot steps to the development phase.</note></topic><topic id="11" parent="10" x="1162.53" y="706.12" text=".attack surface analysis\N.threat modeling"></topic><topic id="12" parent="7" x="993.34" y="664.09" text="Development"></topic><topic id="13" parent="12" x="1159.61" y="656.40" text=".automated CASE tools\N.static analysis"></topic><topic id="14" parent="7" x="1025.79" y="629.28" text="Testing/Validation"></topic><topic id="15" parent="14" x="1279.37" y="594.25" text=".dynamic analysis\N.fuzzing\N.manual testing\N.unit, integration, acceptance, regression testing"><note>Testing:
+
+Unit - individual component is in a controlled environment where programmers validate data structures,logic,and boundary conditions
+
+Integration - verifying that components work together 
+
+Acceptance - ensuring that code meets customers requirements
+
+Regression - after a change to a system takes place, retesting to ensure functionality, performance, and protection</note></topic><topic id="16" parent="7" x="1050.00" y="593.49" text="Release/Maintenance"></topic><topic id="17" parent="16" x="1181.63" y="527.98" text=".verification\N.validation"><note>Verification determines if the product meets the specification.
+
+Validation determines if the product provides the necessary solution for the problem</note></topic><topic id="18" parent="7" x="826.11" y="774.03" text="Project management"></topic><topic id="19" parent="18" x="964.47" y="790.86" text="Statement of Work\N(SOW)"><note>Document which describes the product and customer requirements</note></topic><topic id="20" parent="18" x="984.47" y="844.54" text="Work Breakdown structure\N(WBS)"><note>Tool used to define and group project's individual work elements in an organized manner. The SDLC should be  illustrated in a WBS format.</note></topic><topic id="21" parent="0" x="868.46" y="57.06" palette="4" colorinfo="4" text="Software\NDevelopment\NModels"></topic><topic id="22" parent="21" x="974.81" y="116.79" text="Build and Fix"><note>Little or no planning involved. Problems are dealt with as they occur (after release)</note></topic><topic id="23" parent="21" x="995.60" y="71.70" text="Waterfall "><note>Linear-sequential life-cycle approach. Each phase must be completed in its entirety before the next phase can begin.
+At the end of each phase, a review takes place to make sure the project is on the correct path.</note></topic><topic id="24" parent="21" x="996.24" y="22.86" text="V-shape"><note>This model emphasizes the verification and validation of the product at each phase.
+Each phase must be completed before the next phase begins. But because the V-shaped model requires testing throughout the development phase and not just waiting until the end of the project, it has higher chance of success compared to the waterfall model.</note></topic><topic id="25" parent="21" x="976.32" y="-30.54" text="Prototyping"></topic><topic id="26" parent="25" x="1110.04" y="-41.18" text=".rapid prototyping\N.evolutionary prototypes\N.operational prototypes"></topic><topic id="27" parent="21" x="930.01" y="-86.33" text="Incremental"><note>In each increment 
+Analysis - design - code - test -&gt; delivery
+
+This would be similar to multi- waterfall cycles taking place one one piece of software as it matures through the DEV cycle.
+
+Each incremental phase results in a deliverable that is an operational product. Working peace of sw is available in early stage of development.
+
+This model is best to used when issues pertaining to risk, program complexity, funding, and functionality requirements need to be understood early in the product development cycle. If the customer needs to get some basic functionality quickly as it works on the development of the product, this can be a good model.</note></topic><topic id="28" parent="21" x="881.59" y="-127.38" text="Spiral"><note>Uses an iterative approach and places emphasis on risk analysis.
+
+4 Phases:
+
+- Planing 
+- Risk analysis 
+- Development 
+- Test and evaluation 
+
+This model allows new requirements to be addressed as they are uncovered.
+The evaluation phase allows the customer to evaluate the product in its current state and provide feedback.
+It is good for complex projects that have fluid requirements.
+
+The angular aspect represents progress, radius represents cost.</note></topic><topic id="29" parent="21" x="799.48" y="-170.54" text="Rapid Application Development\NRAD"><note>Combines the use of prototyping and iterative approach.
+
+Steps:
+
+- analysis and quick design
+&lt;in loop&gt;
+  - demonstrate 
+  - refine
+  - build
+&lt;/in loop&gt;
+- testing
+- implementing
+
+This model allows the customer to be involved during the development phase so that the end result maps to their needs in a more realistic manner.</note></topic><topic id="30" parent="21" x="687.90" y="-216.86" text="Agile"><note>An umbrella term for several development methodologies.
+
+Promotes cross-functional teamwork and continuous feedback mechanism.
+
+This model focuses on individual interaction instead of processes and tools. It emphasizes developing the right software product over comprehensive and laborious documentation.
+
+The Agile model does not use prototypes to represent the full product, but breaks the product down into individual features.</note></topic><topic id="31" parent="21" x="672.88" y="28.87" text="Exploratory"><note>Used when a clearly defined project objectives have not been presented.
+
+Relies on covering a set of specifications that are likely to affect the final product's functionality.
+Testing is an important part of exploratory development, as it ascertains that the current phase of the project is compliant with likely implementation scenarios.</note></topic><topic id="32" parent="21" x="643.40" y="70.98" text="Joint Analysis Development\N(JAD)"><note>Uses a team approach in application development  in a workshop-oriented environment</note></topic><topic id="33" parent="21" x="668.67" y="118.35" text="Reuse"><note>Reduces the time needed for development using pre- existing prototypes</note></topic><topic id="34" parent="21" x="687.61" y="155.19" text="Cleanroom"><note>Attempts to prevent errors or mistakes by following structured and formal methods of developing and testing. 
+
+This approach is used for high-quality and critical applications that will be put through a strict certification process</note></topic><topic id="35" parent="0" x="367.87" y="-33.32" text="Capability Maturity Model Integration\N(CMMI)"><note>A process improvement approach that provides organizations with essential elements of effective processes, which will improve their performance.
+
+5 Maturity levels of the CMMI:
+- initial : dev process is ad hoc
+- repeatable : change control, QA are in place
+- Defined : formal procedures are in place
+- Managed : processes for metrics
+- Optimizing : integrated plans for continuous process improvement</note></topic><topic id="36" parent="0" x="272.08" y="33.00" text="Change Control"><note>The process of controlling the change that take place during the life cycle of a system and documenting the necessary change control activities</note></topic><topic id="37" parent="0" x="161.56" y="81.42" text="Software Configuration Management\N(SCM)"><note>Identifies the attributes of software at various points in time, and performs a methodical control of changes for the purpose of maintaining software integrity and traceability throughout the software development life cycle.</note></topic><topic id="38" parent="0" x="440.51" y="19.32" text="Software Escrow"><note>Storing of the source code of software with a third-party escrow agent.
+The sw source code is released to the licensee if the licensor files for bankruptcy or fails to maintain and update the product as promised in the software license agreement.</note></topic><topic id="39" parent="0" x="214.19" y="516.16" text="Programming Languages\Nand Concepts"></topic><topic id="40" parent="39" x="16.02" y="525.58" text="Generations of\Nprogramming\Nlanguages"></topic><topic id="41" parent="40" x="-127.98" y="528.22" text="1. Machine language\N2. Assembly language\N3. High-level language\N4. Very high level\N5. Natural language"></topic><topic id="42" parent="39" x="83.91" y="445.16" text="Cohesion"><note>A measurement that indicates how many different types of tasks a module needs to carry out.
+
+High cohesion means that a module can carry out only one task ( or several very similar tasks)</note></topic><topic id="43" parent="39" x="107.79" y="390.68" text="Coupling"><note>A measurement that indicates how much interaction one module requires for carrying out its tasks.
+
+Low (loose) coupling means that module does not need to communicate with many other modules to carry out its job.</note></topic><topic id="44" parent="0" x="-0.35" y="711.26" text="Distributed computing"></topic><topic id="45" parent="44" x="-292.26" y="654.32" text="Distributed Computing Environment\N(DCE)"><note>The first framework and development toolkit for developing client/server applications to allow for distributed computing</note></topic><topic id="46" parent="44" x="-301.11" y="717.76" text="Common Object Request Broker Architecture\N(CORBA)"><note>Open object-oriented standard architecture developed by the Object Management Group (OMG). The standards enable software components written in different computer languages and running on different systems to communicate.
+
+IT contains two main parts: 
+- system-oriented components (ORB and object services)
+- application-oriented components (application objects and common facilities)</note></topic><topic id="47" parent="44" x="-257.80" y="774.55" text="Object Request Broker\N(ORB)"><note>Manages all communications between components and enables them to interact in heterogeneous and distributed environment. The ORB act as a broker between a client request for a service from distributed object and the completion of that request.
+
+ORB is the middleware that allows the client/server communication to take place between objects residing on different systems.</note></topic><topic id="48" parent="44" x="-248.29" y="827.99" text="Component Object Model\N(COM)"><note>A model developed by Microsoft that allows for interprocess communication between applications potentially written in different programming languages on the same computer system.</note></topic><topic id="49" parent="44" x="-221.57" y="880.46" text="Distributed Component Object Model\N(DCOM)"><note>Supports distributed interprocess communication (IPC). It allows to access objects that reside in different parts of the network</note></topic><topic id="50" parent="44" x="-182.74" y="934.21" text="Object linking and embedding\N(OLE)"><note>Provides a way for objects to be shared on a local computer and to use COM as their foundation. It is technology developed by Microsoft that allows embedding and linking to documents and other objects.</note></topic><topic id="51" parent="44" x="-112.19" y="993.31" text="Java Platform\NEnterprise Edition\N(J2EE)"></topic><topic id="52" parent="44" x="-37.56" y="1053.24" text="Service-oriented architecture\N(SOA)"></topic><topic id="53" parent="44" x="85.14" y="1102.75" text="Simple Object Access Protocol\N(SOAP)"><note>An XML based protocol that encodes messages in a web service environment</note></topic><topic id="54" parent="44" x="95.32" y="1003.24" text="WSDL"><note>Web Service Description Language
+Provides a machine readable description of the specific operations provided by the service.
+
+WSDL document describes the requirements for interacting with requested service.</note></topic><topic id="55" parent="44" x="95.32" y="954.62" text="UDDI"><note>Universal Description, Discovery and Integration
+
+Is an XML-based registry that list available services. It provides a method for services to be registered by service providers and located by service consumers.
+UDDI provides mechanism to allow businesses around the world to publish their services and others to discover and use these services.</note></topic><topic id="56" parent="44" x="108.89" y="901.47" text="Mashup"><note>The combination of functionality, data, and presentation capabilities of two or more sources to provide some type of new service or functionality</note></topic><topic id="57" parent="44" x="146.21" y="852.85" text="Software as a Service\N(SAAS)"><note>A software delivery model that allows applications and data to be centrally hosted and accessed by thin clients, commonly web browsers. A common delivery method of cloud computing.</note></topic><topic id="58" parent="44" x="152.99" y="799.70" text="Cloud computing"><note>A method of providing computing as a service rather than as a physical product. It is Internet-based computing, whereby shared resources and software are provided to computers and other devices on demand.</note></topic><topic id="59" parent="0" x="187.78" y="1180.96" text="Mobile Code"><note>Code that can be transmitted across a network, to be executed by a system or device on the other end.</note></topic><topic id="60" parent="59" x="127.68" y="1233.05" text="Java applets"><note>When applet is executed , the JVM will create a virtual machine, which provides an environment called a sandbox</note></topic><topic id="61" parent="59" x="208.87" y="1236.22" text="ActiveX"><note>Set of OOP technologies and tools based on COM and DCOM. It is a framework for defining reusable software components.</note></topic><topic id="62" parent="61" x="228.15" y="1298.05" text="Authenticode"><note>Microsoft implementation of code signing used by ActiveX ( instead of sandboxing)</note></topic><topic id="63" parent="0" x="426.37" y="1216.02" text="Web Security"></topic><topic id="64" parent="63" x="441.19" y="1328.83" text="Information gathering"></topic><topic id="65" parent="63" x="564.57" y="1300.48" text="Server side includes"></topic><topic id="66" parent="63" x="669.73" y="1243.94" text="Client-side validation"></topic><topic id="67" parent="63" x="595.10" y="1203.24" text="Cross-site scripting\N(XSS)"><note>- nonpersistent XSS, or reflected, occur when an attacker tricks user into processing a URL, programmed with a rogue script to steal the victim's sensitive information.(cookie,session ID,...)
+The principle lies in exploiting the lack of proper input or output validation on dynamic web sites.
+
+- persistent XSS, or stored or second order vulnerabilities, are generally targeted at web sites that allow users to input data which are stored in a DB ( eg malicious JavaScript entered on a forum page)
+
+- DOM based XSS, or local cross-site scripting.attacker uses DOM to modify the original JS</note></topic><topic id="68" parent="63" x="530.64" y="1137.65" text="Parameter validation"></topic><topic id="69" parent="63" x="366.36" y="1142.67" text="Web proxy"><note>Achilles
+Burp
+Fiddler</note></topic><topic id="70" parent="63" x="297.39" y="1220.69" text="Replay attack"></topic><topic id="71" parent="0" x="884.04" y="405.97" text="Database management"></topic><topic id="72" parent="71" x="1039.31" y="360.87" text="Models"><note>Relational
+Hierarchical
+Network - built upon the hierarchical 
+Object-oriented - more dynamic than relational
+Object-relational - front end provides the procedures</note></topic><topic id="73" parent="71" x="1043.48" y="418.78" text="Interfaces"><note>ODBC - API allows communication with DB
+
+OLE DB - replacement of ODBC, COM based, accessed via ADO
+
+
+ADO - high level, set of COM objects, SQL not required
+
+JDBC - Java API , can bridge through ODBC or connect directly</note></topic><topic id="74" parent="71" x="1041.10" y="305.91" text="Languages"><note>DDL - data definition language
+Defines the structure and schema of the DB
+
+DML - data manulation language
+Commands that allow user to view,and use the DB ( view,add, sort,delete)
+
+QL- query language
+Enables users to make request to the DB</note></topic><topic id="75" parent="71" x="1014.69" y="233.64" text="Security issues"></topic><topic id="76" parent="75" x="1123.75" y="226.26" text="Aggregation &amp;\NInference"><note>The act of combining information from separate sources. The combined information has a sensitivity that is greater that the individual parts
+
+Inference is the ability to derive information not explicitly available</note></topic><topic id="77" parent="76" x="1301.10" y="214.55" text="Content-depended\Naccess control"><note>The more sensitive the data, the smaller the subset of individuals who can gain access.</note></topic><topic id="78" parent="76" x="1304.50" y="260.85" text="Context-dependend\Naccess control"><note>Application keeps track of user requests.
+The software must be preprogrammed as to what sequence  and how much data user is allowed to view.</note></topic><topic id="79" parent="76" x="1201.51" y="137.21" text="Views"><note>Database can employ discretionary access control (DAC) and mandatory access control (MAC)</note></topic><topic id="80" parent="76" x="1298.27" y="301.59" text="Polyinstantiation"><note>Multiple tuples with the same primary key- used based on a security level of the requesting object</note></topic><topic id="81" parent="76" x="1308.30" y="173.38" text="Noise and perturbation"><note>Inserting bogus information</note></topic><topic id="82" parent="76" x="1289.46" y="138.38" text="Cell suppression"><note>Technique used to hide specific cells</note></topic><topic id="83" parent="75" x="1081.17" y="167.73" text="Load balancing &amp;\NFault tolerance"></topic><topic id="84" parent="83" x="1181.75" y="87.99" text="Online transaction processing\N(OLTP)"><note>Ensures that transactions happen properly or they don't happen at all.</note></topic><topic id="85" parent="71" x="1035.61" y="467.86" text="Expert\Nsystems/knowledge-based\Nsystems"><note>Rule based programing is a common way of developing expert system (if then rules)</note></topic><topic id="86" parent="85" x="1200.63" y="430.13" text="Inference engine"><note>The brain of the system</note></topic><topic id="87" parent="71" x="853.92" y="507.09" text="Artificial neural networks"></topic></topics><relations></relations></mindmap></simplemind-mindmaps>

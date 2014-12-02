@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<simplemind-mindmaps doc-version="3" generator="SimpleMindTouch" gen-version="1.8.0" device-type="ipad"><mindmap><meta><guid guid="77D2CA64603533107CFEE459"></guid><title text="Domain 2\NAccess Control"></title><page><visual-area x="0.00" y="0.00" width="1173.49" height="800.48"></visual-area></page><style key="system.spring-levels"></style><auto-numbering style="disabled"></auto-numbering><scrollstate zoom="98" x="571.00" y="201.00"></scrollstate><selection type="node" id="7"></selection><main-centraltheme id="0"></main-centraltheme></meta><topics><topic id="0" parent="-1" x="498.98" y="479.59" text="Domain 2\NAccess Control"><note>Are considered the first line of defense in asset protection
+
+They are used to dictate how subject can access object. Defines how users should be identified, authenticated,authorized.</note></topic><topic id="1" parent="0" x="697.20" y="503.54" text="Identification, Authentication,\NAuthorization, and Accountability"></topic><topic id="2" parent="1" x="889.52" y="482.68" text="Identification and\Nauthentication"></topic><topic id="3" parent="2" x="1051.34" y="431.10" text="Identity management solutions:\N.directories\N.web access management\N.password management\N.legacy single sign-on\N.account management\N.profile update"></topic><topic id="4" parent="1" x="903.61" y="525.75" text="Password management"></topic><topic id="5" parent="4" x="1090.66" y="519.27" text="Self-service pwd reset\NAssisted pwd reset\NPassword synchronization"></topic><topic id="6" parent="1" x="878.61" y="562.75" text="Authorization"></topic><topic id="7" parent="6" x="1012.80" y="592.06" text="Default no access\NNeed to know\NAuthorization creep\N"></topic><topic id="8" parent="6" x="1002.56" y="646.14" text="Single Sign-on"></topic><topic id="9" parent="8" x="1102.82" y="680.12" text="Sesame"><note>SESAME
+Secure European System for Applications in a Multi- vendor Environment
+
+Where Kerberos uses tickets, SESAME uses PACs - Privileged Attribute Certificates
+PAC contains:
+- subjects identity
+- access capabilities for the object
+- access time period
+- lifetime of the PAC
+
+PAC is digitally signed by PAS ( attribute server)
+PAS holds similar role as KDC
+After the users successfully authenticates to the AS, he is presented with a token to give to the PAS. The PAS then creates a PAC for the users to present to the resource he is trying to access.</note></topic><topic id="10" parent="8" x="1107.82" y="715.88" text="Kerberos"><note>Kerberos is symmetric key-based single sign-on technology for distributed environments
+
+Main components
+.key distribution center KDC
+- holds all principals' secret keys
+.ticket granting service
+- generates tickets 
+.authentication service AS
+-returns TGT encrypted by user secret key
+
+When user needs to access a resource
+1. Sends TGT to TGS running on KDC
+2. TGS creates a ticket which contains two instances of the session key ( encrypted by users' secret key and by the resource secret key). It contains also an authenticator.
+3. User decrypts the session key and sends ticket to the resource (second session key is attached) + user authenticator
+6. If the resource can decrypt the session key encrypted by its secret key, it knows that this request was authorized by the KDC + If the authenticator is a match then the resource knows that the principal info is correct
+
+Authenticator contains principals IP, sequence number, timestamp</note></topic><topic id="11" parent="8" x="1106.03" y="645.83" text="GSS-API"><note>Generic Security Service Application Programming Interface
+
+Generic API for client to server authentication
+
+Kerberos version 5 and SESAME allow any application to use their auth functionality through GSS-API</note></topic><topic id="12" parent="8" x="1113.99" y="770.11" text=".Security domains\N.Directory Services\N.Thin Clients"></topic><topic id="13" parent="6" x="969.07" y="707.95" text="Markup language"><note>XML
+
+SPML
+.framework for exchanging user,resource,and service provisioning information between cooperating organizations.
+Allows for automation of user management
+
+XACML
+.declarative access control policy language implemented in XML and a processing model, describes how to interpret security policies.
+Allows two or more org to share application security policy. So you don't have to authenticate twice when moving from one app to another
+
+SAML
+.allows for the exchange of authentication and authorization data to be shared between security domains. It is one of the most used approaches to allow for single sign on capabilities within a web based environment.</note></topic><topic id="14" parent="0" x="662.20" y="437.54" text="Access Control Models"></topic><topic id="15" parent="14" x="839.36" y="372.82" text="Discretionary DAC"><note>The users can specify what type of access can occur to the objects they own.
+
+DAC system grant or deny access based on the identity of the subject.
+
+The most common implementation of DAC is through ACLs. 
+Most of the Operating systems are based on DAC.
+
+Read  - R
+Write - W
+Execute - E
+Delete - D
+Change - R, W, E , D but no changes to ACL, or ownership
+Full control
+
+The administrator may want to restrict the user actions, this type of access control is referred to as nondiscretionary.</note></topic><topic id="16" parent="14" x="832.34" y="334.43" text="Mandatory MAC"><note>It is based on a security label system.
+Users are given a security clearance, data is classified.
+
+Decision whether a subject can access an object is based on the clearance of the subject and the classification of the object.
+
+A sensitivity label is made up of a classification and categories. Classification follow hierarchical structure, categories enforces need to know.
+Categories can correspond to a department of the organization.
+
+The rules how subject access objects are made by the organization security policy, configured by security admin, enforced by OS.
+
+MAC-based systems are used by government- oriented agencies.
+Publicly released MAC system are SE Linux (NSA), Trusted Solaris.
+
+MAC systems are resistant to malware, but require a lot of administrative overhead and are not user friendly.
+
+MAC is considered nondiscretionary.</note></topic><topic id="17" parent="14" x="837.34" y="414.43" text="Role based RBAC"><note>Access decisions are based on each subject's role and/or functional position
+
+Role-based access control can be managed in the following ways:
+
+1.Non-RBAC : users are mapped directly to applications and no roles are used
+
+2. Limited RBAC : users are mapped to roles and to applications that do not have role based access functionality
+
+3. Hybrid RBAC : users are mapped to multiaplication roles with only selected rights assigned to those roles
+
+4. Full RBAC : users are mapped to enterprise roles</note></topic><topic id="18" parent="0" x="637.08" y="240.57" text="Access Control\NTechniques and\NTechnologies"></topic><topic id="19" parent="18" x="686.05" y="149.10" text="Rule-based access control"><note>Allows to define specific situation in which a subject can or cannot access an object.
+
+Rule-based access control is a type of compulsory control, because the administrator sets the rules and the users cannot modify these controls.</note></topic><topic id="20" parent="18" x="744.29" y="201.50" text="Constrained\NUser\NInterface"><note>Restrict users' access abilities by not allowing them to request certain functions/ information/ resources.
+
+1. Menus and shells
+2. Database views
+3. Physically constrained interfaces</note></topic><topic id="21" parent="18" x="778.65" y="254.00" text="Access Control Matrix"><note>Access rights can be assigned to subjects (capabilities) or to objects ( ACLs)
+
+Capability table
+Is bound to the subject. The capability corresponds to the subjects row in the matrix 
+
+ACL
+Is bound to object, list of subjects that can access. The ACL represents the column in matrix.</note></topic><topic id="22" parent="18" x="568.77" y="102.78" text=".content-depended access control\N.context-depended access control"><note>Examples:
+
+DB view - content depended
+Stateful FW - context depended</note></topic><topic id="23" parent="0" x="438.98" y="352.78" text="Access Control\NAdministration"></topic><topic id="24" parent="23" x="446.67" y="288.43" text="Centralized\NAccess Control"></topic><topic id="25" parent="24" x="455.20" y="217.03" text=".RADIUS\N.TACACS\N.DIAMETER"><note>RADIUS
+UDP based AAA protocol
+encrypts the password only when transmitted from client to server
+2^8 AVP
+Works over PPP connections
+Uses single-challenge response when authenticating a user, which is used for all activities.
+
+
+TACACS
+TCP based AAA protocol
+TACACS+ encrypts all traffic between client and server
+More AVPs than in RADIUS = more granularity
+Support other protocols (AppleTalk,NetBios,IPX)
+Uses multiple-challenge response for each of the AAA processes.
+
+DIAMETER
+TCP based AAA protocol
+Consist of:
+  Base protocol - communication between entities
+  Extensions - allows use of various technologies 
+
+Authentication
+- PAP, CHAP, EAP
+Authorization
+- redirects, secure proxies, relays, brokers
+Accounting
+- reporting,event monitoring, ROAMOPS</note></topic><topic id="26" parent="23" x="332.74" y="288.24" text="Decentralized\NAccess Control"><note>Example 
+Peer-to-peer working group</note></topic><topic id="27" parent="0" x="292.20" y="416.54" text="Access Control Methods"></topic><topic id="28" parent="27" x="117.79" y="376.83" text="Access control types:\N.administrative\N.physical\N.technical"><note>Administrative controls
+.policy and procedures
+.personnel controls
+.supervisory structure
+.security-awareness training
+.testing
+
+Physical controls
+.network segregation
+.perimeter security
+.computer controls
+.work area separation
+.data backups
+.cabling
+.control zone
+
+Technical controls
+.system access
+.network architecture
+.network access
+.encryption and protocols
+.auditing</note></topic><topic id="29" parent="0" x="274.20" y="472.54" text="Accountability"></topic><topic id="30" parent="29" x="125.53" y="467.91" text="audit information\NSEM aka SIEM"></topic><topic id="31" parent="0" x="292.20" y="541.54" text="Access Control Practices"></topic><topic id="32" parent="31" x="123.93" y="553.81" text="Emanation security:\NTEMPEST\NWhite noise \NControl zone"></topic><topic id="33" parent="31" x="112.06" y="610.20" text="Object reuse"></topic><topic id="34" parent="0" x="335.20" y="600.54" text="Access Control\NMonitoring"></topic><topic id="35" parent="34" x="228.37" y="675.22" text="IDS &amp; IPS\N.network based\N.host based"><note>HIDS and NIDS can be one of the following types:
+
+.signature-based
+..pattern matching - signatures
+..stateful matching -sigs in context of a stream of activity
+
+.anomaly-based (behavioral-based)
+..statistical anomaly-based
+..protocol anomaly-based
+..traffic anomaly-based
+..rule or heuristic based
+
+.rule-based
+Use of IF-THEN programming within expert system
+Cannot detect new attacks
+
+IPS
+Content-based
+.protocol analysis and signature matching
+Rate base metric focuses on volume of traffic (DoS, slow and low)</note></topic><topic id="36" parent="34" x="319.02" y="694.68" text="Honeypot"></topic><topic id="37" parent="0" x="471.20" y="620.54" text="Threats to\NAccess Control"></topic><topic id="38" parent="37" x="453.80" y="693.37" text="Threat modeling"></topic><topic id="39" parent="37" x="550.94" y="694.31" text="Identity theft"><note>True-name
+Theft uses personal information to open new accounts
+
+Account takeover
+Imposter uses personal information to gain access to the person's existing accounts.</note></topic></topics><relations></relations></mindmap></simplemind-mindmaps>
